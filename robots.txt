@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /*?
+Disallow: /index.php
+Disallow: /tonirovka.html
+Disallow: /polirovka.html
+Disallow: /bron.html
+Disallow: /tonirovka/
+Disallow: /balkon.html
+Disallow: /index.html
+Allow: /tonirovka.php
+Host: xn--74-6kc2e.xn--p1ai
+
+Sitemap: http://xn--74-6kc2e.xn--p1ai/sitemap.xml

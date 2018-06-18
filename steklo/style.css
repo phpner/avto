@@ -1,0 +1,320 @@
+@font-face {
+    font-family: PT Sans; 
+    src: url(PT_Sans.ttf); 
+}
+body
+{
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  height: auto !important;
+  left: 0;
+  top: 0;
+  font-family: "PT Sans"; 
+  }
+
+#steklofon
+{
+background: url('../steklo/images/steklofon.jpg') top center no-repeat;
+margin: 0 auto;
+position: relative;
+width: 100%;
+min-width:1200px;
+}  
+
+#stekl
+{
+background: url('../steklo/images/steklo1.png') top center no-repeat;
+position: relative;
+width:1025px;
+height: 473px;
+margin: 0 auto;
+top: 140px;
+}
+
+#stekl:hover
+{
+background: url('../steklo/images/steklo2.png') top center no-repeat;
+}
+  
+#steklofon1
+{
+position: relative;
+width: 1200px;
+height:812px;
+margin: 0 auto;
+}
+
+
+
+
+body{background: #FFFFFF; margin: 0 auto; position: relative;  width: 100%;  min-height: 100%;  height: 100%;  height: auto !important;  left: 0;  top: 0;}
+#main {position: relative;width: 1200px;height: 730px;margin: 0 auto;}
+#logo {position: relative;float: left;top: 0px;}
+#adres{position: relative;width: 288px;color:#000000 !important;font-family: Trebuchet MS;font-size: 25px;display: inline-block;top: 10px;left: 539px;float: left;}
+#adres a{color:#000000 !important;text-decoration: none;}
+span.tel{font-size: 40px;}
+span.adr{font-size: 20px;}
+#soc{position: relative;width: 33px;display: inline-block;left: 548px;top: 17px;}
+.slogan{position: absolute;color: #FFFFFF;font-size: 43px;width: 370px;text-align: center;font-family: "PT Sans";padding: 0px;margin: 0px;left: 425px;top: 70px;z-index:1000;}
+
+#gorblock a{text-decoration: none;color:#ffffff;font-family: Trebuchet MS;font-size: 14px;}
+#gorblock a:hover{text-decoration: underline;}
+#logo a{text-decoration: none;}
+#cedialygf{position: relative;background: url('../steklo/images/great12.jpg') top center no-repeat;width: 100%;min-width:1200px;margin: 0 auto;}
+#cedialyg{position: relative;width: 1200px;height:850px;padding-top: 50px;margin: 0 auto;}
+#cedia1,#cedia2,#cedia3,#cedia4,#cedia5,#cedia6,#cedia7,#cedia8{position: relative;display: inline-block;width: 360px;height: 83px;color: #000000;font-family: Trebuchet MS;font-size: 25px;background-position: center left;padding-left: 111px;padding-top: 15px;margin-left: 115px;margin-bottom: 26px;text-align: left;}
+#cedia2,#cedia4,#cedia6,#cedia8{margin-left: 80px;}
+#cedia1{background: url('../steklo/images/cedii1.png') no-repeat;}
+#cedia2{background: url('../steklo/images/cedii5.png') no-repeat;}
+#cedia3{background: url('../steklo/images/cedii2.png') no-repeat;}
+#cedia4{background: url('../steklo/images/cedii6.png') no-repeat;}
+#cedia5{background: url('../steklo/images/cedii3.png') no-repeat;}
+#cedia6{background: url('../steklo/images/cedii7.png') no-repeat;}
+#cedia7{padding-top: 30px;background: url('../steklo/images/cedii4.png') no-repeat;top: -20px;}
+#cedia8{background: url('../steklo/images/cedii8.png') no-repeat;}
+#greats13{display: block;height: 809px;width: 100%;min-width:1200px;position: relative;margin: 0 auto;background: url('../steklo/images/great13.jpg')top center no-repeat;}
+#greats21{display: block;height: 859px;width: 100%;min-width:1200px;position: relative;margin: 0 auto;background: url('../steklo/images/great21.jpg')top center no-repeat;}
+#greats11{display: block;height: 687px;width: 100%;min-width:1200px;position: relative;margin: 0 auto;background: url('../steklo/images/great11.jpg')top center no-repeat;}
+#greats14{display: block;height: 670px;width: 100%;min-width:1200px;position: relative;margin: 0 auto;background: url('../steklo/images/great14.jpg')top center no-repeat;}
+#greats11 h2{color: #ffffff;font-size: 60px;font-family: "PT Sans";padding: 0px;margin: 0px;}
+#greats14 h2{color: #000000;font-size: 60px;font-family: "PT Sans";padding: 0px;margin: 0px;}
+.clients1-bg span{color: #000000;font-size: 25px;font-family: "PT Sans";padding: 0px;margin: 0px;}
+h2{color: #000000;font-size: 60px;font-family: "PT Sans";padding: 0px;margin: 0px;}
+h2.autolig{color: #000000;font-size: 40px;font-family: "PT Sans";padding: 0px;margin: 0px;}
+h1{color: #000000;font-size: 30px;font-family: "PT Sans";padding: 0px;margin: 0px;}
+/* comments*/
+.comments_wrap {background: #f3f9f9; padding: 16px 0 43px;}
+.comments_list {text-align: center;}
+.comments_list .item {margin-bottom: 15px; text-align: left;}
+.comments_list .item img {float: left; background: #e8e8e8;width: 102px; border-radius: 50%; border: 5px solid #fff;box-shadow: 1px 2px 2px #d4d4d4; margin: 16px 23px 4px 0;-moz-box-shadow: 1px 2px 2px #d4d4d4;-webkit-box-shadow: 1px 2px 2px #d4d4d4;-o-box-shadow: 1px 2px 2px #d4d4d4;box-shadow: 1px 2px 2px #d4d4d4;}
+.comments_list .item .georgia {overflow: hidden; font-size: 20px; color: #000; padding-top: 20px;}
+.comments_list .item.right img {margin-left: 23px; margin-right: 0; float: right;}
+.comments_list .item.right .georgia {text-align: right;}
+/*comments end*/
+.clients1-bg {width: 946px;}
+.georgia a{color: #00000d;text-decoration: underline;background: url('../steklo/images/vk.png') no-repeat;height: 33px;display: block;padding-left: 39px;padding-top: 5px;}
+.zakaz1{display: block;width:100%;min-width:1200px;min-height: 215px;position: relative;margin: 0 auto;background: url('../steklo/images/great15.jpg')top center no-repeat;border-top: 1px solid #c1c1c1;border-bottom: 1px solid #c1c1c1;}
+.zakaz2{display: block;width:100%;min-width:1200px;min-height: 215px;position: relative;margin: 0 auto;background: url('../steklo/images/great17.jpg')top center no-repeat;border-bottom: 1px solid #c1c1c1;}
+.zakaz3{display: block;width:100%;min-width:1200px;min-height: 215px;position: relative;margin: 0 auto;background: url('../steklo/images/great18.jpg')top center no-repeat;border-bottom: 1px solid #c1c1c1;}
+.zakaz4{display: block;width:100%;min-width:1200px;min-height: 215px;position: relative;margin: 0 auto;background: url('../steklo/images/great19.jpg')top center no-repeat;border-top: 1px solid #c1c1c1;border-bottom: 1px solid #c1c1c1;}
+.zakaz5{display: block;width:100%;min-width:1200px;min-height: 255px;position: relative;margin: 0 auto;background: url('../steklo/images/great20.jpg')top center no-repeat;border-top: 1px solid #c1c1c1;border-bottom: 1px solid #c1c1c1;}
+
+#zakaz{display: block;width:1200px;position: relative;margin: 0 auto;}
+#akciya{display: block;width:1200px;position: relative;margin: 0 auto;}
+span.akciya{display: inline-block;font-family: "PT Sans";font-size: 50px;color:#FFBA24;position: relative;text-align: center;width:1200px;}
+span.zakaz{display: inline-block;font-family: "PT Sans";font-size: 50px;color: #ffffff;position: relative;text-align: center;padding-top: 31px;width:900px;}
+span.form {
+left: 900px;
+margin-top: -155px;
+position: relative;
+width: 310px;
+display: block;
+padding-bottom: 10px;
+}
+input.pol{width: 264px;height:40px;border: 1px solid #454545;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;margin: 10px;margin-left: 11px;padding-left: 5px;font-family: Candara;font-size: 17px;}
+button.feedback{font-family: "PT Sans";font-size: 30px;color: #454545;cursor: pointer;background: url(../steklo/images/but.jpg) top center no-repeat;width: 267px;height:65px;border: none;position: relative;margin-left: 13px;margin-top: 10px;}
+#video{display: block;width:100%;height: 397px;padding-top: 42px;position: relative;margin: 0 auto;background: url('../steklo/images/video.png')top center no-repeat;}
+img {border: none;}
+.fonfooter{display: block;width:100%;min-width:1200px;min-height: 215px;position: relative;margin: 0 auto;background: url('../steklo/images/fon.footer1.jpg')top center no-repeat;}
+.fonfooter2{display: block;width:100%;min-width:1200px;min-height: 215px;position: relative;margin: 0 auto;background: url('../steklo/images/fon.footer2.jpg')top center no-repeat;}
+.frelop{display: block;width:100%;min-width:1200px;min-height: 168px;position: relative;margin: 0 auto;background: url('../steklo/images/frelop.jpg')top center no-repeat;border-top: 1px solid #c1c1c1;border-bottom: 1px solid #c1c1c1;}
+
+
+
+
+#slogan .slogan-big1 {
+  font-size: 69px;
+  color: #0000A0
+}
+
+#footer2 {
+  position: relative;
+}
+#footer2 .wrapper2 {
+  padding: 0;
+}
+#footer2 .footer2 {
+  height: 420px;
+  width: 100%;
+  min-width:1200px;
+  margin: -23px 0 0 -3px;
+  position: relative;
+  background: url("../steklo/images/footer2.png") no-repeat center top;
+}
+
+
+
+#footer3 {
+  position: relative;
+}
+#footer3 .wrapper3 {
+  padding: 0;
+}
+#footer3 .footer3 {
+  height: 420px;
+  width: 100%;
+  min-width:1200px;
+  margin: -23px 0 0 -3px;
+  position: relative;
+  background: url("../steklo/images/footer3.png") no-repeat center top;
+}
+
+
+#footer4 {
+  position: relative;
+}
+#footer4 .wrapper4 {
+  padding: 0;
+}
+#footer4 .footer4 {
+  height: 420px;
+  width: 100%;
+  min-width:1200px;
+  margin: -23px 0 0 -3px;
+  position: relative;
+  background: url("../steklo/images/footer4.png") no-repeat center top;
+}
+
+
+#footer5 {
+  position: relative;
+}
+#footer5 .wrapper5 {
+  padding: 0;
+}
+#footer5 .footer5 {
+  height: 420px;
+  width: 100%;
+  min-width:1200px;
+  margin: -23px 0 0 -3px;
+  position: relative;
+  background: url("../steklo/images/footer5.png") no-repeat center top;
+}
+
+
+
+#footer6 {
+  position: relative;
+}
+#footer6 .wrapper6 {
+  padding: 0;
+}
+#footer6 .footer6 {
+  height: 420px;
+  width: 100%;
+  min-width:1200px;
+  margin: -23px 0 0 -3px;
+  position: relative;
+  background: url("../steklo/images/footer6.png") no-repeat center top;
+}
+
+
+
+
+
+
+
+
+#action {
+  padding: 0;
+}
+#action .action-title {
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+  margin: -10px 0 0 0;
+  padding: 0 0 18px 0;
+  background: url("../img/separator.png") no-repeat center bottom;
+  }
+
+#action .action-title1 {
+  text-align: center;
+  color: #000;
+  font-size: 40px;
+  margin: -10px 0 0 0;
+  padding: 0 0 18px 0;
+  background: url("../img/separator.png") no-repeat center bottom;
+  }
+  
+  
+#action .action-title2 {
+  text-align: center;
+  color: #FF0000;
+  font-size: 40px;
+  margin: -10px 0 0 0;
+  padding: 0 0 18px 0;
+  background: url("../img/separator.png") no-repeat center bottom;
+ }  
+  
+ #header1 {
+  background: url("../steklo/images/header1.png") no-repeat 50% 0;
+  height: 680px;
+} 
+  
+  
+  
+#wrapper {
+  width: 940px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+#slogan {
+  font-size: 59px;
+  margin: 13px 0 0 -5px;
+
+}
+#slogan span {
+  display: block;
+  
+}
+
+
+
+
+#slogan .slogan-small {
+  font-size: 26px;
+}
+
+#slogan .slogan-small2 {
+  font-size: 23px;
+  color:#363636
+}
+
+.face img {float: left; background: #e8e8e8;width: 102px; border-radius: 50%; border: 5px solid #fff;box-shadow: 1px 2px 2px #d4d4d4; margin: 16px 23px 4px 16px;-moz-box-shadow: 1px 2px 2px #d4d4d4;-webkit-box-shadow: 1px 2px 2px #d4d4d4;-o-box-shadow: 1px 2px 2px #d4d4d4;box-shadow: 1px 2px 2px #d4d4d4;}
+
+
+@font-face {
+    font-family: PT Sans; 
+    src: url(PT_Sans.ttf); 
+}
+body{background: #FFFFFF; margin: 0 auto; position: relative;  width: 100%;  min-height: 100%;  height: 100%;  height: auto !important;  left: 0;  top: 0; font-family: "PT Sans";}
+#about{display: block;height: 819px;width: 100%;min-width:1200px;position: relative;margin: 0 auto;background: url('../images/about.jpg')top center no-repeat;}
+h2{color: #000000;font-size: 60px;font-family: "PT Sans";padding: 0px;margin: 0px;}
+#uslugiopis{display: block; height: 908px;width: 100%;min-width:1200px;position: relative; margin: 0 auto;background: url('../images/usopis.jpg')top center no-repeat;}
+h2.opis{color: #000000;font-size: 45px;font-family: "PT Sans";padding: 18px;margin: 0px;}
+span.usl{color:#fff;font-size:29px;font-family: "PT Sans";text-align: center;width:1025px;position: relative;margin: 0 auto;display: block; margin-top:25px;}
+span.usl2{color:#fff;font-size:29px;font-family: "PT Sans";text-align: center;max-width:220px;position: relative;display: block;}
+#maxuzn{width:1200px;position: relative;margin: 0 auto;}
+#zn1{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat;}
+#uzn1{position: relative; display: inline-block;width:220px; height:180px; float: left;margin-top: 35px;margin-left:100px;}
+#uzn2{position: relative; display: inline-block;width:220px; height:180px; float: left;margin-top: 35px;margin-left:43px;}
+#zn2{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -70px 0px;}
+#zn3{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -140px 0px;}
+#zn4{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -210px 0px;}
+#zn5{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -280px 0px;}
+#zn6{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -350px 0px;}
+#zn7{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -420px 0px;}
+#zn8{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -490px 0px;}
+#zn9{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -560px 0px;}
+#zn10{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -630px 0px;}
+#zn11{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -700px 0px;}
+#zn12{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -770px 0px;}

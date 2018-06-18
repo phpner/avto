@@ -1,0 +1,4 @@
+.bottomDescription { padding:0% 4%; text-align:left; }
+#spoiler-show, #spoiler-hide { display:none; }
+#spoiler-show span, #spoiler-hide span { text-decoration:underline; }
+#spoiler-show span:hover, #spoiler-hide span:hover { color:#B9B9B9; cursor:pointer; }

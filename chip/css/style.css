@@ -1,0 +1,310 @@
+@import url('http://fonts.googleapis.com/css?family=PT Sans:700&subset=Latin');
+
+body
+{
+background: url('../image/fon0.jpg');
+}
+
+h1, h2, h3, p
+{
+color:#ffffff;
+font-family: "PT Sans",Arial, Helvetica;
+}
+
+h3
+{
+font-size: 30px;
+
+}
+
+span
+{
+font-family: "PT Sans",Arial, Helvetica;
+}
+
+#main {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+ 
+#offlajn-accordion-95-1-container-inner{
+  overflow: hidden;
+}
+
+#offlajn-accordion-95-1-container div,
+#offlajn-accordion-95-1-container dl,
+#offlajn-accordion-95-1-container dt,
+#offlajn-accordion-95-1-container dd,
+#offlajn-accordion-95-1-container span,
+#offlajn-accordion-95-1-container a,
+#offlajn-accordion-95-1-container img{
+  width: auto;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  float: none;
+  clear: none;
+  line-height: normal;
+  position: static;
+  list-style: none;
+}
+
+#offlajn-accordion-95-1-container span,
+#offlajn-accordion-95-1-container a,
+#offlajn-accordion-95-1-container img{
+  vertical-align: middle;
+}
+
+#offlajn-accordion-95-1-container img{
+  margin: 0 4px;
+}
+
+#offlajn-accordion-95-1-container dl.level1 dl{
+  position: absolute;
+    width: 100%;
+}
+
+#offlajn-accordion-95-1-container dl.level1 dd{
+  display: block;
+  overflow: hidden;
+  height: 0px;
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+.dj_ie #offlajn-accordion-95-1-container dl.level1 dd{
+  display: none;
+}
+
+#offlajn-accordion-95-1-container dl.level1 dd.opening, 
+#offlajn-accordion-95-1-container dl.level1 dd.closing,
+#offlajn-accordion-95-1-container dl.level1 dd.opened{
+  display: block;
+}
+
+#offlajn-accordion-95-1-container dl.level1 dd.parent.opened{
+  height: auto;
+}
+
+#offlajn-accordion-95-1-container dl.level1 dd.parent.opened > dl{
+  position: relative;
+}#offlajn-accordion-95-1-container{
+  margin: 0px 0px 10px 0px;
+}
+
+
+#offlajn-accordion-95-1-container .offlajn-accordion-95-1-container-inner {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 4px 4px 4px 4px;
+}
+
+#offlajn-accordion-95-1-container dl,
+#offlajn-accordion-95-1-container dt{
+  display: block;
+  position: relative;
+}
+
+#offlajn-accordion-95-1-container .title{
+  min-height: 36px;
+}
+
+#offlajn-accordion-95-1-container .title h3{
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  min-height: 26px;
+  /*font chooser*/
+    color: #FFFFFF;
+  font-family: "PT Sans",Arial, Helvetica;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+    text-shadow: #000000 1px 1px 0px;
+    text-decoration: none;
+  text-transform: none;
+  line-height: normal;
+  text-align: center;
+  /*font chooser*/
+}
+
+#offlajn-accordion-95-1-container dl,
+#offlajn-accordion-95-1-container dt,
+#offlajn-accordion-95-1-container dd{
+  position: relative;
+}
+
+/*
+Level specific iteration
+*/
+
+/*
+Plus
+*/
+#offlajn-accordion-95-1-container dl.level1 dt.parent .inner{
+background-image: url('/image/5da3aa39ea58b6e8ef82a4958232ddc3.png');
+background-repeat: no-repeat;
+background-position: left center;
+cursor: pointer;
+}
+
+/*
+Minus
+*/
+#offlajn-accordion-95-1-container dl.level1 dt.parent.opened .inner,
+#offlajn-accordion-95-1-container dl.level1 dt.parent.opening .inner{
+      background-image: url('/modules/mod_accordion_menu/cache/95/10cd0fe862e955fb3b66bae9a58725d1.png');
+    background-position: left center;
+}
+#offlajn-accordion-95-1-container .level1 dt{
+  margin: 4px 4px 4px 4px;
+  margin-bottom: 0px;
+}
+
+#offlajn-accordion-95-1-container .level1 dt.last{
+  margin: 4px 4px 4px 4px;
+}
+/*
+#offlajn-accordion-95-1-container .level1 dt.opened,
+#offlajn-accordion-95-1-container .level1 dt.opening,
+#offlajn-accordion-95-1-container .level1 dt.closing{
+  margin-bottom: 0px;
+}
+
+#offlajn-accordion-95-1-container .level1 dl{
+  margin: 4px 4px 4px 4px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}*/
+
+
+#offlajn-accordion-95-1-container .level1 dt,
+#offlajn-accordion-95-1-container .level1 dt:HOVER,
+#offlajn-accordion-95-1-container .level1 dt.opened{
+  background: url('/modules/mod_accordion_menu/cache/95/67702dea9c80d8f7a37a6c9678bafba6.png') repeat;
+}
+
+#offlajn-accordion-95-1-container .level1 dt:HOVER{
+  background: url('/modules/mod_accordion_menu/cache/95/67702dea9c80d8f7a37a6c9678bafba6.png') repeat;
+}
+#offlajn-accordion-95-1-container .level1 dt.opening,
+#offlajn-accordion-95-1-container .level1 dt.opened{
+  background: url('/modules/mod_accordion_menu/cache/95/67702dea9c80d8f7a37a6c9678bafba6.png') repeat;
+}
+
+#offlajn-accordion-95-1-container .level1 dt.active{
+  background: url('/modules/mod_accordion_menu/cache/95/67702dea9c80d8f7a37a6c9678bafba6.png') repeat;
+}
+
+#offlajn-accordion-95-1-container dl.level1 .outer{
+  padding: 4px 4px 4px 4px;
+  display: block;
+  background: url('/modules/mod_accordion_menu/cache/95/4caaeb6fbf6ceeae4d9caaf8813ce1b3.png') repeat-x 0 100%;
+}
+#offlajn-accordion-95-1-container dl.level1{
+  display: block;
+  background: url('/modules/mod_accordion_menu/cache/95/4caaeb6fbf6ceeae4d9caaf8813ce1b3.png') repeat-x 0 0;
+}
+
+#offlajn-accordion-95-1-container dl.level1 .inner{
+  display: block;
+  padding: 4px 4px 4px 4px;
+  margin: 0 0 0 8px;
+}
+
+.dj_ie6 #offlajn-accordion-95-1-container dl.level1 .inner a,
+.dj_ie7 #offlajn-accordion-95-1-container dl.level1 .inner a{
+  float: left;
+}
+
+#offlajn-accordion-95-1-container dl.level1 dt span{
+  /*font chooser*/
+    color: #FFFFFF;
+  font-family: "PT Sans",Arial, Helvetica;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+    text-shadow: #000000 1px 1px 1px;
+    text-decoration: none;
+  text-transform: none;
+  line-height: normal;
+  text-align: ;
+  /*font chooser*/
+}
+
+#offlajn-accordion-95-1-container dl.level1 dt a,
+#offlajn-accordion-95-1-container dl.level1 dt a span{
+  /*font chooser*/
+    color: #FFFF00;
+  font-family: "PT Sans",Arial, Helvetica;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+    text-shadow: #000000 1px 1px 1px;
+    text-decoration: none;
+  text-transform: none;
+  line-height: normal;
+  text-align: ;
+  /*font chooser*/
+}
+
+#offlajn-accordion-95-1-container dl.level1 dt.active a,
+#offlajn-accordion-95-1-container dl.level1 dt.active a span{
+  /*font chooser*/
+    color: #0000FF;
+  font-family: "PT Sans",Arial, Helvetica;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+    text-shadow: #000000 1px 1px 1px;
+    text-decoration: none;
+  text-transform: none;
+  line-height: normal;
+  text-align: ;
+  /*font chooser*/
+}
+
+#offlajn-accordion-95-1-container dl.level1 dt a:HOVER,
+#offlajn-accordion-95-1-container dl.level1 dt a:HOVER span{
+  /*font chooser*/
+  color: #ffffff;
+  font-family: "PT Sans",Arial, Helvetica;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+    text-shadow: #000000 1px 1px 1px;
+    text-decoration: none;
+  text-transform: none;
+  line-height: normal;
+  text-align: ;
+  /*font chooser*/
+}
+
+#offlajn-accordion-95-1-container dl.level1 dt.parent .inner {
+    background: url("../image/arrow_down.png") no-repeat left 7px !important;
+}
+
+#offlajn-accordion-95-1-container dl.level1 .inner {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+#offlajn-accordion-95-1-container {
+    position: relative;
+    width: 200px;
+    display: inline-block;
+    margin-left: 50%;
+    left: -100px;
+}
+
+img {
+    position: relative;
+    float: left;
+    width: auto;
+    margin: 0px;
+}

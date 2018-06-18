@@ -1,0 +1,16 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.xn--174-5cdk0bvw1aic6j\.xn--p1ai$ [NC]
+RewriteRule ^(.*)$ http://xn--174-5cdk0bvw1aic6j.xn--p1ai/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^xn--174-5cdk0bvw1aic6j\.xn--p1ai$ [NC]
+RewriteRule ^(.*)$ http://xn--74-6kc2e.xn--p1ai/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www.xn--74-6kc2e\.xn--p1ai$ [NC]
+RewriteRule ^(.*)$ http://xn--74-6kc2e.xn--p1ai/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www.autostyle174\.ru$ [NC]
+RewriteRule ^(.*)$ http://autostyle174.ru/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^autostyle174\.ru$ [NC]
+RewriteRule ^(.*)$ http://xn--74-6kc2e.xn--p1ai/$1 [R=301,L]
+RewriteCond %{REQUEST_URI} ^/index.php$ [NC]
+RewriteRule ^(.*)$ http://xn--74-6kc2e.xn--p1ai [R=301,L]
+
+ErrorDocument 404 /404.html
