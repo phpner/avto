@@ -5,6 +5,7 @@
 <title>Тонировка стекол автомобиля по госту в Челябинске | AutoStyle</title>
 <meta name="description" content="Мы свыше 10 лет производим тонирование авто в Челябинске. При обращении к нам клиенты могут выбрать из каталога тонировочные пленки для автомашин по своему вкусу. Подробности по телефону +7 (351) 750-62-73">
 <meta name="keywords" content="тонировка тонировка по госту тонирование затонировать">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 <link rel="stylesheet" href="tonirovka/style.css" type="text/css" media="screen"/>
@@ -29,6 +30,7 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 
 <div id="tonerf">
 <div id="toner">
+    <nav>
 <div id="logo"><a class="scrollto" href="/"><img border="0" src="/tonirovka/images/logo.png"></a></div>
 <div id="adres">
 	<a class="lala" href="tel:+73517506273">+7 (351) <span class="tel">750-62-73</a></span><br/>
@@ -36,7 +38,7 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 		<span class="adr">Ежедневно с 9.00 до 20.00<span>
 </div>
 <div id="soc">
-	<a href="http://vk.com/autostyle174" target="_blank"><img border="0" src="/tonirovka/images/vk.png"></a><br /><br />
+	<a href="http://vk.com/autostyle174" target="_blank"><img border="0" src="/tonirovka/images/vk.png"></a>
 	<a href="http://instagram.com/autostyle74" target="_blank"><img border="0" src="/tonirovka/images/inst.png"></a>
 </div>
 <div class="slogan">Тонирование авто в Челябинске</div>
@@ -52,6 +54,7 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 		<div class="ctn8"></div>
 	</div>
 </div>
+    </nav>
 </div>
 <div class="zakaz2">
 <div id="zakaz">
@@ -131,7 +134,7 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <div id="yuslygf">
 <div id="yuslyg">
 <div class="myh2">Почему более 3 000 клиентов <br> затонировали свой автомобиль у нас?</div><br><br><br>
-<div id="becer1">Опыт работы мастеров<br/>более 5 лет</div>
+<!--<div id="becer1">Опыт работы мастеров<br/>более 5 лет</div>
 <div id="becer2">Брендовые<br/>материалы</div> 
 <div id="becer3">Гарантийные<br/>обязательства</div> 
 <div id="becer4">Наличный<br/>и безналичный расчет</div> 
@@ -139,7 +142,45 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <div id="becer6">Бережная работа<br/>с автомобилем</div> 
 <div id="becer7">Соблюдение сроков</div> 
 <div id="becer8">Двойной<br/>контроль качества</div> 
-<div id="becer7">Работаем ежедневно<br/>с 9.00 до 20.00</div> 
+<div id="becer7">Работаем ежедневно<br/>с 9.00 до 20.00</div> -->
+    <div class="whyMe">
+        <div id="yus1">
+            <img src="images/circ1.png" alt="">
+            <p>Опыт работы мастеров<br/>более 5 лет</p>
+        </div>
+        <div id="yus2">
+            <img src="images/circ5.png" alt="">
+            <p>Брендовые<br/>материалы</p>
+        </div>
+        <div id="yus3">
+            <img src="images/circ2.png" alt="">
+            <p>Гарантийные<br/>обязательства</p>
+        </div>
+        <div id="yus4">
+            <img src="images/circ6.png" alt="">
+            <p>Наличный<br/>и безналичный расчет</p>
+        </div>
+        <div id="yus5">
+            <img src="images/circ3.png" alt="">
+            <p>Сертифицированный<br/>автоцентр</p>
+        </div>
+        <div id="yus6">
+            <img src="images/circ7.png" alt="">
+            <p>Бережная работа<br/>с автомобилем</p>
+        </div>
+        <div id="yus7">
+            <img src="images/circ4.png" alt="">
+            <p>облюдение сроков</p>
+        </div>
+        <div id="yus8">
+            <img src="images/circ8.png" alt="">
+            <p>Двойной<br/>контроль качества</p>
+        </div>
+        <div id="yus7">
+            <img src="images/circ4.png" alt="">
+            <p>Работаем ежедневно<br/>с 9.00 до 20.00</p>
+        </div>
+    </div>
 </div>
 </div>
 
@@ -175,11 +216,11 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 
 
 
-
 <br>
 <div class="myh2">Наши работы</div>
 <br><br><br>
 <div align="center">
+    <div class="us_wprks">
 
 
 
@@ -192,71 +233,54 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <br>
 <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/DSC01075.jpg"><img src="tonirovka/photo/DSC01075-001.jpg" /></a>
 <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/DSC01088.jpg"><img src="tonirovka/photo/DSC01088-001.jpg" /></a>
-<a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/DSC01130.jpg"><img src="tonirovka/photo/DSC01130-001.jpg" /></a>
-<a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/DSC01131.jpg"><img src="tonirovka/photo/DSC01131-001.jpg" /></a>
 
-<br>
-<br>
-<a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/DSC02818.jpg"><img src="tonirovka/photo/DSC02818-001.jpg" /></a>
-<a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/DSC02819.jpg"><img src="tonirovka/photo/DSC02819-001.jpg" /></a>
-<a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02001.jpg"><img src="tonirovka/photo/toner02001-001.jpg" /></a>
-<a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02002.jpg"><img src="tonirovka/photo/toner02002-002.jpg" /></a>
-<br>
-<br>
-
-
-
-
-<a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/DSC01401.jpg"><img src="tonirovka/photo/DSC01401-001.jpg" /></a>
-<a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/DSC01402.jpg"><img src="tonirovka/photo/DSC01402-001.jpg" /></a>
-
-<a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02003.jpg"><img src="tonirovka/photo/toner02003-001.jpg" /></a>
-<a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02004.jpg"><img src="tonirovka/photo/toner02004-002.jpg" /></a>
-<br>
-<br>
-<a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02005.jpg"><img src="tonirovka/photo/toner02005-001.jpg" /></a>
-<a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02006.jpg"><img src="tonirovka/photo/toner02006-002.jpg" /></a>
-<a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02007.jpg"><img src="tonirovka/photo/toner02007-001.jpg" /></a>
-<a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02008.jpg"><img src="tonirovka/photo/toner02008-002.jpg" /></a>
-<br>
-<br>
-<a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02009.jpg"><img src="tonirovka/photo/toner02009-001.jpg" /></a>
-<a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02010.jpg"><img src="tonirovka/photo/toner02010-002.jpg" /></a>
-<a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02011.jpg"><img src="tonirovka/photo/toner02011-001.jpg" /></a>
-<a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02012.jpg"><img src="tonirovka/photo/toner02012-002.jpg" /></a>
-<br>
-<br>
-<a class="two" rel="group" title="Тонировка фар" href="tonirovka/photo/toner_far002005.jpg"><img src="tonirovka/photo/toner_far002005-001.jpg" /></a>
-<a class="two" rel="group" title="Тонировка фар" href="tonirovka/photo/toner_far002006.jpg"><img src="tonirovka/photo/toner_far002006-002.jpg" /></a>
-<a class="two" rel="group" title="Тонировка фар" href="tonirovka/photo/toner_far002009.jpg"><img src="tonirovka/photo/toner_far002009-001.jpg" /></a>
-<a class="two" rel="group" title="Тонировка фар" href="tonirovka/photo/toner_far002010.jpg"><img src="tonirovka/photo/toner_far002010-002.jpg" /></a>
-<br>
-<br>
-<a class="two" rel="group" title="Тонировка фар" href="tonirovka/photo/toner_far002003.jpg"><img src="tonirovka/photo/toner_far002003-001.jpg" /></a>
-<a class="two" rel="group" title="Тонировка фар" href="tonirovka/photo/toner_far002004.jpg"><img src="tonirovka/photo/toner_far002004-002.jpg" /></a>
-<a class="two" rel="group" title="Тонировка фар" href="tonirovka/photo/toner_far002007.jpg"><img src="tonirovka/photo/toner_far002007-001.jpg" /></a>
-<a class="two" rel="group" title="Тонировка фар" href="tonirovka/photo/toner_far002008.jpg"><img src="tonirovka/photo/toner_far002008-002.jpg" /></a>
+    <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/DSC01130.jpg"><img src="tonirovka/photo/DSC01130-001.jpg" /></a>
+    <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/DSC01131.jpg"><img src="tonirovka/photo/DSC01131-001.jpg" /></a>
+        <div class="mob_more_wrapp_wort">
+    <br>
+    <br>
+    <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/DSC02818.jpg"><img src="tonirovka/photo/DSC02818-001.jpg" /></a>
+    <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/DSC02819.jpg"><img src="tonirovka/photo/DSC02819-001.jpg" /></a>
+    <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02001.jpg"><img src="tonirovka/photo/toner02001-001.jpg" /></a>
+    <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02002.jpg"><img src="tonirovka/photo/toner02002-002.jpg" /></a>
+    <br>
+    <br>
 
 
+    <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/DSC01401.jpg"><img src="tonirovka/photo/DSC01401-001.jpg" /></a>
+    <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/DSC01402.jpg"><img src="tonirovka/photo/DSC01402-001.jpg" /></a>
 
-
-
-
-
-
-
-
-
-
+    <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02003.jpg"><img src="tonirovka/photo/toner02003-001.jpg" /></a>
+    <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02004.jpg"><img src="tonirovka/photo/toner02004-002.jpg" /></a>
+    <br>
+    <br>
+    <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02005.jpg"><img src="tonirovka/photo/toner02005-001.jpg" /></a>
+    <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02006.jpg"><img src="tonirovka/photo/toner02006-002.jpg" /></a>
+    <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02007.jpg"><img src="tonirovka/photo/toner02007-001.jpg" /></a>
+    <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02008.jpg"><img src="tonirovka/photo/toner02008-002.jpg" /></a>
+    <br>
+    <br>
+    <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02009.jpg"><img src="tonirovka/photo/toner02009-001.jpg" /></a>
+    <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02010.jpg"><img src="tonirovka/photo/toner02010-002.jpg" /></a>
+    <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02011.jpg"><img src="tonirovka/photo/toner02011-001.jpg" /></a>
+    <a class="two" rel="group" title="Тонировка стекол" href="tonirovka/photo/toner02012.jpg"><img src="tonirovka/photo/toner02012-002.jpg" /></a>
+    <br>
+    <br>
+    <a class="two" rel="group" title="Тонировка фар" href="tonirovka/photo/toner_far002005.jpg"><img src="tonirovka/photo/toner_far002005-001.jpg" /></a>
+    <a class="two" rel="group" title="Тонировка фар" href="tonirovka/photo/toner_far002006.jpg"><img src="tonirovka/photo/toner_far002006-002.jpg" /></a>
+    <a class="two" rel="group" title="Тонировка фар" href="tonirovka/photo/toner_far002009.jpg"><img src="tonirovka/photo/toner_far002009-001.jpg" /></a>
+    <a class="two" rel="group" title="Тонировка фар" href="tonirovka/photo/toner_far002010.jpg"><img src="tonirovka/photo/toner_far002010-002.jpg" /></a>
+    <br>
+    <br>
+    <a class="two" rel="group" title="Тонировка фар" href="tonirovka/photo/toner_far002003.jpg"><img src="tonirovka/photo/toner_far002003-001.jpg" /></a>
+    <a class="two" rel="group" title="Тонировка фар" href="tonirovka/photo/toner_far002004.jpg"><img src="tonirovka/photo/toner_far002004-002.jpg" /></a>
+    <a class="two" rel="group" title="Тонировка фар" href="tonirovka/photo/toner_far002007.jpg"><img src="tonirovka/photo/toner_far002007-001.jpg" /></a>
+    <a class="two" rel="group" title="Тонировка фар" href="tonirovka/photo/toner_far002008.jpg"><img src="tonirovka/photo/toner_far002008-002.jpg" /></a>
+    </div>
+        <h2 class="mob_h2_work mob_how_mow"><a href="#">Показать больше</a></h2>
+    </div>
 </div>		
 </div> 
-
-
-
-
-
-
-
 
 
 <div id="ghast14">
@@ -281,8 +305,8 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <img alt="" src="images/clients/kli28023.png"><br>
 
 
-
-
+<div class="mob_more_wrapp">
+    <div class="mob_more">
 <img alt="" src="images/clients/kli28025.png">
 <img alt="" src="images/clients/kli28024.png">
 <img alt="" src="images/clients/kli28018.png"><br>
@@ -315,7 +339,11 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <img alt="" src="images/clients/kli28007.png">
 <img alt="" src="images/clients/kli28012.png">
 <img alt="" src="images/clients/kli28002.png"><br>
-			<div class="frends">
+    </div>
+</div>
+    <h2 class="mob_h2 mob_how_mow"><a href="#">Показать больше</a></h2>
+
+    <div class="frends">
 				</div>
 				<br>
 <div class="clients1-bg">
@@ -352,15 +380,13 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 </div><br>
 
 
-
+    <div class="mob_more_wrapp_comment">
 <div class="item clear_self">
 <img src="tonirovka/images/noname18.png" alt="">
 <div class="georgia">Кирилл, Chevrolet Cruze. 30.09.2017 тонировал свой автомобиль. Ребята молодцы. Нареканий на работу нет. Затонировали автомобиль за два часа, работа выполнена качественно. Рекомендую AutoStyle.  
 <a href="https://vk.com/id243907396" target="_blank">https://vk.com/id243907396</a>
 </div>
 </div><br>
-
-
 <div class="item clear_self">
 <img src="tonirovka/images/noname17.png" alt="">
 <div class="georgia">Дмитрий, VW Golf. 10.09.2017. Хотел бы выразить благодарность ребятам, которые знают своё дело и выполняют работу на высшем уровне! Очень качественная тонировка — как результат. Всем рекомендую! Быстро, качественно и доступно!
@@ -454,7 +480,6 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 
 
 
-
 <div class="item clear_self">
 <img src="tonirovka/images/noname10.png" alt="">
 <div class="georgia">Сергей, Тонировал Volvo S60 24.08.2015. Хорошо сделали ребята, спасибо )))  <a href="http://vk.com/id229935781" target="_blank">http://vk.com/id229935781</a>
@@ -502,66 +527,78 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <div class="georgia">Александр, ВАЗ 2110. 20.10.2014 заехал установить сигнализацию с авто запуском, и был очень доволен работой. На сколько быстро и качественно выполнена работа. При этом говорили, что все займет около 3 часов, по факту через 2 часа я уже уехал. Спасибо огромное за качественную работу!!! Сейчас доволен и всегда в теплой тачке. 				
 <a href="http://vk.com/s.zinatulin" target="_blank">http://vk.com/s.zinatulin</a>
 </div>
-</div>	
-
+</div>
+    </div>
+        <h2 class="mob_h2_comment mob_how_mow"><a href="#">Показать больше</a></h2>
 <div class="clients1-bg">	
 <div class="myh2">Наше местоположение:</div>
 <span>г.Челябинск, ул. Чичерина 24 <br>(Городской автомоечный комплекс)</span>
 </div>
-<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=qXKspKQ2Ozf4RTfiNrUQzy7LPFKEKKEc&width=960&height=550"></script>
+    <div class="mapp">
+        <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=qXKspKQ2Ozf4RTfiNrUQzy7LPFKEKKEc"></script>
+    </div>
 <br><br>
 
-<img alt="" src="tonirovka/images/Ulica01.png">
-<img alt="" src="tonirovka/images/Ulica02.png">
+<img alt="" class="where_photo" src="tonirovka/images/Ulica01.png">
+<img alt="" class="where_photo" src="tonirovka/images/Ulica02.png">
 <br><br>
 
 
 
 
 <!--компания в лицах -->
-<div class="face">
-<div class="myautolig">Компания в лицах</div>
-<table border="0" style="align:center;">
-<tr>
-<td><img src="tonirovka/images/borod1.jpg" alt=""></td>
-<td><img src="tonirovka/images/borod2.jpg" alt=""></td>
-<td><img src="tonirovka/images/borod3.jpg" alt=""></td>
-<td><img src="tonirovka/images/borod4.jpg" alt=""></td>
-<td><img src="tonirovka/images/borod5.jpg" alt=""></td>
-<td><img src="tonirovka/images/borod6.jpg" alt=""></td>
-</tr>
-<tr>
-<td width="102px" style="text-align:center">
-Илья<br/>
-Тонирование<br/>
-Винил</td>
-<td width="102px" style="text-align:center">
-Антон<br/>
-Тонирование<br/>
-Полировка
-</td>
-<td width="102px" style="text-align:center">
-Денис<br/>
-Ремонт<br/>
-Стекла</td>
-<td width="102px" style="text-align:center">
-Александр<br/>
-Управляющий<br/>
-Компании
-</td>
-<td width="102px" style="text-align:center">
-Альберт<br/>
-Автоэлектрик<br/>
-Шумоизоляция</td>
-<td width="102px" style="text-align:center">
-Антон<br/>
-Бронирование<br/>
-Тонирование
-</td>
-</tr>
-</table>
-<div style="clear: both"></div>
-</div></div>
+    <div class="face">
+        <div class="myautolig">Компания в лицах</div>
+        <span>
+        <img src="images/face1.jpg" alt="">
+        <p>
+            Илья<br/>
+            Тонирование<br/>
+            Винил</td>
+        </p>
+    </span>
+        <span>
+        <img src="images/face2.jpg" alt="">
+        <p>
+           Антон<br/>
+            Тонирование<br/>
+            Полировка
+        </p>
+    </span>
+        <span>
+        <img src="images/face3.jpg" alt="">
+        <p>
+          Денис<br/>
+        Ремонт<br/>
+        Стекла</td>
+        </p>
+    </span>
+        <span>
+        <img src="images/face4.jpg" alt="">
+        <p>
+       Александр<br/>
+        Управляющий<br/>
+        Компании
+        </p>
+    </span>
+        <span>
+        <img src="images/face5.jpg" alt="">
+        <p>
+       Альберт<br/>
+        Автоэлектрик<br/>
+        Шумоизоляция</td>
+        </p>
+    </span>
+        <span>
+        <img src="images/face6.jpg" alt="">
+        <p>
+      Антон<br/>
+        Бронирование<br/>
+        Тонирование
+        </p>
+    </span>
+        <div style="clear: both"></div>
+    </div></div>
 <br/><br/>
 <!-- -->
 <div class="myautolig">AutoStyle в программе "Автолига"</div>
@@ -685,6 +722,58 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 </script>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
+    $(document).ready(function() {
+
+        $( window ).resize(function() {
+
+            var w = $(window).width();
+            if(w > 720 && $(".mob_more_wrapp").is(":hidden") ){
+                $(".mob_more_wrapp").removeAttr('style');
+            }
+            if(w > 720 && $(".mob_more_wrapp_comment").is(":hidden") ){
+                $(".mob_more_wrapp_comment").removeAttr('style');
+            }
+            if(w > 720 && $(".mob_more_wrapp_wort").is(":hidden") ){
+                $(".mob_more_wrapp_wort").removeAttr('style');
+            }
+
+        });
+
+        /*clint*/
+
+        $(".mob_h2 a").bind("click",function (e){
+            console.log('here!!!');
+            e.preventDefault();
+            var text = $(".mob_h2 a").text();
+
+            text = (text === "Скрыть") ?  "Показать больше" : "Скрыть";
+
+            $(".mob_h2 a").text(text);
+            $(".mob_more_wrapp").slideToggle();
+        });
+
+        /*commet*/
+
+        $(".mob_h2_comment  a").bind("click",function (e){
+            e.preventDefault();
+            var textCom = $(".mob_h2_comment a").text();
+            textCom = (textCom === "Скрыть") ?  "Показать больше" : "Скрыть";
+            $(".mob_h2_comment a").text(textCom);
+            $(".mob_more_wrapp_comment").slideToggle();
+
+        });
+
+        /*WORK*/
+
+        $(".mob_h2_work  a").bind("click",function (e){
+            e.preventDefault();
+            var textCom = $(".mob_h2_work a").text();
+            textCom = (textCom === "Скрыть") ?  "Показать больше" : "Скрыть";
+            $(".mob_h2_work a").text(textCom);
+            $(".mob_more_wrapp_wort").slideToggle();
+
+        });
+    });
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {

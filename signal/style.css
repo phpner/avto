@@ -134,3 +134,572 @@ span.usl2{color:#fff;font-size:29px;font-family: "PT Sans";text-align: center;ma
 #zn10{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -630px 0px;}
 #zn11{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -700px 0px;}
 #zn12{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -770px 0px;}
+.mob_h2, .mob_h2_comment,.mob_h2_work{
+    display: none;
+}
+@media screen and (max-width: 1100px){
+    .mob_more, .mob_more_wrapp_wort {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .us_wprks {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .us_wprks img {
+        width: 300px;
+        margin: 10px;
+        border-radius: 25px;
+        box-shadow: 2px 4px 7px black;
+    }
+    .us_wprks a{
+        display: inline-block;
+    }
+    #mainsig nav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    button.feedback, input.feedback{
+        margin: auto;
+        display: block;
+        width: 175px;
+        height: 38px;
+        font-size: 1rem;
+    }
+    .mapp{
+        height: 350px;
+    }
+    .scrollTop{
+        margin: 0!important;
+        left: 0!important;
+    }
+
+    .whyMe #yus1,.whyMe #yus2,.whyMe #yus3,.whyMe #yus4,.whyMe #yus5,.whyMe #yus6,.whyMe #yus7,.whyMe #yus8{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+
+
+    .hidden{
+        display: block;
+    }
+    .header-mob{
+        position: absolute;
+        top: 256px;
+        width: 100%;
+        z-index: 1;
+    }
+    #mainsig{
+        background-size: cover;
+    }
+    #mainsig{
+        height: 700px;
+        margin-top: -701px;
+    }
+    .js-alarm_car,.landing-img-alarm{
+        height: 700px;
+    }
+    #mainsig  #logo,#mainsig #adres,#mainsig #soc{
+        float: none;
+        display: inline-block;
+        left: 0;
+        text-align: center;
+    }
+    #adres{
+        font-size: 0.7rem;
+    }
+    #mainsig .slogan{
+        top: 247px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    #car .flex{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+    }
+    #gifts14{
+        height: initial;
+        background-size: cover;
+    }
+    #yuslygf{
+        background-size: cover;
+
+    }
+    #yuslygf #yuslyg{
+        height: 100%;
+    }
+    .zakaz5,#mainsig,.landing-img-alarm,#doput13, #doput14,.zakaz2,.zakaz,#about,#maxbal,.zakaz3,#yuslygf,#yuslyg,.zakaz4,#zakaz,#doput11,.zakaz4,#akciya,#gifts14,.frends101,#uslugiopis{
+        width: 100% !important;
+        min-width:100vw
+    }
+    #doput13{
+        height: 56vh;
+        background-size: cover;
+        min-height: 400px;
+    }
+    .zakaz{
+        font-size: 2rem!important;
+    }
+    #doput11{
+        height: 54vh;
+        min-height: 350px;
+        background-size: cover;
+    }
+
+    #doput11 .myh2{
+        margin-top: -22px;
+        font-size: 2.4rem;
+    }
+    #doput14{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: stretch;
+        margin-top: -55px;
+        padding-bottom: 48px;
+        height: 100%;
+        margin-top: 10px;
+    }
+    #doput14 a{
+        margin-left: 5px;
+    }
+    #gifts14 .three{
+        order: 4;
+    }
+    .mobMenu{
+        display: flex;
+        position: relative;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: space-around;
+        z-index: 12;
+    }
+    .mobMenu .btn-3{
+        top: 5px;
+        position: relative;
+    }
+    .mobMenu .mobMenu__button{
+        width: 225px;
+        height: 91px;
+        z-index: 1000;
+    }
+    .but1:hover,.but2:hover, .but3:hover,.but11:hover, .but4:hover,.but5:hover,.but6:hover,.but12:hover,.but10:hover,.but9:hover,.but8:hover,.but7:hover{
+    }
+    #gorblock{
+        top: 0;
+        padding-top: 0;
+        height: initial;
+    }
+    .zakaz2,.zakaz3, .zakaz4{
+        background-size: cover;
+    }
+    .zakaz2 #zakaz .zakaz,.zakaz3 #zakaz .zakaz,.zakaz4 #zakaz .zakaz{
+        display: block;
+        width: 100%;
+    }
+    .zakaz4 #zakaz .form,.zakaz5 #zakaz .form, .zakaz3 #zakaz .form,.zakaz2 #zakaz .form{
+        margin: auto;
+        left: 0;
+    }
+    .zakaz5 {
+        min-height: 141px;
+        background-size: cover;
+    }
+    .zakaz5 .akciya {
+        width: 100%;
+        font-size: 2rem;
+    }
+    .zakaz4{
+        min-height: 141px;
+    }
+    .zakaz4 .akciya{
+        width: 100%;
+        font-size: 2rem;
+    }
+    .zakaz4 #akciya{
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    #about{
+        background: url(../images/about.jpg)center center no-repeat;
+        padding: 25px 0;
+        margin-top: -13px;
+    }
+    #about, #maxbal{
+        height: 100%;
+    }
+    #about #maxbal{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    #about #maxbal .myh2{
+        flex-basis: 100%;
+    }
+    #about #maxbal #bal1,#about #maxbal #bal2,#about #maxbal #bal3, #about #maxbal #bal4, #about #maxbal #bal5, #about #maxbal #bal6{
+        left: 0;
+        top: 0;
+        background: rgba(255, 254, 252, .9);
+        border-radius: 20px;
+        margin: 10px;
+        box-shadow: 0px 2px 12px rgba(255, 254, 252, 0.9);
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    #uslugiopis{
+        height: 100%;
+        background: url("../images/about-1.jpg") repeat;
+    }
+    .clients1 h1{
+        flex-basis: 100%;
+    }
+    #uslugiopis .myopis{
+        background: #d59600;
+        color: #fff;
+    }
+    #uslugiopis .usl{
+        width: 100%;
+    }
+    #uslugiopis #maxuzn{
+        width: 100%;
+        min-width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    #uslugiopis #maxuzn div{
+        float: none;
+        margin: 0;
+        margin-top: 20px;
+    }
+    #uslugiopis #maxuzn div div{
+        margin: auto;
+
+    }
+    .clients1 .clients1-bg{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .mapp #ymaps1529319261159804442{
+        width: 100% !important;
+    }
+    .face img{
+        width: 50px;
+    }
+    #video {
+        width: 100%;
+        background-size: 100% 100%;
+    }
+    #video iframe{
+        width: 75%;
+        height: 92%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: block;
+        z-index: -1;
+    }
+    .myautolig{
+        text-align: center;
+    }
+    .serf{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+    .serf img{
+        margin: 10px;
+    }
+    .clients1{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .clients1 .myh2{
+        flex-basis: 100%;
+    }
+    .clients1 img{
+        border: none;
+        margin: 10px;
+        border-radius: 20px;
+        box-shadow: 2px 3px 11px black;
+    }
+    .frends101{
+        background-size: contain;
+        min-height: 16vh;
+        border: initial;
+        margin-top: 20px;
+    }
+    .whyMe{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:  space-around;
+        align-items: flex-start;
+        align-content: space-around;
+        padding-right: 10px;
+    }
+    #yus1 img,#yus2 img,#yus3 img,#yus4 img,#yus5 img,#yus6 img,#yus7 img,#yus8 img{
+        width: 60px;
+        height: 60px;
+        margin-right:initial;
+    }
+    #yuslyg #yus1,#yuslyg #yus2,#yuslyg #yus3,#yuslyg #yus4,#yuslyg #yus5,#yuslyg #yus6,#yuslyg #yus7, #yuslyg #yus8{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-between;
+        width: 150px;
+        height: 100%;
+        margin: 10px;
+        font-size: 19px;
+        top: 0;
+        text-align: center;
+        padding: 0;
+    }
+    #yuslyg .myh2{
+        flex-basis: 100%;
+    }
+    .mob_more{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+}
+.mob_more_wrapp{
+    display: block;
+}
+@media screen and (max-width: 768px){
+    .mob_h2, .mob_h2_comment,.mob_h2_work{
+        display: block;
+    }
+    .mob_how_mow a{
+        text-decoration: none;
+        color: #202020;
+        display: inline-block;
+        background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 25px;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .mob_more_wrapp, .mob_more_wrapp_comment,.mob_more_wrapp_wort{
+        display: none;
+        transition: all 1s;
+    }
+    #doput11{
+        height: 38vh;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    #doput13{
+        height: 45vh;
+    }
+    .mapp{
+        height: 250px;
+    }
+
+    .clients1-bg .clients1-bg span{
+        font-size: 1.3rem;
+    }
+    #video iframe{
+        width: 100%;
+    }
+    .myopis{
+        font-size: 2rem;
+    }
+    span.usl{
+        font-size: 1.4rem;
+    }
+    #uslugiopis #maxuzn div span{
+        font-size: 1rem;
+    }
+    #maxbal .myh2, #gifts14 .myh2, #doput11 .myh2{
+        font-size: 2rem;
+    }
+    #yuslyg .myh2{
+        font-size: 2rem;
+    }
+    .clients1 .myh2{
+        font-size: 2rem;
+    }
+    .mob_h2,.mob_h2_comment{
+        display: flex;
+        flex-basis: 100%;
+        justify-content: center;
+
+    }
+
+    .mob_how_mow a{
+        text-decoration: none;
+        color: #202020;
+        display: inline-block;
+        background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 25px;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .mob_more_wrapp, .mob_more_wrapp_comment{
+        display: none;
+        transition: all 1s;
+    }
+    #mainsig nav{
+        flex-direction: column;
+    }
+    .header-mob{
+        top: 352px;
+    }
+    #mainsig #logo, #mainsig #adres, #mainsig #soc{
+        margin: auto;
+    }
+    #main #soc{
+        width: initial;
+    }
+   #soc a{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    #soc {
+        width: initial;
+    }
+    #mainsig.slogan{
+        top: 259px;
+    }
+    .mobMenu{
+        position: relative;
+        top: -170px;
+    }
+
+    #video{
+        background: none;
+    }
+    .where_photo{
+        width: 89%;
+    }
+    .clients1-bg .clear_self{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+    .clients1-bg .clear_self a{
+        width: 35%;
+        margin: auto;
+        display: block;
+    }
+    .clients1-bg .clear_self img{
+        margin: auto;
+    }
+    .myautolig{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 460px){
+    #doput13{
+        height: 37vh;
+        min-height: 300px;
+    }
+    #doput11{
+        background-size: 100% 100%;
+        min-height:initial;
+    }
+    #yuslyg .myh2{
+        font-size: 1.4rem;
+    }
+    .myopis{
+        font-size: 1.5rem;
+    }
+    #logo img{
+        width: 90%;
+    }
+    .bottomDescription{
+        padding: 0!important;
+    }
+    #uzn2,#uzn1{
+        height: 125px;
+    }
+    .mapp{
+        height: 200px;
+    }
+    .zakaz{
+        font-size: 1rem!important;
+    }
+    #mainsig .slogan{
+        width: 310px;
+        font-size: 26px;
+        top: 273px;
+    }
+    #doput11{
+        height: 29vh;
+
+    }
+
+    .mobMenu{
+        top: -150px;
+    }
+    .mobMenu .mobMenu__button{
+        width: 140px;
+        height: 91px;
+        background-size: contain;
+        z-index: 1000;
+    }
+    #maxbal{
+        font-size:12px;
+    }
+    #maxbal .myh2, #gifts14 .myh2, #doput11 .myh2{
+        font-size: 2rem;
+    }
+    #maxbal .num{
+        font-size: 24px;
+    }
+    #yuslyg #yus1, #yuslyg #yus2, #yuslyg #yus3, #yuslyg #yus4, #yuslyg #yus5, #yuslyg #yus6, #yuslyg #yus7, #yuslyg #yus8{
+        word-wrap: break-word;
+    }
+    .mob_how_mow a{
+        font-size: 1.3rem;
+    }
+    .comments_list .item .georgia{
+        font-size: 14px;
+    }
+    #yuslyg #yus1, #yuslyg #yus2, #yuslyg #yus3, #yuslyg #yus4, #yuslyg #yus5, #yuslyg #yus6, #yuslyg #yus7, #yuslyg #yus8{
+        width: 100px;
+    }
+    #yuslyg #yus1,#yuslyg #yus2,#yuslyg #yus3,#yuslyg #yus4,#yuslyg #yus5,#yuslyg #yus6,#yuslyg #yus7, #yuslyg #yus8{
+        font-size: 1rem;
+    }
+    #doput11 .myh2{
+        font-size: 1rem;
+        margin-top: -19px;
+    }
+    .zakaz4{
+        min-height: 73px;
+    }
+    .zakaz5 .akciya{
+        font-size: 1rem;
+    }
+    .myh2{
+        font-size: 1rem;
+    }
+    .zakaz4 .akciya{
+        font-size: 1.2rem;
+    }
+}

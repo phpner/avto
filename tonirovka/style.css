@@ -2,16 +2,18 @@
     font-family: PT Sans; 
     src: url(PT_Sans.ttf); 
 }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body
 {
-  margin: 0 auto;
   position: relative;
-  width: 100%;
+  width: 100vw;
   min-height: 100%;
   height: 100%;
   height: auto !important;
-  left: 0;
-  top: 0;
   font-family: "PT Sans"; 
   }
 
@@ -50,7 +52,7 @@ height:50px;
 background: url('../tonirovka/images/ctn1.jpg') no-repeat;
 position:absolute;
 left: 20px;
-top: 24px;
+top: 41px;
 z-index: 1000;
 cursor:pointer;
 }
@@ -58,7 +60,7 @@ cursor:pointer;
 .ctn1:hover
 {
 width: 1200px;
-height:524px;
+height:541px;
 background: url('../tonirovka/images/hctn1.png') bottom center no-repeat;
 position:absolute;
 left: -290px;
@@ -74,7 +76,7 @@ height:50px;
 background: url('../tonirovka/images/ctn2.jpg') no-repeat;
 position:absolute;
 left: 170px;
-top: 24px;
+top: 41px;
 z-index: 1000;
 cursor:pointer;
 }
@@ -82,7 +84,7 @@ cursor:pointer;
 .ctn2:hover
 {
 width: 1200px;
-height:524px;
+height:541px;
 background: url('../tonirovka/images/hctn2.png') bottom center no-repeat;
 position:absolute;
 left: -290px;
@@ -98,7 +100,7 @@ height:50px;
 background: url('../tonirovka/images/ctn3.jpg') no-repeat;
 position:absolute;
 left: 320px;
-top: 24px;
+top: 41px;
 z-index: 1000;
 cursor:pointer;
 }
@@ -106,7 +108,7 @@ cursor:pointer;
 .ctn3:hover
 {
 width: 1200px;
-height:524px;
+height:541px;
 background: url('../tonirovka/images/hctn3.png') bottom center no-repeat;
 position:absolute;
 left: -290px;
@@ -122,7 +124,7 @@ height:50px;
 background: url('../tonirovka/images/ctn4.jpg') no-repeat;
 position:absolute;
 left: 470px;
-top: 24px;
+top: 41px;
 z-index: 1000;
 cursor:pointer;
 }
@@ -130,7 +132,7 @@ cursor:pointer;
 .ctn4:hover
 {
 width: 1200px;
-height:524px;
+height:541px;
 background: url('../tonirovka/images/hctn4.png') bottom center no-repeat;
 position:absolute;
 left: -290px;
@@ -145,7 +147,7 @@ width: 132px;
 height:50px;
 background: url('../tonirovka/images/ctn5.jpg') no-repeat;
 position:absolute;
-top: 84px;
+top: 101px;
 left: 20px;
 z-index: 1000;
 cursor:pointer;
@@ -154,7 +156,7 @@ cursor:pointer;
 .ctn5:hover
 {
 width: 1200px;
-height:524px;
+height:541px;
 background: url('../tonirovka/images/hctn5.png') bottom center no-repeat;
 position:absolute;
 left: -290px;
@@ -170,7 +172,7 @@ height:50px;
 background: url('../tonirovka/images/ctn6.jpg') no-repeat;
 position:absolute;
 left: 170px;
-top: 84px;
+top: 101px;
 z-index: 1000;
 cursor:pointer;
 }
@@ -178,7 +180,7 @@ cursor:pointer;
 .ctn6:hover
 {
 width: 1200px;
-height:524px;
+height:541px;
 background: url('../tonirovka/images/hctn6.png') bottom center no-repeat;
 position:absolute;
 left: -290px;
@@ -194,7 +196,7 @@ height:50px;
 background: url('../tonirovka/images/ctn7.jpg') no-repeat;
 position:absolute;
 left: 320px;
-top: 84px;
+top: 101px;
 z-index: 1000;
 cursor:pointer;
 }
@@ -202,7 +204,7 @@ cursor:pointer;
 .ctn7:hover
 {
 width: 1200px;
-height:524px;
+height:541px;
 background: url('../tonirovka/images/hctn7.png') bottom center no-repeat;
 position:absolute;
 left: -290px;
@@ -218,7 +220,7 @@ height:50px;
 background: url('../tonirovka/images/ctn8.jpg') no-repeat; 
 position:absolute;
 left: 470px;
-top: 84px;
+top: 101px;
 z-index: 1000;
 cursor:pointer;
 }
@@ -226,7 +228,7 @@ cursor:pointer;
 .ctn8:hover
 {
 width: 1200px;
-height:524px;
+height:541px;
 background: url('../tonirovka/images/hctn8.png') bottom center no-repeat;
 position:absolute;
 left: -290px;
@@ -260,7 +262,7 @@ span.adr{font-size: 20px;}
 #gorblock a:hover{text-decoration: underline;}
 #logo a{text-decoration: none;}
 #yuslygf{position: relative;background: url('../tonirovka/images/ghast12.jpg') top center no-repeat;width: 100%;min-width:1200px;margin: 0 auto;}
-#yuslyg{position: relative;width: 1200px;height:850px;padding-top: 50px;margin: 0 auto;}
+#yuslyg{position: relative;width: 1200px;height:931px;padding-top: 50px;margin: 0 auto;}
 #becer1,#becer2,#becer3,#becer4,#becer5,#becer6,#becer7,#becer8{position: relative;display: inline-block;width: 360px;height: 83px;color: #000000;font-family: Trebuchet MS;font-size: 25px;background-position: center left;padding-left: 111px;padding-top: 15px;margin-left: 115px;margin-bottom: 26px;text-align: left;}
 #becer2,#becer4,#becer6,#becer8{margin-left: 80px;}
 #becer1{background: url('../tonirovka/images/aacer1.png') no-repeat;}
@@ -323,14 +325,50 @@ img {border: none;}
 body{background: #FFFFFF; margin: 0 auto; position: relative;  width: 100%;  min-height: 100%;  height: 100%;  height: auto !important;  left: 0;  top: 0; font-family: "PT Sans";}
 #about{display: block;height: 819px;width: 100%;min-width:1200px;position: relative;margin: 0 auto;background: url('../images/about.jpg')top center no-repeat;}
 h2{color: #000000;font-size: 60px;font-family: "PT Sans";padding: 0px;margin: 0px;}
-#uslugiopis{display: block; height: 908px;width: 100%;min-width:1200px;position: relative; margin: 0 auto;background: url('../images/usopis.jpg')top center no-repeat;}
+
+#uslugiopis {
+    display: block;
+    height: 908px;
+    width: 100%;
+    min-width: 100%;
+    position: relative;
+    margin: 0 auto;
+    background: url(../images/usopis.jpg)top center no-repeat;
+}
 h2.opis{color: #000000;font-size: 45px;font-family: "PT Sans";padding: 18px;margin: 0px;}
-span.usl{color:#fff;font-size:29px;font-family: "PT Sans";text-align: center;width:1025px;position: relative;margin: 0 auto;display: block; margin-top:25px;}
+span.usl {
+    color: #fff;
+    font-size: 29px;
+    font-family: "PT Sans";
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+}
+
 span.usl2{color:#fff;font-size:29px;font-family: "PT Sans";text-align: center;max-width:220px;position: relative;display: block;}
-#maxuzn{width:1200px;position: relative;margin: 0 auto;}
+#maxuzn{
+    width:100%;
+    position: relative;
+    margin: 0 auto;}
 #zn1{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat;}
-#uzn1{position: relative; display: inline-block;width:220px; height:180px; float: left;margin-top: 35px;margin-left:100px;}
-#uzn2{position: relative; display: inline-block;width:220px; height:180px; float: left;margin-top: 35px;margin-left:43px;}
+
+#uzn1 {
+    position: relative;
+    display: inline-block;
+    width: 220px;
+    height: 180px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 50px;
+
+}
+
+#uzn2{
+    margin-left: initial;
+    position: relative; display: inline-block;width:220px; height:180px; float: left;margin-top: 35px;}
 #zn2{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -70px 0px;}
 #zn3{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -140px 0px;}
 #zn4{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -210px 0px;}
@@ -346,3 +384,598 @@ span.usl2{color:#fff;font-size:29px;font-family: "PT Sans";text-align: center;ma
 h2.number_car{color: #3e0609;font-size: 50px;font-family: Trebuchet MS;padding-top: 50px;margin: 0px;text-align:center;}
 #number_car{display: block; height: 599px;width: 100%;min-width:1200px;position: relative; margin: 0 auto;background: url('../tonirovka/images/number_car.jpg')top center no-repeat;}
 #cifri{top:115px; display: block; height: 150px;width: 494px;position: relative; margin: 0 auto;background: url('../tonirovka/images/cifri.gif')top center no-repeat;}
+
+@media screen and (max-width: 1100px){
+    #cifri{
+        width: 90%;
+        border-radius: 30px;
+        top: 142px;
+    }
+    .myh2{
+        font-size: 2.5rem;
+    }
+    #ghast15{
+        height: auto;
+    }
+    #ghast15 .myh2{
+        font-size: 2.5rem;
+    }
+    .us_wprks{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .us_wprks img{
+        width: 300px;
+        margin: 10px;
+        border-radius: 25px;
+        box-shadow: 2px 4px 7px black;
+    }
+
+    #tonerf{
+        background: url("../tonirovka/images/mob-toner.jpg");
+    }
+    #adres span,#adres a span,#adres a,.slogan{
+        color: #fff !important;
+
+    }
+    #ctn{
+        display: none;
+    }
+     button.feedback, input.feedback{
+        margin: auto;
+        display: block;
+        width: 175px;
+        height: 38px;
+        font-size: 1rem;
+    }
+    .mapp{
+        height: 350px;
+    }
+    .scrollTop{
+        margin: 0!important;
+        left: 0!important;
+    }
+
+    .whyMe #yus1,.whyMe #yus2,.whyMe #yus3,.whyMe #yus4,.whyMe #yus5,.whyMe #yus6,.whyMe #yus7,.whyMe #yus8{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+
+
+    .hidden{
+        display: block;
+    }
+    .header-mob{
+        position: absolute;
+        top: 256px;
+        width: 100%;
+        z-index: 1;
+    }
+    #tonerf{
+        background-size: cover;
+        min-height: 400px;
+    }
+    #tonerf,#toner{
+        height: 100%;
+        width: 100%;
+    }
+     #logo, #adres, #soc{
+        float: none;
+        display: inline-block;
+        left: 0;
+        text-align: center;
+    }
+    #adres{
+        font-size: 0.7rem;
+    }
+    .slogan{
+        top: 220px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .tonerf #main .mob-h{
+        padding-top: 77px;
+    }
+    #ghast14{
+        height: initial;
+        background-size: cover;
+    }
+    #yuslygf{
+        background-size: cover;
+
+    }
+    #yuslygf #yuslyg{
+        height: 100%;
+    }
+    #tonerf, #main,.zakaz2,.zakaz,#about,#maxbal,.zakaz3,#yuslygf,#yuslyg,.zakaz4,.zakaz5,#zakaz,#ghast11,.zakaz4,span.akciya,#ghast14,.frends,#uslugiopis,#ghast15,#number_car{
+        width: 100%;
+        min-width:100vw;
+    }
+    .zakaz2{
+        background: url("../tonirovka/images/mob-ghast17.jpg");
+    }
+    #ghast11{
+        height: 54vh;
+        min-height: 350px;
+        background-size: cover;
+    }
+    #ghast11 .car-work{
+        width: 100%;
+        height: inherit;
+    }
+
+    #ghast11 .myh2{
+        margin-top: -22px;
+        font-size: 2.4rem;
+    }
+    #ghast14 #ghast14{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: stretch;
+        margin-top: -55px;
+        padding-bottom: 48px;
+    }
+    #ghast14 a{
+        margin-left: 5px;
+    }
+    #ghast14 .three{
+        order: 4;
+    }
+     nav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #main #car, #gorblock{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+    }
+    #car .but1,.but2, .but3,.but11, .but4,.but5,.but6,.but12,.but10,.but9,.but8,.but7{
+        left: 0%;
+        top: 0px;
+        position: relative;
+        background-size: contain;
+        width: 200px;
+        display: none;
+    }
+    .mobMenu{
+        display: flex;
+        position: relative;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: space-around;
+        z-index: 12;
+    }
+    .mobMenu .btn-3{
+        top: 5px;
+        position: relative;
+    }
+    .mobMenu .mobMenu__button{
+        width: 225px;
+        height: 91px;
+        z-index: 1000;
+    }
+
+    .but1:hover,.but2:hover, .but3:hover,.but11:hover, .but4:hover,.but5:hover,.but6:hover,.but12:hover,.but10:hover,.but9:hover,.but8:hover,.but7:hover{
+    }
+    #gorblock{
+        top: 0;
+        padding-top: 0;
+        height: initial;
+    }
+    .zakaz2,.zakaz3, .zakaz4,.zakaz5{
+        background-size: cover;
+    }
+    .zakaz2 #zakaz .zakaz,.zakaz3 #zakaz .zakaz,.zakaz4 #zakaz .zakaz,.zakaz5 #zakaz .zakaz{
+        display: block;
+        width: 100%;
+        font-size: 2rem;
+    }
+    .zakaz4 #zakaz .form, .zakaz3 #zakaz .form,.zakaz2 #zakaz .form, .zakaz5 #zakaz .form {
+        margin: auto;
+        left: initial;
+        display: block;
+    }
+    .zakaz4{
+        min-height: 141px;
+    }
+    span.akciya{
+        width: 100%;
+        font-size: 2rem;
+    }
+    #akciya{
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    #about{
+        background: url(../images/about.jpg)center center no-repeat;
+        padding: 25px 0;
+        margin-top: -13px;
+    }
+    #about, #maxbal{
+        height: 100%;
+    }
+    #about #maxbal{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    #about #maxbal .myh2{
+        flex-basis: 100%;
+    }
+    #about #maxbal #bal1,#about #maxbal #bal2,#about #maxbal #bal3, #about #maxbal #bal4, #about #maxbal #bal5, #about #maxbal #bal6{
+        left: 0;
+        top: 0;
+        background: rgba(255, 254, 252, .9);
+        border-radius: 20px;
+        margin: 10px;
+        box-shadow: 0px 2px 12px rgba(255, 254, 252, 0.9);
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    #uslugiopis{
+        background: url("../images/about-1.jpg") repeat;
+        height: auto;
+    }
+    .clients1 h1{
+        flex-basis: 100%;
+    }
+    #uslugiopis .myopis{
+        background: #d59600;
+        color: #fff;
+    }
+    #uslugiopis .usl{
+        width: 100%;
+    }
+    #uslugiopis #maxuzn{
+        width: 100%;
+        min-width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    #uslugiopis #maxuzn div{
+        float: none;
+        margin: 0;
+        margin-top: 20px;
+    }
+    #uslugiopis #maxuzn div div{
+        margin: auto;
+
+    }
+    .clients1 .clients1-bg{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .mapp #ymaps1529319261159804442{
+        width: 100% !important;
+    }
+    .face img{
+        width: 50px;
+    }
+    #video {
+        width: 100%;
+        background-size: 100% 100%;
+    }
+    #video iframe{
+        width: 75%;
+        height: 92%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: block;
+        z-index: -1;
+    }
+    .myautolig{
+        text-align: center;
+    }
+    .serf{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+    .serf img{
+        margin: 10px;
+    }
+    .clients1{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .clients1 .myh2{
+        flex-basis: 100%;
+    }
+    .clients1 img{
+        border: none;
+        margin: 10px;
+        border-radius: 20px;
+        box-shadow: 2px 3px 11px black;
+    }
+    .frends{
+        background-size: contain;
+        min-height: 16vh;
+        border: initial;
+        margin-top: 20px;
+    }
+    .whyMe{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:  space-around;
+        align-items: flex-start;
+        align-content: space-around;
+        padding-right: 10px;
+    }
+    #yus1 img,#yus2 img,#yus3 img,#yus4 img,#yus5 img,#yus6 img,#yus7 img,#yus8 img{
+        width: 60px;
+        height: 60px;
+        margin-right:initial;
+    }
+    #yuslyg #yus1,#yuslyg #yus2,#yuslyg #yus3,#yuslyg #yus4,#yuslyg #yus5,#yuslyg #yus6,#yuslyg #yus7, #yuslyg #yus8{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-between;
+        width: 150px;
+        height: 100%;
+        margin: 10px;
+        font-size: 19px;
+        top: 0;
+        text-align: center;
+        padding: 0;
+    }
+
+.mob_more,.mob_more_wrapp_wort{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+}
+.mob_h2, .mob_h2_comment,.mob_h2_work{
+    display: none;
+}
+#yuslyg .myh2{
+    flex-basis: 100%;
+    font-size: 2.5rem;
+}
+#yus111{
+    margin-top: -20px;
+    font-size: 1.3rem;
+}
+@media screen and (max-width: 768px){
+    #ghast15 .myh2{
+        flex-basis: 100%;
+        font-size: 2rem;
+    }
+    #yus111{
+        margin-top: -20px;
+        font-size: 1rem;
+    }
+    #ghast14 img{
+        width: 50%;
+    }
+    #main #soc a {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .mapp{
+        height: 250px;
+    }
+    #tonerf .mob-h{
+        margin-top: 0;
+    }
+    .clients1-bg .clients1-bg span{
+        font-size: 1.3rem;
+    }
+    #video iframe{
+        width: 100%;
+    }
+    .myopis{
+        font-size: 2rem;
+    }
+    span.usl{
+        font-size: 1.4rem;
+    }
+    #uslugiopis #maxuzn div span{
+        font-size: 1rem;
+    }
+    #maxbal .myh2, #ghast14 .myh2, #ghast11 .myh2{
+        font-size: 2rem;
+    }
+    #yuslyg .myh2{
+        font-size: 2rem;
+    }
+    .clients1 .myh2{
+        font-size: 2rem;
+    }
+    .mob_h2,.mob_h2_comment,.mob_h2_work{
+        display: flex;
+        flex-basis: 100%;
+        justify-content: center;
+
+    }
+
+    .mob_how_mow a{
+        text-decoration: none;
+        color: #202020;
+        display: inline-block;
+        background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 25px;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .mob_more_wrapp, .mob_more_wrapp_comment,.mob_more_wrapp_wort{
+        display: none;
+        transition: all 1s;
+    }
+     nav{
+        flex-direction: column;
+    }
+    .header-mob{
+        top: 352px;
+    }
+    #logo, #adres, #soc{
+        margin: auto;
+    }
+     #soc{
+        width: initial;
+    }
+    #soc a{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .slogan{
+        top: 259px;
+    }
+    .mobMenu{
+        position: relative;
+        top: -170px;
+    }
+
+    #video{
+        background: none;
+    }
+    .where_photo{
+        width: 89%;
+    }
+    .clients1-bg .clear_self{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+    .clients1-bg .clear_self a{
+        width: 49%;
+        margin: auto;
+        display: block;
+    }
+    .clients1-bg .clear_self img{
+        margin: auto;
+    }
+    .myautolig{
+        font-size: 2rem;
+    }
+}
+h2{
+    font-size: 2rem;
+}
+@media screen and (max-width: 460px){
+    #cifri{
+        border-radius: initial;
+        top: 118px;
+        height: 142px;
+        margin: auto;
+        display: block;
+        width: 290px;
+    }
+    #ghast11{
+        background-size: 100% 100%;
+        min-height:initial;
+    }
+    #yuslyg .myh2{
+        font-size: 1.4rem;
+    }
+    .myopis{
+        font-size: 1.5rem;
+    }
+    #logo img{
+        width: 90%;
+    }
+    .bottomDescription{
+        padding: 0!important;
+    }
+    #uzn2,#uzn1{
+        height: 125px;
+    }
+    .mapp{
+        height: 200px;
+    }
+    span.zakaz{
+        font-size: 22px;
+    }
+    .slogan{
+        width: 310px;
+        font-size: 26px;
+        top: 273px;
+    }
+    #ghast11{
+        height: 29vh;
+
+    }
+    #tonerf .mob-h{
+        padding-top: 2px;
+    }
+    .mobMenu{
+        top: -150px;
+    }
+    .mobMenu .mobMenu__button{
+        width: 140px;
+        height: 91px;
+        background-size: contain;
+        z-index: 1000;
+    }
+    #maxbal{
+        font-size:12px;
+    }
+    #maxbal .myh2, #ghast14 .myh2, #ghast11 .myh2{
+        font-size: 2rem;
+    }
+    #maxbal .num{
+        font-size: 24px;
+    }
+    #yuslyg #yus1, #yuslyg #yus2, #yuslyg #yus3, #yuslyg #yus4, #yuslyg #yus5, #yuslyg #yus6, #yuslyg #yus7, #yuslyg #yus8{
+        word-wrap: break-word;
+    }
+    .mob_how_mow a{
+        font-size: 1.3rem;
+    }
+    .comments_list .item .georgia{
+        font-size: 14px;
+    }
+    #yuslyg #yus1, #yuslyg #yus2, #yuslyg #yus3, #yuslyg #yus4, #yuslyg #yus5, #yuslyg #yus6, #yuslyg #yus7, #yuslyg #yus8{
+        width: 100px;
+    }
+    #yuslyg #yus1,#yuslyg #yus2,#yuslyg #yus3,#yuslyg #yus4,#yuslyg #yus5,#yuslyg #yus6,#yuslyg #yus7, #yuslyg #yus8{
+        font-size: 1rem;
+    }
+    #ghast11 .myh2{
+        font-size: 1rem;
+        margin-top: -19px;
+    }
+    .zakaz4{
+        min-height: 73px;
+    }
+    span.akciya{
+        font-size: 1rem;
+    }
+    .zakaz2 #zakaz .zakaz, .zakaz3 #zakaz .zakaz, .zakaz4 #zakaz .zakaz, .zakaz5 #zakaz .zakaz{
+        font-size: 1rem;
+    }
+    .clients1 .myh2{
+        font-size: 1.5rem;
+    }
+    .clients1-bg .clients1-bg span{
+        font-size: 1rem;
+    }
+    .clients1-bg .clear_self a{
+        width: 90%;
+    }
+    #number_car{
+        height: 405px;
+    }
+}

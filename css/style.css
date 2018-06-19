@@ -635,6 +635,9 @@ h2.balopis{color: #000000;font-size: 50px;font-family: "PT Sans";padding: 0px;ma
     justify-content: center;
   }
 }
+.mob_more_wrapp{
+  display: block;
+}
 @media screen and (max-width: 768px){
   .mapp{
     height: 250px;

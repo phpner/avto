@@ -397,7 +397,7 @@
 <span>г.Челябинск, ул. Чичерина 24 <br>(Городской автомоечный комплекс)</span>
 </div>
     <div class="mapp">
-<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=qXKspKQ2Ozf4RTfiNrUQzy7LPFKEKKEc"></script>
+        <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=qXKspKQ2Ozf4RTfiNrUQzy7LPFKEKKEc"></script>
     </div>
 <br><br>
 
@@ -406,9 +406,6 @@
 <br><br>
 <!--компания в лицах -->
 <div class="face">
-
-
-
 <div class="myautolig">Компания в лицах</div>
     <span>
         <img src="images/face1.jpg" alt="">
@@ -467,9 +464,6 @@
 <div id="video">
 <iframe width="561" height="325" src="//www.youtube.com/embed/SJZN-H0qgEc" frameborder="0" allowfullscreen></iframe>
 </div>
-
-
-
 
 <!--Услуги -->
 <div id="uslugiopis">
@@ -599,6 +593,19 @@
 <script type="text/javascript" src="fancybox/jquery.fancybox-1.2.1.pack.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
+        $( window ).resize(function() {
+
+            var w = $(window).width();
+            if(w > 720 && $(".mob_more_wrapp").is(":hidden") ){
+                $(".mob_more_wrapp").removeAttr('style');
+            }
+            if(w > 720 && $(".mob_more_wrapp_comment").is(":hidden") ){
+                $(".mob_more_wrapp_comment").removeAttr('style');
+            }
+
+        });
+
+
         $(".mob_h2 a").bind("click",function (e){
             e.preventDefault();
             var text = $(".mob_h2 a").text();
@@ -617,6 +624,7 @@
             $(".mob_more_wrapp_comment").slideToggle();
 
         });
+
         $("a.first").fancybox();
         $("a.two").fancybox();
         $("a.video").fancybox({"frameWidth":520,"frameHeight":400});

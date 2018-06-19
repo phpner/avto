@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <title>Ремонт автостекол в Челябинске | AutoStyle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Специалисты AutoStyle оперативно произведут ремонт автомобильных стекол, выполнив надежную заделку сколов и трещин на лобовом стекле. Подробности по телефону +7 (351) 750-62-73"/>
 <meta name="keywords" content="ремонт стекла скол трещина"/>
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
@@ -28,6 +29,7 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <body>
 <div id="steklofon">
 <div id="steklofon1">
+    <nav>
 <div id="logo"><a class="scrollto" href="/"><img border="0" src="/steklo/images/logo.png"></a></div>
 <div id="adres">
 	<a class="lala" href="tel:+73517506273"><span style="color:#FFFFFF;"> +7 (351) </span> <span class="tel"style="color:#FFFFFF;">750-62-73</a></span><br/>
@@ -35,11 +37,12 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 		<span class="adr">Ежедневно с 9.00 до 20.00<span>
 </div>
 <div id="soc">
-	<a href="http://vk.com/autostyle174" target="_blank"><img border="0" src="/steklo/images/vk.png"></a><br /><br />
+	<a href="http://vk.com/autostyle174" target="_blank"><img border="0" src="/steklo/images/vk.png"></a>
 	<a href="http://instagram.com/autostyle74" target="_blank"><img border="0" src="/steklo/images/inst.png"></a>
 </div>
 <div class="slogan">Ремонт автостекол в Челябинске</div>
-<div id="stekl"></div>
+    </nav>
+    <div id="stekl"></div>
 </div>
 </div>
 <div class="zakaz2">
@@ -55,16 +58,6 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 </span>
 </div>
 </div>
-
-
-
-
-
-	
-	
-	
-
-
 	
 
 	<div id="action">
@@ -147,15 +140,44 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <div id="cedialygf">
 <div id="cedialyg">
 <div class="myh2">Почему более 1500 клиентов <br> отремонтировали стекло у нас?</div><br><br><br>
-<div id="cedia1">Опыт работы мастеров<br/>более 5 лет</div>
-<div id="cedia2">Брендовые<br/>материалы</div> 
-<div id="cedia3">Гарантийные<br/>обязательства</div> 
-<div id="cedia4">Наличный<br/>и безналичный расчет</div> 
-<div id="cedia5">Сертифицированный<br/>автоцентр</div> 
-<div id="cedia6">Бережная работа<br/>с автомобилем</div> 
-<div id="cedia7">Соблюдение сроков</div> 
-<div id="cedia8">Двойной<br/>контроль качества</div> 
-<div id="cedia7">Работаем ежедневно<br/>с 9.00 до 20.00</div> 
+    <div class="whyMe">
+        <div id="yus1">
+            <img src="images/circ1.png" alt="">
+            <p>Опыт работы мастеров<br/>более 5 лет</p>
+        </div>
+        <div id="yus2">
+            <img src="images/circ5.png" alt="">
+            <p>Брендовые<br/>материалы</p>
+        </div>
+        <div id="yus3">
+            <img src="images/circ2.png" alt="">
+            <p>Гарантийные<br/>обязательства</p>
+        </div>
+        <div id="yus4">
+            <img src="images/circ6.png" alt="">
+            <p>Наличный<br/>и безналичный расчет</p>
+        </div>
+        <div id="yus5">
+            <img src="images/circ3.png" alt="">
+            <p>Сертифицированный<br/>автоцентр</p>
+        </div>
+        <div id="yus6">
+            <img src="images/circ7.png" alt="">
+            <p>Бережная работа<br/>с автомобилем</p>
+        </div>
+        <div id="yus7">
+            <img src="images/circ4.png" alt="">
+            <p>облюдение сроков</p>
+        </div>
+        <div id="yus8">
+            <img src="images/circ8.png" alt="">
+            <p>Двойной<br/>контроль качества</p>
+        </div>
+        <div id="yus7">
+            <img src="images/circ4.png" alt="">
+            <p>Работаем ежедневно<br/>с 9.00 до 20.00</p>
+        </div>
+    </div>
 </div>
 </div>
 
@@ -186,40 +208,42 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <div class="myh2">Наши работы</div>
 <br>
 <div align="center">
+<div class="us_wprks">
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo019.jpg"><img src="steklo/photo/steklo019-019.jpg" /></a>
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo020.jpg"><img src="steklo/photo/steklo020-020.jpg" /></a>
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo017.jpg"><img src="steklo/photo/steklo017-017.jpg" /></a>
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo018.jpg"><img src="steklo/photo/steklo018-018.jpg" /></a>
 
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo019.jpg"><img src="steklo/photo/steklo019-019.jpg" /></a>
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo020.jpg"><img src="steklo/photo/steklo020-020.jpg" /></a>
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo017.jpg"><img src="steklo/photo/steklo017-017.jpg" /></a>
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo018.jpg"><img src="steklo/photo/steklo018-018.jpg" /></a>
+    <br>
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo013.jpg"><img src="steklo/photo/steklo013-013.jpg" /></a>
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo014.jpg"><img src="steklo/photo/steklo014-014.jpg" /></a>
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo015.jpg"><img src="steklo/photo/steklo015-015.jpg" /></a>
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo016.jpg"><img src="steklo/photo/steklo016-016.jpg" /></a>
 
-<br>
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo013.jpg"><img src="steklo/photo/steklo013-013.jpg" /></a>
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo014.jpg"><img src="steklo/photo/steklo014-014.jpg" /></a>
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo015.jpg"><img src="steklo/photo/steklo015-015.jpg" /></a>
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo016.jpg"><img src="steklo/photo/steklo016-016.jpg" /></a>
+    <br>
 
-<br>
+    <div class="mob_more_wrapp_wort">
 
 
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo001.jpg"><img src="steklo/photo/steklo001-001.jpg" /></a>
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo002.jpg"><img src="steklo/photo/steklo002-002.jpg" /></a>
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo003.jpg"><img src="steklo/photo/steklo003-003.jpg" /></a>
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo004.jpg"><img src="steklo/photo/steklo004-004.jpg" /></a>
 
+    <br>
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo005.jpg"><img src="steklo/photo/steklo005-005.jpg" /></a>
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo006.jpg"><img src="steklo/photo/steklo006-006.jpg" /></a>
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo007.jpg"><img src="steklo/photo/steklo007-007.jpg" /></a>
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo008.jpg"><img src="steklo/photo/steklo008-008.jpg" /></a>
 
-
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo001.jpg"><img src="steklo/photo/steklo001-001.jpg" /></a>
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo002.jpg"><img src="steklo/photo/steklo002-002.jpg" /></a>
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo003.jpg"><img src="steklo/photo/steklo003-003.jpg" /></a>
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo004.jpg"><img src="steklo/photo/steklo004-004.jpg" /></a>
-
-<br>
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo005.jpg"><img src="steklo/photo/steklo005-005.jpg" /></a>
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo006.jpg"><img src="steklo/photo/steklo006-006.jpg" /></a>
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo007.jpg"><img src="steklo/photo/steklo007-007.jpg" /></a>
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo008.jpg"><img src="steklo/photo/steklo008-008.jpg" /></a>
-
-<br>
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo009.jpg"><img src="steklo/photo/steklo009-009.jpg" /></a>
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo010.jpg"><img src="steklo/photo/steklo010-010.jpg" /></a>
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo011.jpg"><img src="steklo/photo/steklo011-011.jpg" /></a>
-<a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo012.jpg"><img src="steklo/photo/steklo012-012.jpg" /></a>
+    <br>
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo009.jpg"><img src="steklo/photo/steklo009-009.jpg" /></a>
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo010.jpg"><img src="steklo/photo/steklo010-010.jpg" /></a>
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo011.jpg"><img src="steklo/photo/steklo011-011.jpg" /></a>
+    <a class="two" rel="group" title="Ремонт авто стекла" href="steklo/photo/steklo012.jpg"><img src="steklo/photo/steklo012-012.jpg" /></a>
+    </div>
+    <h2 class="mob_h2_work mob_how_mow"><a href="#">Показать больше</a></h2>
+</div>
 </div>		
 </div> 
 
@@ -251,15 +275,6 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <div class="clients1" align="center">		
 <div class="myh2">Наши клиенты</div><br>	
 
-
-
-
-
-
-
-
-
-
 <img alt="" src="images/clients/kli28033.png">
 <img alt="" src="images/clients/kli28032.png">
 <img alt="" src="images/clients/kli28031.png"><br>
@@ -278,31 +293,35 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <img alt="" src="images/clients/kli28016.png">
 <img alt="" src="images/clients/kli28017.png">
 <img alt="" src="images/clients/kli28022.png"><br>
+<div class="mob_more_wrapp">
+    <div class="mob_more">
+    <img alt="" src="images/clients/kli28021.png">
+    <img alt="" src="images/clients/kli28020.png">
+    <img alt="" src="images/clients/kli28015.png"><br>
 
-<img alt="" src="images/clients/kli28021.png">
-<img alt="" src="images/clients/kli28020.png">
-<img alt="" src="images/clients/kli28015.png"><br>
-
-<img alt="" src="images/clients/kli28013.png">
-<img alt="" src="images/clients/kli28014.png">
-<img alt="" src="images/clients/kli28003.png"><br>
+    <img alt="" src="images/clients/kli28013.png">
+    <img alt="" src="images/clients/kli28014.png">
+    <img alt="" src="images/clients/kli28003.png"><br>
 
 
-<img alt="" src="images/clients/kli28005.png">
-<img alt="" src="images/clients/kli28004.png">
-<img alt="" src="images/clients/kli28006.png"><br>
+    <img alt="" src="images/clients/kli28005.png">
+    <img alt="" src="images/clients/kli28004.png">
+    <img alt="" src="images/clients/kli28006.png"><br>
 
-<img alt="" src="images/clients/kli28010.png">
-<img alt="" src="images/clients/kli28001.png">
-<img alt="" src="images/clients/kli28028.png"><br>
+    <img alt="" src="images/clients/kli28010.png">
+    <img alt="" src="images/clients/kli28001.png">
+    <img alt="" src="images/clients/kli28028.png"><br>
 
-<img alt="" src="images/clients/kli28011.png">
-<img alt="" src="images/clients/2.png">
-<img alt="" src="images/clients/3.png"><br>
+    <img alt="" src="images/clients/kli28011.png">
+    <img alt="" src="images/clients/2.png">
+    <img alt="" src="images/clients/3.png"><br>
 
-<img alt="" src="images/clients/kli28007.png">
-<img alt="" src="images/clients/kli28012.png">
-<img alt="" src="images/clients/kli28002.png"><br>
+    <img alt="" src="images/clients/kli28007.png">
+    <img alt="" src="images/clients/kli28012.png">
+    <img alt="" src="images/clients/kli28002.png"><br>
+    </div>
+</div>
+    <h2 class="mob_h2 mob_how_mow"><a href="#">Показать больше</a></h2>
 
 			<div class="frends">
 				</div>
@@ -351,150 +370,163 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 </div>
 </div>	<br>
 
+<div class="mob_more_wrapp_comment">
+    <div class="item clear_self">
+    <img src="steklo/images/nick14.png" alt="">
+    <div class="georgia">Анна, Ford Focus. 14.04.2017 Дорогие автовладельцы, те, у кого есть #машина или другое транспортное средство в котором есть #стекло ?? Случилась тут со мной неприятность, прилетел мне в лобовое стекло шип, да так, что появился скол, а потом и трещина. Я думала меня хватит удар, я кого-нибудь убью и жизнь кончена. Это был первый раз в моей жизни когда я ненавидела свою работу и этот ебу*ий Кременкуль. Пришлось мне срочно думать куда ехать и где стекло чинить, так как за замену мне насчитали аж 40 000, а почку мою никто покупать не хочет. Кинула я значит клич вконтакте и в @club122728581 мне посоветовали съездить в @AutoStyle174 Скажу честно я ехала просто узнать цену, так как время уже было дохирище и на починку я не расчитывала. Сервис я нашла быстро, несмотря на мой топографический кретинизм. Меня встретил милый милый парень, всё мне доступно объяснил и показал, и самое удивительное, вызвал на работу мастера который был дома и почему-то не почувствовал что я должна приехать, ведь я не записалась как все нормальные люди (ну проститепростите,я больше так не буду) Сделал он всё быстро, красиво и аккуратно, и даже не ненавидел меня, а был очень вежлив и приятен. Цена вопроса 2000 р. за трещину в 50 см и час времени. Есть где-то конечно и дешевле, но что-то мне тут понравилось??? Короче спасибо вам, я обязательно вернусь????
+    <a href="https://vk.com/id5041900" target="_blank">https://vk.com/id5041900</a>
+    </div>
+    </div>	<br>
 
-<div class="item clear_self">
-<img src="steklo/images/nick14.png" alt="">
-<div class="georgia">Анна, Ford Focus. 14.04.2017 Дорогие автовладельцы, те, у кого есть #машина или другое транспортное средство в котором есть #стекло ?? Случилась тут со мной неприятность, прилетел мне в лобовое стекло шип, да так, что появился скол, а потом и трещина. Я думала меня хватит удар, я кого-нибудь убью и жизнь кончена. Это был первый раз в моей жизни когда я ненавидела свою работу и этот ебу*ий Кременкуль. Пришлось мне срочно думать куда ехать и где стекло чинить, так как за замену мне насчитали аж 40 000, а почку мою никто покупать не хочет. Кинула я значит клич вконтакте и в @club122728581 мне посоветовали съездить в @AutoStyle174 Скажу честно я ехала просто узнать цену, так как время уже было дохирище и на починку я не расчитывала. Сервис я нашла быстро, несмотря на мой топографический кретинизм. Меня встретил милый милый парень, всё мне доступно объяснил и показал, и самое удивительное, вызвал на работу мастера который был дома и почему-то не почувствовал что я должна приехать, ведь я не записалась как все нормальные люди (ну проститепростите,я больше так не буду) Сделал он всё быстро, красиво и аккуратно, и даже не ненавидел меня, а был очень вежлив и приятен. Цена вопроса 2000 р. за трещину в 50 см и час времени. Есть где-то конечно и дешевле, но что-то мне тут понравилось??? Короче спасибо вам, я обязательно вернусь????				
-<a href="https://vk.com/id5041900" target="_blank">https://vk.com/id5041900</a>
+
+    <div class="item clear_self">
+    <img src="steklo/images/nick15.png" alt="">
+    <div class="georgia">Евгений, Opel Astra. 20.03.2017 Делал в AS стекло, был большой скол, после ремонта осталась точка, практически не видно! Остался очень доволен. В начале зимы устанавливал сигнализацию с автозапуском, все быстро и качественно. Скоро поеду на тонировку!
+    <a href="https://vk.com/id213483982" target="_blank">https://vk.com/id213483982</a>
+    </div>
+    </div>	<br>
+
+
+
+    <div class="item clear_self">
+    <img src="steklo/images/nick11.png" alt="">
+    <div class="georgia">Ирина, Mazda CX5. 22.03.2016 Заехали в AutoStyle засверлить скол на лобовом стекле, а у ребят новая приколюха - X-Box, Время пролетело не заметно, стекло отлично сделали. Спасибо за сервис и профессионализм!
+    <a href="http://vk.com/sofina_i" target="_blank">http://vk.com/sofina_i</a>
+    </div>
+    </div>	<br>
+
+
+
+
+
+    <div class="item clear_self">
+    <img src="steklo/images/nick12.png" alt="">
+    <div class="georgia">Наталья, Kia Rio. Ремонтировала лобовое стекло (2 раза) - сделали хорошо, спасибо!
+    <a href="http://vk.com/id58372011" target="_blank">http://vk.com/id58372011</a>
+    </div>
+    </div>	<br><br>
+
+
+    <div class="item clear_self">
+    <img src="steklo/images/nick10.png" alt="">
+    <div class="georgia">Денис, Mercedes. Делал скол в AS, сделали очень хорошо, быстро оперативно без очереди!
+    <a href="http://vk.com/shumin_dv" target="_blank">http://vk.com/shumin_dv</a>
+    </div>
+    </div>	<br><br>
+
+
+    <div class="item clear_self">
+    <img src="steklo/images/nick1.png" alt="">
+    <div class="georgia">Михаил, Бронировал Audi A5 и тонировал BMW X6. Для меня самое главное - это время! Все выполнили в оговоренные сроки и хочу отметить с их стороны великолепное обслуживание и лояльные цены без потери качества! Советую всем друзьям и знакомым!  <a href="http://vk.com/mishamed" target="_blank">http://vk.com/mishamed</a>
+    </div>
+    </div><br>
+    <div class="item clear_self">
+    <img src="steklo/images/nick2.png" alt="">
+    <div class="georgia">Светлана, Audi A5. Спасибо за полировку и нано-покрытие! Все сделано на 5+!!! Машина блестит! Огонь!! <a href="http://vk.com/id12363909" target="_blank">http://vk.com/id12363909</a>
+    </div>
+    </div><br>
+    <div class="item clear_self">
+    <img src="steklo/images/nick3.png" alt="">
+    <div class="georgia">Ольга, Skoda Octavia. Я очень привередливый человек, но в AutoStyle мне все понравилось, встретили, рассказали, показали! Бронепленку наклеили просто замечательно, езжу уже 2й год и ни каких нареканий! <a href="http://vk.com/id46060648" target="_blank">http://vk.com/id46060648</a>
+    </div>
+    </div><br>
+    <div class="item clear_self">
+    <img src="steklo/images/nick4.png" alt="">
+    <div class="georgia">Станислав, Volkswagen Passat. Сделал тонировку в AutoStyle 22.03.14, работают профессионалы, качеством очень доволен, а самое главное - адекватными ценами! Молодцы, так держать! <a href="http://vk.com/sonnov" target="_blank">http://vk.com/sonnov</a>
+    </div>
+    </div><br>
+    <div class="item clear_self">
+    <img src="steklo/images/nick5.png" alt="">
+    <div class="georgia">Руслан, Subaru Forester. Бронировал свой автомобиль 6 месяцев назад, на крае зеркала пленка отошла, приехал, переклеели. Настоящая гарантия! Всем рекомендую! <a href="http://vk.com/unik79" target="_blank">http://vk.com/unik79</a>
+    </div>
+    </div><br>
+    <div class="item clear_self">
+    <img src="steklo/images/nick7.png" alt="">
+    <div class="georgia">Константин, Chevrolet Lacetti. Тонировал 22.11.2014. Ребята, спасибо огромное вам, очень доволен, быстро и качественно сделали. Теперь стильное Авто. <a href="http://vk.com/k.tarasov327" target="_blank">http://vk.com/k.tarasov327</a>
+    </div>
+    </div><br>
+    <div class="item clear_self">
+    <img src="steklo/images/nick8.png" alt="">
+    <div class="georgia">Юрий, Лада Приора. Огромное спасибо Auto Style устанавливали сигнализацию на мой автомобиль, мне очень понравилось обслуживание, очень бережное отношение к авто! Теперь всегда спокоен за свой автомобиль! <a href="http://vk.com/id223687714" target="_blank">http://vk.com/id223687714</a>
+    </div>
+    </div><br>
+    <div class="item clear_self">
+    <img src="steklo/images/nick6.png" alt="">
+    <div class="georgia">Илья, Лада Приора. Полировал свой автомобиль, сделали четко)) безумно доволен))) <a href="http://vk.com/id21066982" target="_blank">http://vk.com/id21066982</a>
+    </div>
+    </div>
 </div>
-</div>	<br>
-
-
-<div class="item clear_self">
-<img src="steklo/images/nick15.png" alt="">
-<div class="georgia">Евгений, Opel Astra. 20.03.2017 Делал в AS стекло, был большой скол, после ремонта осталась точка, практически не видно! Остался очень доволен. В начале зимы устанавливал сигнализацию с автозапуском, все быстро и качественно. Скоро поеду на тонировку!				
-<a href="https://vk.com/id213483982" target="_blank">https://vk.com/id213483982</a>
-</div>
-</div>	<br>
-
-
-
-<div class="item clear_self">
-<img src="steklo/images/nick11.png" alt="">
-<div class="georgia">Ирина, Mazda CX5. 22.03.2016 Заехали в AutoStyle засверлить скол на лобовом стекле, а у ребят новая приколюха - X-Box, Время пролетело не заметно, стекло отлично сделали. Спасибо за сервис и профессионализм!				
-<a href="http://vk.com/sofina_i" target="_blank">http://vk.com/sofina_i</a>
-</div>
-</div>	<br>
-
-
-
-
-
-<div class="item clear_self">
-<img src="steklo/images/nick12.png" alt="">
-<div class="georgia">Наталья, Kia Rio. Ремонтировала лобовое стекло (2 раза) - сделали хорошо, спасибо!				
-<a href="http://vk.com/id58372011" target="_blank">http://vk.com/id58372011</a>
-</div>
-</div>	<br><br>
-
-
-<div class="item clear_self">
-<img src="steklo/images/nick10.png" alt="">
-<div class="georgia">Денис, Mercedes. Делал скол в AS, сделали очень хорошо, быстро оперативно без очереди!				
-<a href="http://vk.com/shumin_dv" target="_blank">http://vk.com/shumin_dv</a>
-</div>
-</div>	<br><br>
-
-
-<div class="item clear_self">
-<img src="steklo/images/nick1.png" alt="">
-<div class="georgia">Михаил, Бронировал Audi A5 и тонировал BMW X6. Для меня самое главное - это время! Все выполнили в оговоренные сроки и хочу отметить с их стороны великолепное обслуживание и лояльные цены без потери качества! Советую всем друзьям и знакомым!  <a href="http://vk.com/mishamed" target="_blank">http://vk.com/mishamed</a>
-</div>
-</div><br>
-<div class="item clear_self">
-<img src="steklo/images/nick2.png" alt="">
-<div class="georgia">Светлана, Audi A5. Спасибо за полировку и нано-покрытие! Все сделано на 5+!!! Машина блестит! Огонь!! <a href="http://vk.com/id12363909" target="_blank">http://vk.com/id12363909</a>
-</div>
-</div><br>
-<div class="item clear_self">
-<img src="steklo/images/nick3.png" alt="">
-<div class="georgia">Ольга, Skoda Octavia. Я очень привередливый человек, но в AutoStyle мне все понравилось, встретили, рассказали, показали! Бронепленку наклеили просто замечательно, езжу уже 2й год и ни каких нареканий! <a href="http://vk.com/id46060648" target="_blank">http://vk.com/id46060648</a>
-</div>
-</div><br>
-<div class="item clear_self">
-<img src="steklo/images/nick4.png" alt="">
-<div class="georgia">Станислав, Volkswagen Passat. Сделал тонировку в AutoStyle 22.03.14, работают профессионалы, качеством очень доволен, а самое главное - адекватными ценами! Молодцы, так держать! <a href="http://vk.com/sonnov" target="_blank">http://vk.com/sonnov</a>
-</div>
-</div><br>
-<div class="item clear_self">
-<img src="steklo/images/nick5.png" alt="">
-<div class="georgia">Руслан, Subaru Forester. Бронировал свой автомобиль 6 месяцев назад, на крае зеркала пленка отошла, приехал, переклеели. Настоящая гарантия! Всем рекомендую! <a href="http://vk.com/unik79" target="_blank">http://vk.com/unik79</a>
-</div>
-</div><br>
-<div class="item clear_self">
-<img src="steklo/images/nick7.png" alt="">
-<div class="georgia">Константин, Chevrolet Lacetti. Тонировал 22.11.2014. Ребята, спасибо огромное вам, очень доволен, быстро и качественно сделали. Теперь стильное Авто. <a href="http://vk.com/k.tarasov327" target="_blank">http://vk.com/k.tarasov327</a>
-</div>
-</div><br>
-<div class="item clear_self">
-<img src="steklo/images/nick8.png" alt="">
-<div class="georgia">Юрий, Лада Приора. Огромное спасибо Auto Style устанавливали сигнализацию на мой автомобиль, мне очень понравилось обслуживание, очень бережное отношение к авто! Теперь всегда спокоен за свой автомобиль! <a href="http://vk.com/id223687714" target="_blank">http://vk.com/id223687714</a>
-</div>
-</div><br>
-<div class="item clear_self">
-<img src="steklo/images/nick6.png" alt="">
-<div class="georgia">Илья, Лада Приора. Полировал свой автомобиль, сделали четко)) безумно доволен))) <a href="http://vk.com/id21066982" target="_blank">http://vk.com/id21066982</a>
-</div>
-
-</div><br><br><br><br>
+    <h2 class="mob_h2_comment mob_how_mow"><a href="#">Показать больше</a></h2>
+    <br><br><br><br>
 <div class="clients1-bg">	
 <div class="myh2">Наше местоположение:</div>
 <span>г.Челябинск, ул. Чичерина 24 <br>(Городской автомоечный комплекс)</span>
 </div>
-<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=qXKspKQ2Ozf4RTfiNrUQzy7LPFKEKKEc&width=960&height=550"></script>
+    <div class="mapp">
+        <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=qXKspKQ2Ozf4RTfiNrUQzy7LPFKEKKEc"></script>
+    </div>
 <br><br>
 
-<img alt="" src="steklo/images/Ulca01.png">
-<img alt="" src="steklo/images/Ulca02.png">
+<img alt="" class="where_photo" src="steklo/images/Ulca01.png">
+<img alt="" class="where_photo" src="steklo/images/Ulca02.png">
 <br><br>
 
 
 
 
 <!--компания в лицах -->
-<div class="face">
-<div class="myautolig">Компания в лицах</div>
-<table border="0" style="align:center;">
-<tr>
-<td><img src="steklo/images/berd1.jpg" alt=""></td>
-<td><img src="steklo/images/berd2.jpg" alt=""></td>
-<td><img src="steklo/images/berd3.jpg" alt=""></td>
-<td><img src="steklo/images/berd4.jpg" alt=""></td>
-<td><img src="steklo/images/berd5.jpg" alt=""></td>
-<td><img src="steklo/images/berd6.jpg" alt=""></td>
-</tr>
-<tr>
-<td width="102px" style="text-align:center">
-Илья<br/>
-Тонирование<br/>
-Винил</td>
-<td width="102px" style="text-align:center">
-Антон<br/>
-Тонирование<br/>
-Полировка
-</td>
-<td width="102px" style="text-align:center">
-Денис<br/>
-Ремонт<br/>
-Стекла</td>
-<td width="102px" style="text-align:center">
-Александр<br/>
-Управляющий<br/>
-Компании
-</td>
-<td width="102px" style="text-align:center">
-Альберт<br/>
-Автоэлектрик<br/>
-Шумоизоляция</td>
-<td width="102px" style="text-align:center">
-Антон<br/>
-Бронирование<br/>
-Тонирование
-</td>
-</tr>
-</table>
-<div style="clear: both"></div>
-</div></div>
+    <div class="face">
+        <div class="myautolig">Компания в лицах</div>
+        <span>
+        <img src="images/face1.jpg" alt="">
+        <p>
+            Илья<br/>
+            Тонирование<br/>
+            Винил</td>
+        </p>
+    </span>
+        <span>
+        <img src="images/face2.jpg" alt="">
+        <p>
+           Антон<br/>
+            Тонирование<br/>
+            Полировка
+        </p>
+    </span>
+        <span>
+        <img src="images/face3.jpg" alt="">
+        <p>
+          Денис<br/>
+        Ремонт<br/>
+        Стекла</td>
+        </p>
+    </span>
+        <span>
+        <img src="images/face4.jpg" alt="">
+        <p>
+       Александр<br/>
+        Управляющий<br/>
+        Компании
+        </p>
+    </span>
+        <span>
+        <img src="images/face5.jpg" alt="">
+        <p>
+       Альберт<br/>
+        Автоэлектрик<br/>
+        Шумоизоляция</td>
+        </p>
+    </span>
+        <span>
+        <img src="images/face6.jpg" alt="">
+        <p>
+      Антон<br/>
+        Бронирование<br/>
+        Тонирование
+        </p>
+    </span>
+        <div style="clear: both"></div>
+    </div></div>
 <br/><br/>
 <!-- -->
 <div class="myautolig">AutoStyle в программе "Автолига"</div>
@@ -609,6 +641,57 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <footer>   
 <div class="fleft">
 <script>
+    $(document).ready(function() {
+
+        $( window ).resize(function() {
+            var w = $(window).width();
+            if(w > 720 && $(".mob_more_wrapp").is(":hidden") ){
+                $(".mob_more_wrapp").removeAttr('style');
+            }
+            if(w > 720 && $(".mob_more_wrapp_comment").is(":hidden") ){
+                $(".mob_more_wrapp_comment").removeAttr('style');
+            }
+            if(w > 720 && $(".mob_more_wrapp_wort").is(":hidden") ){
+                $(".mob_more_wrapp_wort").removeAttr('style');
+            }
+
+        });
+
+        /*clint*/
+
+        $(".mob_h2 a").bind("click",function (e){
+            console.log('here!!!');
+            e.preventDefault();
+            var text = $(".mob_h2 a").text();
+
+            text = (text === "Скрыть") ?  "Показать больше" : "Скрыть";
+
+            $(".mob_h2 a").text(text);
+            $(".mob_more_wrapp").slideToggle();
+        });
+
+        /*commet*/
+
+        $(".mob_h2_comment  a").bind("click",function (e){
+            e.preventDefault();
+            var textCom = $(".mob_h2_comment a").text();
+            textCom = (textCom === "Скрыть") ?  "Показать больше" : "Скрыть";
+            $(".mob_h2_comment a").text(textCom);
+            $(".mob_more_wrapp_comment").slideToggle();
+
+        });
+
+        /*WORK*/
+
+        $(".mob_h2_work  a").bind("click",function (e){
+            e.preventDefault();
+            var textCom = $(".mob_h2_work a").text();
+            textCom = (textCom === "Скрыть") ?  "Показать больше" : "Скрыть";
+            $(".mob_h2_work a").text(textCom);
+            $(".mob_more_wrapp_wort").slideToggle();
+
+        });
+    });
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
