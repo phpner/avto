@@ -22,7 +22,7 @@ jQuery(document).ready(function($){
 
 		$( 'html:not(:animated),body:not(:animated)' ).animate({ scrollTop: 0}, speed );
 	});
-	//появление
+	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	function show_scrollTop(){
 		( $(window).scrollTop() > 300 ) ? $scrollTop.fadeIn(600) : $scrollTop.fadeOut(600);
 	}

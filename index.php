@@ -6,56 +6,62 @@
 <meta name="description" content="Автосервис «AutoStyle» не первый год успешно работает на рынке косметических услуг для авто. Большие рабочие площади, опытный персонал и низкие цены. Подробности по телефону +7 (351) 750-62-73"/>
 <meta name="keywords" content="автоцентр автосервис челябинск"/>
 <meta name='yandex-verification' content='6625b219fb2522bc' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
 <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css">
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="js/preload.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-<script type="text/javascript" src="fancybox/jquery-1.3.2.min.js"></script>
-<script type="text/javascript" src="fancybox/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="fancybox/jquery.fancybox-1.2.1.pack.js"></script>
-<script type="text/javascript">
-$(document).ready(function() { 
-$("a.first").fancybox(); 
-$("a.two").fancybox(); 
-$("a.video").fancybox({"frameWidth":520,"frameHeight":400}); 
-$("a.content").fancybox({"frameWidth":600,"frameHeight":300}); 
-$("a.fancy-consent").fancybox({"frameWidth":640,"frameHeight":320, 'hideOnContentClick':false}); 
-});
-</script>
-<script src="js/nav.js" type="text/javascript"></script>
+
 </head>
 <body>
 <div class="mainfon">
 <div id="main">
-<div id="logo"><a class="scrollto" href="/"><img border="0" src="/images/logo.png"></a></div>
-<div id="adres">
-	<a class="lala" href="tel:+73517506273">+7 (351) <span class="tel">750-62-73</a></span><br/>
-	<span class="adr">г.Челябинск, ул. Чичерина 24<span>
-		<span class="adr">Ежедневно с 9.00 до 20.00<span>
+    <nav>
+        <div id="logo"><a class="scrollto" href="/"><img border="0" src="/images/logo.png"></a></div>
+        <div id="adres">
+            <a class="lala" href="tel:+73517506273">+7 (351) <span class="tel">750-62-73</a></span><br/>
+            <span class="adr">г.Челябинск, ул. Чичерина 24<span>
+                <span class="adr">Ежедневно с 9.00 до 20.00<span>
+        </div>
+        <div id="soc">
+            <a href="http://vk.com/autostyle174" target="_blank"><img border="0" src="/images/vk.png"></a>
+            <a href="http://instagram.com/autostyle74" target="_blank"><img border="0" src="/images/inst.png"></a>
+        </div>
+        <div class="slogan">Сделаем Ваш автомобиль красивее и комфортнее</div>
+</nav>
+    <img class="header-mob hidden" src="images/car.png" alt="">
+<div class="mob-h">
+    <div id="car">
+        <a href="/steklo.php" target="_blank"><div class="but11"></div></a>
+        <a href="/signal.php" target="_blank"><div class="but1"></div></a>
+        <a href="/bron.php" target="_blank"><div class="but2"></div></a>
+        <a href="/tonirovka.php" target="_blank"><div class="but3"></div></a>
+        <a href="/polirovka.php" target="_blank"><div class="but4"></div></a>
+        <a href="/pokritie.php" target="_blank"><div class="but5"></div></a>
+        <a href="/obkleika.php" target="_blank"><div class="but6"></div></a>
+        <a href="/brend.php" target="_blank"><div class="but12"></div></a>
+    </div>
+    <div id="gorblock">
+        <a href="/vmyatina.php" target="_blank"><div class="but7"></div></a>
+        <a href="/chip.php" target="_blank"><div class="but8"></div></a>
+        <a href="/shymka.php" target="_blank"><div class="but9"></div></a>
+        <a href="/shymka.php" target="_blank"><div class="but10"></div></a>
+    </div>
 </div>
-<div id="soc">
-	<a href="http://vk.com/autostyle174" target="_blank"><img border="0" src="/images/vk.png"></a><br /><br />
-	<a href="http://instagram.com/autostyle74" target="_blank"><img border="0" src="/images/inst.png"></a>
-</div>
-<div class="slogan">Сделаем Ваш автомобиль красивее и комфортнее</div>
-<div id="car">
-	<a href="/steklo.php" target="_blank"><div class="but11"></div></a>
-	<a href="/signal.php" target="_blank"><div class="but1"></div></a>
-	<a href="/bron.php" target="_blank"><div class="but2"></div></a>
-	<a href="/tonirovka.php" target="_blank"><div class="but3"></div></a>
-	<a href="/polirovka.php" target="_blank"><div class="but4"></div></a>
-	<a href="/pokritie.php" target="_blank"><div class="but5"></div></a>
-	<a href="/obkleika.php" target="_blank"><div class="but6"></div></a>
-	<a href="/brend.php" target="_blank"><div class="but12"></div></a>
-</div>
-<div id="gorblock">
-	<a href="/vmyatina.php" target="_blank"><div class="but7"></div></a>
-	<a href="/chip.php" target="_blank"><div class="but8"></div></a>
-	<a href="/shymka.php" target="_blank"><div class="but9"></div></a>
-	<a href="/shymka.php" target="_blank"><div class="but10"></div></a>
-</div>
+    <div class="mobMenu">
+        <a href="/signal.php" target="_blank"><div class="mobMenu__button btn-1"></div></a>
+        <a href="/bron.php" target="_blank"><div class="mobMenu__button btn-2"></div></a>
+        <a href="/tonirovka.php" target="_blank"><div class="mobMenu__button btn-3"></div></a>
+        <a href="/polirovka.php" target="_blank"><div class="mobMenu__button btn-4"></div></a>
+        <a href="/pokritie.php " target="_blank"><div class="mobMenu__button btn-5"></div></a>
+        <a href="/obkleika.php" target="_blank"><div class="mobMenu__button btn-6"></div></a>
+        <a href="/steklo.php" target="_blank"><div class="mobMenu__button btn-7"></div></a>
+        <a href="/brend.php" target="_blank"><div class="mobMenu__button btn-8"></div></a>
+        <a href="/vmyatina.php" target="_blank"><div class="mobMenu__button btn-9"></div></a>
+        <a href="/chip.php" target="_blank"><div class="mobMenu__button btn-10"></div></a>
+        <a href="/shymka.php" target="_blank"><div class="mobMenu__button btn-11"></div></a>
+        <a href="/shymka.php" target="_blank"><div class="mobMenu__button btn-12"></div></a>
+    </div>
 </div>
 </div>
 <div class="zakaz2">
@@ -128,7 +134,7 @@ $("a.fancy-consent").fancybox({"frameWidth":640,"frameHeight":320, 'hideOnConten
 <div id="yuslygf">
 <div id="yuslyg">
 <div class="myh2">Почему более 11 000 клиентов <br> обратились к нам?</div><br><br><br>
-<div id="yus1">Опыт работы мастеров<br/>более 5 лет</div>
+<!--<div id="yus1">Опыт работы мастеров<br/>более 5 лет</div>
 <div id="yus2">Брендовые<br/>материалы</div> 
 <div id="yus3">Гарантийные<br/>обязательства</div> 
 <div id="yus4">Наличный<br/>и безналичный расчет</div> 
@@ -136,7 +142,45 @@ $("a.fancy-consent").fancybox({"frameWidth":640,"frameHeight":320, 'hideOnConten
 <div id="yus6">Бережная работа<br/>с автомобилем</div> 
 <div id="yus7">Соблюдение сроков</div> 
 <div id="yus8">Двойной<br/>контроль качества</div> 
-<div id="yus7">Работаем ежедневно<br/>с 9.00 до 20.00</div> 
+<div id="yus7">Работаем ежедневно<br/>с 9.00 до 20.00</div>-->
+    <div class="whyMe">
+    <div id="yus1">
+        <img src="images/circ1.png" alt="">
+        <p>Опыт работы мастеров<br/>более 5 лет</p>
+    </div>
+    <div id="yus2">
+        <img src="images/circ5.png" alt="">
+        <p>Брендовые<br/>материалы</p>
+    </div>
+    <div id="yus3">
+        <img src="images/circ2.png" alt="">
+        <p>Гарантийные<br/>обязательства</p>
+    </div>
+    <div id="yus4">
+        <img src="images/circ6.png" alt="">
+        <p>Наличный<br/>и безналичный расчет</p>
+    </div>
+    <div id="yus5">
+        <img src="images/circ3.png" alt="">
+        <p>Сертифицированный<br/>автоцентр</p>
+    </div>
+    <div id="yus6">
+        <img src="images/circ7.png" alt="">
+        <p>Бережная работа<br/>с автомобилем</p>
+    </div>
+    <div id="yus7">
+        <img src="images/circ4.png" alt="">
+        <p>облюдение сроков</p>
+    </div>
+    <div id="yus8">
+        <img src="images/circ8.png" alt="">
+        <p>Двойной<br/>контроль качества</p>
+    </div>
+    <div id="yus7">
+        <img src="images/circ4.png" alt="">
+        <p>Работаем ежедневно<br/>с 9.00 до 20.00</p>
+    </div>
+    </div>
 </div>
 </div>
 <div class="zakaz4">
@@ -171,10 +215,10 @@ $("a.fancy-consent").fancybox({"frameWidth":640,"frameHeight":320, 'hideOnConten
 <br>
 <div class="myh2">Наши сертификаты</div>
 <br><br><br>
-<div align="center">
+<div class="giftFlex" align="center">
 <a class="two" rel="group" title="Сертификат" href="images/clients/004AutoStyle.jpg"><img src="images/clients/004AutoStyle01.jpg" /></a>
 <a class="two" rel="group" title="Сертификат" href="images/clients/001AutoStyle.jpg"><img src="images/clients/001AutoStyle01.jpg" /></a>
-<a class="two" rel="group" title="Приложение" href="images/clients/002AutoStyle.jpg"><img src="images/clients/002AutoStyle01.jpg" /></a>
+<a class="two three" rel="group" title="Приложение" href="images/clients/002AutoStyle.jpg"><img src="images/clients/002AutoStyle01.jpg" /></a>
 <a class="two" rel="group" title="Автоэлектрик" href="images/clients/003AutoStyle.jpg"><img src="images/clients/003AutoStyle01.jpg" /></a>
 </div>		
 </div> 
@@ -189,47 +233,58 @@ $("a.fancy-consent").fancybox({"frameWidth":640,"frameHeight":320, 'hideOnConten
 <img alt="" src="images/clients/kli28030.png">
 <img alt="" src="images/clients/kli28029.png">
 <img alt="" src="images/clients/kli28023.png"><br>
+<div class="mob_more_wrapp">
+    <div class="mob_more">
+        <img alt="" src="images/clients/kli28025.png">
+        <img alt="" src="images/clients/kli28024.png">
+        <img alt="" src="images/clients/kli28018.png"><br>
+
+        <img alt="" src="images/clients/kli28016.png">
+        <img alt="" src="images/clients/kli28017.png">
+        <img alt="" src="images/clients/kli28022.png"><br>
+
+        <img alt="" src="images/clients/kli28025.png">
+        <img alt="" src="images/clients/kli28024.png">
+        <img alt="" src="images/clients/kli28018.png"><br>
+
+        <img alt="" src="images/clients/kli28016.png">
+        <img alt="" src="images/clients/kli28017.png">
+        <img alt="" src="images/clients/kli28022.png"><br>
+
+        <img alt="" src="images/clients/kli28016.png">
+        <img alt="" src="images/clients/kli28017.png">
+        <img alt="" src="images/clients/kli28022.png"><br>
+
+        <img alt="" src="images/clients/kli28021.png">
+        <img alt="" src="images/clients/kli28020.png">
+        <img alt="" src="images/clients/kli28015.png"><br>
+        <img alt="" src="images/clients/kli28013.png">
+        <img alt="" src="images/clients/kli28014.png">
+        <img alt="" src="images/clients/kli28003.png"><br>
 
 
+        <img alt="" src="images/clients/kli28005.png">
+        <img alt="" src="images/clients/kli28004.png">
+        <img alt="" src="images/clients/kli28006.png"><br>
 
+        <img alt="" src="images/clients/kli28010.png">
+        <img alt="" src="images/clients/kli28001.png">
+        <img alt="" src="images/clients/kli28028.png"><br>
 
-<img alt="" src="images/clients/kli28025.png">
-<img alt="" src="images/clients/kli28024.png">
-<img alt="" src="images/clients/kli28018.png"><br>
+        <img alt="" src="images/clients/kli28011.png">
+        <img alt="" src="images/clients/2.png">
+        <img alt="" src="images/clients/3.png"><br>
 
-<img alt="" src="images/clients/kli28016.png">
-<img alt="" src="images/clients/kli28017.png">
-<img alt="" src="images/clients/kli28022.png"><br>
+        <img alt="" src="images/clients/kli28007.png">
+        <img alt="" src="images/clients/kli28012.png">
+        <img alt="" src="images/clients/kli28002.png"><br>
 
-<img alt="" src="images/clients/kli28021.png">
-<img alt="" src="images/clients/kli28020.png">
-<img alt="" src="images/clients/kli28015.png"><br>
-
-<img alt="" src="images/clients/kli28013.png">
-<img alt="" src="images/clients/kli28014.png">
-<img alt="" src="images/clients/kli28003.png"><br>
-
-
-<img alt="" src="images/clients/kli28005.png">
-<img alt="" src="images/clients/kli28004.png">
-<img alt="" src="images/clients/kli28006.png"><br>
-
-<img alt="" src="images/clients/kli28010.png">
-<img alt="" src="images/clients/kli28001.png">
-<img alt="" src="images/clients/kli28028.png"><br>
-
-<img alt="" src="images/clients/kli28011.png">
-<img alt="" src="images/clients/2.png">
-<img alt="" src="images/clients/3.png"><br>
-
-<img alt="" src="images/clients/kli28007.png">
-<img alt="" src="images/clients/kli28012.png">
-<img alt="" src="images/clients/kli28002.png"><br>
-
-<img alt="" src="images/clients/kli28040.png">
-<img alt="" src="images/clients/kli28041.png">
-<img alt="" src="images/clients/kli28042.png"><br>
-
+        <img alt="" src="images/clients/kli28040.png">
+        <img alt="" src="images/clients/kli28041.png">
+        <img alt="" src="images/clients/kli28042.png"><br>
+    </div>
+</div>
+    <h2 class="mob_h2 mob_how_mow"><a href="#">Показать больше</a></h2>
 
 			<div class="frends">
 				</div>
@@ -271,7 +326,7 @@ $("a.fancy-consent").fancybox({"frameWidth":640,"frameHeight":320, 'hideOnConten
 </div>
 </div><br>
 
-
+<div class="mob_more_wrapp_comment">
 <div class="item clear_self">
 <img src="images/no_avatar2.png" alt="">
 <div class="georgia">Светлана, Audi A5. Спасибо за полировку и нано-покрытие! Все сделано на 5+!!! Машина блестит! Огонь!! <a href="http://vk.com/id12363909" target="_blank">http://vk.com/id12363909</a>
@@ -334,63 +389,75 @@ $("a.fancy-consent").fancybox({"frameWidth":640,"frameHeight":320, 'hideOnConten
 <div class="georgia">Константин, Ford Focus 2. Делал глубокую полировку, очень доволен результатом. Внимательное отношение к клиенту и качественно выполненная работа. Советую!
 </div>
 </div>
+</div>
+    <h2 class="mob_h2_comment mob_how_mow"><a href="#">Показать больше</a></h2>
 </div><br><br><br><br>
 <div class="clients1-bg">	
 <div class="myh2">Наше местоположение:</div>
 <span>г.Челябинск, ул. Чичерина 24 <br>(Городской автомоечный комплекс)</span>
 </div>
-<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=qXKspKQ2Ozf4RTfiNrUQzy7LPFKEKKEc&width=960&height=550"></script>
+    <div class="mapp">
+<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=qXKspKQ2Ozf4RTfiNrUQzy7LPFKEKKEc"></script>
+    </div>
 <br><br>
 
-<img alt="" src="images/AutoStyle001.png">
-<img alt="" src="images/AutoStyle002.png">
+<img class="where_photo" alt="" src="images/AutoStyle001.png">
+<img class="where_photo" alt="" src="images/AutoStyle002.png">
 <br><br>
-
-
-
-
 <!--компания в лицах -->
 <div class="face">
+
+
+
 <div class="myautolig">Компания в лицах</div>
-<table border="0" style="align:center;">
-<tr>
-<td><img src="images/face1.jpg" alt=""></td>
-<td><img src="images/face2.jpg" alt=""></td>
-<td><img src="images/face3.jpg" alt=""></td>
-<td><img src="images/face4.jpg" alt=""></td>
-<td><img src="images/face5.jpg" alt=""></td>
-<td><img src="images/face6.jpg" alt=""></td>
-</tr>
-<tr>
-<td width="102px" style="text-align:center">
-Илья<br/>
-Тонирование<br/>
-Винил</td>
-<td width="102px" style="text-align:center">
-Антон<br/>
-Тонирование<br/>
-Полировка
-</td>
-<td width="102px" style="text-align:center">
-Денис<br/>
-Ремонт<br/>
-Стекла</td>
-<td width="102px" style="text-align:center">
-Александр<br/>
-Управляющий<br/>
-Компании
-</td>
-<td width="102px" style="text-align:center">
-Альберт<br/>
-Автоэлектрик<br/>
-Шумоизоляция</td>
-<td width="102px" style="text-align:center">
-Антон<br/>
-Бронирование<br/>
-Тонирование
-</td>
-</tr>
-</table>
+    <span>
+        <img src="images/face1.jpg" alt="">
+        <p>
+            Илья<br/>
+            Тонирование<br/>
+            Винил</td>
+        </p>
+    </span>
+    <span>
+        <img src="images/face2.jpg" alt="">
+        <p>
+           Антон<br/>
+            Тонирование<br/>
+            Полировка
+        </p>
+    </span>
+    <span>
+        <img src="images/face3.jpg" alt="">
+        <p>
+          Денис<br/>
+        Ремонт<br/>
+        Стекла</td>
+        </p>
+    </span>
+    <span>
+        <img src="images/face4.jpg" alt="">
+        <p>
+       Александр<br/>
+        Управляющий<br/>
+        Компании
+        </p>
+    </span>
+    <span>
+        <img src="images/face5.jpg" alt="">
+        <p>
+       Альберт<br/>
+        Автоэлектрик<br/>
+        Шумоизоляция</td>
+        </p>
+    </span>
+    <span>
+        <img src="images/face6.jpg" alt="">
+        <p>
+      Антон<br/>
+        Бронирование<br/>
+        Тонирование
+        </p>
+    </span>
 <div style="clear: both"></div>
 </div></div>
 <br/><br/>
@@ -466,20 +533,6 @@ $("a.fancy-consent").fancybox({"frameWidth":640,"frameHeight":320, 'hideOnConten
 </footer>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <br>
 
 <div class="myh2">Подарочные сертификаты:</div>
@@ -498,8 +551,9 @@ $("a.fancy-consent").fancybox({"frameWidth":640,"frameHeight":320, 'hideOnConten
 <p style="text-align: justify;">"AutoStyle" - это автосервис косметического обслуживания. Грамотные, квалифицированные сотрудники этого автосервиса устанавливают сигнализацию на автомобили любой марки, выполняют бронирование авто защитной пленкой, не допускающей появления царапин и сколов, а также осуществляют полировку и тонировку авто в Челябинске. Все эти работы мы выполняем быстро, на высоком профессиональном уровне.</p>
 <p id='spoiler-show' style="text-align: justify;"><span>Читать полностью</span></p>
 <div id='spoiler-content'>
+    <h2>Услуги автосервиса</h2>
 <p><img src="/images/glavnaya.png" width="300" height="183" alt="Тонировка авто в Челябинске" title="Тонировка авто в Челябинске" style="float: right; margin: 5px 7px;" /></p>
-<h2>Услуги автосервиса</h2>
+
 <p></p>
 <p justify="">"AutoStyle" предоставляет клиентам следующие услуги:</p>
 <ol>
@@ -538,6 +592,39 @@ $("a.fancy-consent").fancybox({"frameWidth":640,"frameHeight":320, 'hideOnConten
 <p id='spoiler-hide' style="text-align: justify;"><span>Свернуть текст</span></p>
 </div>
 <div style='clear:both;'></div>
+<script type="text/javascript" src="js/preload.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="fancybox/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="fancybox/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.2.1.pack.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".mob_h2 a").bind("click",function (e){
+            e.preventDefault();
+            var text = $(".mob_h2 a").text();
+
+            text = (text === "Скрыть") ?  "Показать больше" : "Скрыть";
+
+            $(".mob_h2 a").text(text);
+            $(".mob_more_wrapp").slideToggle();
+        });
+
+        $(".mob_h2_comment a").bind("click",function (e){
+            e.preventDefault();
+            var textCom = $(".mob_h2_comment a").text();
+            textCom = (textCom === "Скрыть") ?  "Показать больше" : "Скрыть";
+            $(".mob_h2_comment a").text(textCom);
+            $(".mob_more_wrapp_comment").slideToggle();
+
+        });
+        $("a.first").fancybox();
+        $("a.two").fancybox();
+        $("a.video").fancybox({"frameWidth":520,"frameHeight":400});
+        $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
+        $("a.fancy-consent").fancybox({"frameWidth":640,"frameHeight":320, 'hideOnContentClick':false});
+    });
+</script>
+<script src="js/nav.js" type="text/javascript"></script>
 <script src="js/spoiler.js"></script>
 
 <footer>   
@@ -629,6 +716,7 @@ $("a.fancy-consent").fancybox({"frameWidth":640,"frameHeight":320, 'hideOnConten
 	</div>
 </div>
 <script>
+
 document.getElementById('feedback-form').addEventListener('submit', function(evt){
   var http = new XMLHttpRequest(), f = this;
   evt.preventDefault();
