@@ -220,21 +220,12 @@ z-index: 10;
 span.tel{font-size: 40px;}
 span.adr{font-size: 20px;}
 #soc{position: relative;width: 33px;display: inline-block;left: 548px;top: 17px;}
-.slogan{position: absolute;color: #fff;font-size: 34px;width: 370px;text-align: center;font-family: "PT Sans";padding: 0px;margin: 0px;left: 425px;top: 12px;z-index:1000;}
+.my1h1{position: absolute;color: #fff;font-size: 34px;width: 370px;text-align: center;font-family: "PT Sans";padding: 0px;margin: 0px;left: 425px;top: 12px;z-index:1000;}
 
 #logo a{text-decoration: none;}
 #yuslygf{position: relative;background: url('../shymka/images/gifts12.jpg') top center no-repeat;width: 100%;min-width:1200px;margin: 0 auto;}
 #yuslyg{position: relative;width: 1200px;height:850px;padding-top: 50px;margin: 0 auto;}
-#yus1,#yus2,#yus3,#yus4,#yus5,#yus6,#yus7,#yus8{position: relative;display: inline-block;width: 360px;height: 83px;color: #000000;font-family: Trebuchet MS;font-size: 25px;background-position: center left;padding-left: 111px;padding-top: 15px;margin-left: 115px;margin-bottom: 26px;text-align: left;}
-#yus2,#yus4,#yus6,#yus8{margin-left: 80px;}
-#yus1{background: url('../shymka/images/circ1.png') no-repeat;}
-#yus2{background: url('../shymka/images/circ5.png') no-repeat;}
-#yus3{background: url('../shymka/images/circ2.png') no-repeat;}
-#yus4{background: url('../shymka/images/circ6.png') no-repeat;}
-#yus5{background: url('../shymka/images/circ3.png') no-repeat;}
-#yus6{background: url('../shymka/images/circ7.png') no-repeat;}
-#yus7{padding-top: 30px;background: url('../shymka/images/circ4.png') no-repeat;top: -20px;}
-#yus8{background: url('../shymka/images/circ8.png') no-repeat;}
+
 #gifts13{display: block;height: 819px;width: 100%;min-width:1200px;position: relative;margin: 0 auto;background: url('../shymka/images/gifts13.jpg')top center no-repeat;}
 #gifts11{display: block;height: 687px;width: 100%;min-width:1200px;position: relative;margin: 0 auto;background: url('../shymka/images/gifts11.jpg')top center no-repeat;}
 #gifts14{display: block;height: 670px;width: 100%;min-width:1200px;position: relative;margin: 0 auto;background: url('../shymka/images/gifts14.jpg')top center no-repeat;}
@@ -307,3 +298,329 @@ span.usl2{color:#fff;font-size:29px;font-family: "PT Sans";text-align: center;ma
 #zn10{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -630px 0px;}
 #zn11{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -700px 0px;}
 #zn12{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -770px 0px;}
+
+#uslugiopis {
+    display: block;
+    height: 908px;
+    width: 100%;
+    min-width: 100%;
+    position: relative;
+    margin: 0 auto;
+    background: url(../images/usopis.jpg)top center no-repeat;
+}
+
+#maxuzn {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+#uzn1 {
+    position: relative;
+    display: inline-block;
+    width: 220px;
+    height: 180px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+#uzn2 {
+    margin-left: initial;
+    position: relative;
+    display: inline-block;
+    width: 220px;
+    height: 180px;
+    float: left;
+    margin-top: 35px;
+}
+@media screen and (max-width: 1100px){
+    #shymka{
+        height: 516px;
+        min-width: 100%;
+        width: 100%;
+    }
+    #slogan .slogan-big1{
+        font-size: 2.5rem;
+    }
+    .my1h1{
+        top: 50%;
+        transform: translate(0 ,-50%);
+    }
+    #sh{
+        display: none;
+    }
+    #shymkaf{
+        background: url("./images/mobhpol3.png");
+        background-position: 50% 100%;
+        min-width: 100%;
+    }
+    .clients1 img{
+        width: 250px;
+    }
+    .footer2,.footer3,.footer4,.footer5,.footer6{
+        width: 100% !important;
+        min-width:100%!important;;
+    }
+    #footer2 .footer2{
+        background-position: 8% 98%;
+    }
+    .zakaz2{
+        height: 100%;
+    }
+    #shymka{
+        min-width: 100%;
+        width: 100%;
+    }
+    .zakaz{
+        color: #fff;
+    }
+    #shymka{
+        background: url('../bron/images/tceny.jpg') top center no-repeat;
+        background-position: 100% 100%;
+        background-size: cover;
+    }
+    #lob{
+        display: none;
+    }
+    .myh1{
+        background: #7ab12f6b;
+        text-align: center;
+        color: #fff;
+        padding: 10px 0;
+        border-radius: 12px;
+        font-size: 2rem;
+        box-shadow: 3px 4px 19px #0b0b09;
+    }
+    #gifts13{
+        height: 56vh;
+        background-size: cover;
+        min-height: 400px;
+        width: 100% !important;
+        min-width: 100vw;
+    }
+    #mainobk, #polir{
+        width: 100%;
+        min-width: 100%;
+        height: 600px;
+        margin-top: initial;
+        top: 0;
+    }
+    #mainobk nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #mainobk #logo, #mainobk #adres, #mainobk #soc {
+        float: none;
+        display: inline-block;
+        left: 0;
+        text-align: center;
+    }
+    #adres,#adres span{
+        color: #ffffff!important;
+    }
+    .form input[type='file']{
+        background: #e0e652;
+        margin: auto;
+        display: block;
+        padding: 10px;
+        border-radius: 20px;
+        color: #454545!important;
+    }
+    .bronfonfooter2,.bronfonfooter{
+        width: 100%;
+        min-width: 100%;
+    }
+    .js-alarm_car ,.landing-img-alarm{
+        width: 100% !important;
+        min-width: 100%!important;
+        height: 556px;
+        background-position:52% 25%!important;
+        background-color: #1d2022!important;
+    }
+    #gifts14{
+        width: 100% !important;
+        min-width: 100vw;
+        height: auto;
+    }
+    #gifts14 img{
+        width: 45%;
+    }
+    .zakaz,span.zakaz{
+        width: 100%;
+        min-width: 100vw;
+        font-size: 2rem!important;
+    }
+    .zakaz4 .akciya {
+        width: 100%;
+        font-size: 2rem;
+    }
+    #zakaz{
+        width: 100% !important;
+        min-width: 100vw;
+    }
+    .zakaz4,.zakaz5 {
+        min-height: 141px;
+        background-size: cover;
+        width: 100% !important;
+        min-width: 100vw;
+    }
+    .zakaz5 #zakaz .form{
+        margin: auto;
+        left: 0;
+    }
+    #brendgifts14 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .myh2 {
+        flex-basis: 100%!important;
+        font-size: 2rem!important;
+        margin: 20px 0 ;
+    }
+    #brongifts11{
+        height: 54vh;
+        min-height: 350px;
+        background-size: cover;
+        width: 100%;
+        min-width: 100vw;
+    }
+    #brongifts11 .myh2 {
+        margin-top: -22px;
+        font-size: 2.4rem !important;
+    }
+
+    #brongifts13 {
+        height: 56vh;
+        background-size: cover;
+        min-height: 400px;
+        width: 100% !important;
+        min-width: 100vw;
+    }
+    .slogan{
+        top: 160px;
+        background: rgba(37, 37, 37, 0.8);
+        padding: 20px 0;
+        font-size: 1.6rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 25px;
+    }
+}
+@media screen and (max-width: 768px){
+
+    #footer2 .footer2,#footer3 .footer3, #footer4 .footer4,#footer5 .footer5,#footer6 .footer6{
+        background-size: 504px 200px;
+        background-position: 100% 50%;
+    }
+
+    #action .action-title{
+        font-size: 1rem;
+    }
+    #slogan .slogan-big1,#action .action-title2,#action .action-title1 {
+        font-size: 1.8rem;
+    }
+    .clients1 img{
+        width: 250px;
+    }
+
+    .slogan{
+        top: 56%;
+        background: rgba(37, 37, 37, 0.8);
+        padding: 20px 0;
+        font-size: 1.6rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 25px;
+    }
+    #adres{
+        background: #21222294;
+        padding: 10px 0;
+        border-radius: 25px;
+    }
+    #gifts13{
+        height: 45vh
+    }
+    .js-alarm_car ,.landing-img-alarm{
+        background-position: 90% 0%!important;
+    }
+    #shymka{
+        background-position: 45% 103%;
+    }
+    #mainobk nav {
+        display: flex;
+        flex-direction: column;
+    }
+    #mainobk #soc{
+        width: initial;
+    }
+    #brongifts13 {
+        height: 45vh;
+    }
+    #mainobk #logo, #mainobk #adres, #mainobk #soc {
+        margin: auto;
+    }
+}
+@media screen and (max-width: 460px){
+    .bronfonfooter2{
+        background-size: cover;
+    }
+    #footer2 .footer2,#footer3 .footer3, #footer4 .footer4,#footer5 .footer5,#footer6 .footer6{
+        background-position: 3% 50%;
+        background-size: 438px 190px;
+    }
+    .myh1{
+        font-size: 1.2rem;
+    }
+    #gifts13{
+        height: 37vh;
+        min-height: 300px;
+    }
+    .footer_img{
+        display: block!important;
+        margin: auto !important;
+        float: none!important;
+        margin-bottom: 20px!important;
+    }
+    .js-alarm_car, .landing-img-alarm{
+        height: 477px;
+        background-position: 79% 0!important;
+    }
+    /* .landing-img-alarm{
+         background: url("../brend/images/mob-320-br2.png");
+     }
+     .landing-img-alarm.lights{
+         background: url("../brend/images/mob-320--br1.png");
+     }*/
+    #mainobk .slogan{
+        font-size: 1.5rem;
+    }
+    #mainobk .slogan{
+        width: 100%;
+    }
+    #brongifts11 {
+        height: 29vh;
+        background-size: 100% 100%;
+        min-height: initial;
+    }
+    #brongifts11 .myh2 {
+        font-size: 1rem;
+        margin-top: -19px;
+    }
+    .zakaz4 .akciya {
+        font-size: 1rem;
+    }
+    .zakaz4{
+        min-height: 73px;
+    }
+    span.zakaz{
+        font-size: 1rem!important;
+    }
+
+    #brongifts11 {
+        height: 37vh;
+        min-height: 300px;
+    }
+}

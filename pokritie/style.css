@@ -49,14 +49,6 @@ span.adr{font-size: 20px;}
 #yuslyg{position: relative;width: 1200px;height:850px;padding-top: 50px;margin: 0 auto;}
 #yus1,#yus2,#yus3,#yus4,#yus5,#yus6,#yus7,#yus8{position: relative;display: inline-block;width: 360px;height: 83px;color: #000000;font-family: Trebuchet MS;font-size: 25px;background-position: center left;padding-left: 111px;padding-top: 15px;margin-left: 115px;margin-bottom: 26px;text-align: left;}
 #yus2,#yus4,#yus6,#yus8{margin-left: 80px;}
-#yus1{background: url('../pokritie/images/circ1.png') no-repeat;}
-#yus2{background: url('../pokritie/images/circ5.png') no-repeat;}
-#yus3{background: url('../pokritie/images/circ2.png') no-repeat;}
-#yus4{background: url('../pokritie/images/circ6.png') no-repeat;}
-#yus5{background: url('../pokritie/images/circ3.png') no-repeat;}
-#yus6{background: url('../pokritie/images/circ7.png') no-repeat;}
-#yus7{padding-top: 30px;background: url('../pokritie/images/circ4.png') no-repeat;top: -20px;}
-#yus8{background: url('../pokritie/images/circ8.png') no-repeat;}
 #gifts13{display: block;height: 715px;width: 100%;min-width:1200px;position: relative;margin: 0 auto;background: url('../pokritie/images/gifts13.jpg')top center no-repeat;}
 #gifts11{display: block;height: 687px;width: 100%;min-width:1200px;position: relative;margin: 0 auto;background: url('../pokritie/images/gifts11.jpg')top center no-repeat;}
 #gifts14{display: block;height: 670px;width: 100%;min-width:1200px;position: relative;margin: 0 auto;background: url('../pokritie/images/gifts14.jpg')top center no-repeat;}
@@ -130,3 +122,225 @@ span.usl2{color:#fff;font-size:29px;font-family: "PT Sans";text-align: center;ma
 #zn10{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -630px 0px;}
 #zn11{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -700px 0px;}
 #zn12{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat; background-position: -770px 0px;}
+
+@media screen and (max-width: 1100px){
+    .myh1{
+        background: #7ab12f6b;
+        text-align: center;
+        color: #fff;
+        padding: 10px 0;
+        border-radius: 12px;
+        font-size: 2rem;
+        box-shadow: 3px 4px 19px #0b0b09;
+    }
+    #gifts13{
+        height: 56vh;
+        background-size: cover;
+        min-height: 400px;
+        width: 100% !important;
+        min-width: 100vw;
+    }
+    #mainsig{
+        width: 100%;
+        min-width: 100%;
+        margin-top: initial;
+        position: absolute;
+        top: 0;
+    }
+    #mainsig nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #mainsig #logo, #mainsig #adres, #mainsig #soc {
+        float: none;
+        display: inline-block;
+        left: 0;
+        text-align: center;
+    }
+    #mainsig .slogan {
+        top: 170px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background: rgba(37, 37, 37, 0.8);
+        padding: 20px 0;
+        border-radius: 20px;
+    }
+    .form input[type='file']{
+        background: #e0e652;
+        margin: auto;
+        display: block;
+        padding: 10px;
+        border-radius: 20px;
+        color: #454545!important;
+    }
+    .mainfon{
+        position: absolute;
+        top: 0;
+        z-index: 20;
+    }
+    .js-alarm_car ,.landing-img-alarm{
+        width: 100% !important;
+        min-width: 100%!important;
+        height: 556px;
+        background-position:52% 25%!important;
+        background-color: #1d2022!important;
+    }
+  /*  .landing-img-alarm{
+        background: url("../brend/images/mob-br2.png");
+        background-repeat: no-repeat!important;
+    }
+    .landing-img-alarm.lights{
+        background: url("../brend/images/mob-br1.png");
+        background-repeat: no-repeat!important;
+    }*/
+    #gifts14{
+        width: 100% !important;
+        min-width: 100vw;
+        height: auto;
+    }
+    #gifts14 img{
+        width: 45%;
+    }
+    .zakaz,span.zakaz{
+        width: 100%;
+        min-width: 100vw;
+        min-height: 130px;
+        font-size: 2rem!important;
+    }
+    .zakaz4 .akciya {
+        width: 100%;
+        font-size: 2rem;
+    }
+    #zakaz{
+        width: 100% !important;
+        min-width: 100vw;
+    }
+    .zakaz5 {
+        min-height: 141px;
+        background-size: cover;
+        width: 100% !important;
+        min-width: 100vw;
+    }
+    .zakaz5 #zakaz .form{
+        margin: auto;
+        left: 0;
+    }
+    #brendgifts14 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .myh2 {
+        flex-basis: 100%;
+        font-size: 2rem;
+        margin: 20px 0;
+    }
+    #brendgifts11{
+        height: 54vh;
+        min-height: 350px;
+        background-size: cover;
+        width: 100%;
+        min-width: 100vw;
+    }
+    #brendgifts11 .myh2 {
+        margin-top: -22px;
+        font-size: 2.4rem;
+    }
+
+    #brendgifts11 .myh2 {
+        font-size: 2rem;
+        margin-top: -22px;
+    }
+    #brendgifts13 {
+        height: 56vh;
+        background-size: cover;
+        min-height: 400px;
+        width: 100% !important;
+        min-width: 100vw;
+    }
+}
+@media screen and (max-width: 768px){
+    #gifts13{
+        height: 45vh
+    }
+   .js-alarm_car ,.landing-img-alarm{
+        background-position: 90% 0%!important;
+    }
+   /* .landing-img-alarm{
+        background: url("../brend/images/mob-768-br2.png");
+    }
+    .landing-img-alarm.lights{
+        background: url("../brend/images/mob-768--br1.png");
+    }*/
+    #mainsig nav {
+        display: flex;
+        flex-direction: column;
+    }
+    #mainsig #soc{
+        width: initial;
+    }
+    #mainsig .slogan{
+        top: 230px;
+    }
+    #brendgifts13 {
+        height: 45vh;
+    }
+    #mainsig #logo, #mainsig #adres, #mainsig #soc {
+        margin: auto;
+    }
+}
+@media screen and (max-width: 460px){
+    .myh1{
+        font-size: 1.2rem;
+    }
+    #gifts13{
+        height: 37vh;
+        min-height: 300px;
+    }
+    .footer_img{
+        display: block!important;
+        margin: auto !important;
+        float: none!important;
+        margin-bottom: 20px!important;
+    }
+    .js-alarm_car, .landing-img-alarm{
+        height: 477px;
+        background-position: 79% 0!important;
+    }
+   /* .landing-img-alarm{
+        background: url("../brend/images/mob-320-br2.png");
+    }
+    .landing-img-alarm.lights{
+        background: url("../brend/images/mob-320--br1.png");
+    }*/
+    #mainsig .slogan{
+        font-size: 1.5rem;
+    }
+    #mainsig .slogan{
+        width: 100%;
+    }
+    #brendgifts11 {
+        height: 29vh;
+        background-size: 100% 100%;
+        min-height: initial;
+    }
+    #brendgifts11 .myh2 {
+        font-size: 1rem;
+        margin-top: -19px;
+    }
+    .zakaz4 .akciya {
+        font-size: 1rem;
+    }
+    .zakaz4{
+        min-height: 73px;
+    }
+    span.zakaz{
+        font-size: 1rem!important;
+    }
+
+    #brendgifts13 {
+        height: 37vh;
+        min-height: 300px;
+    }
+}

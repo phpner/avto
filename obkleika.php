@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 <link rel="stylesheet" href="obkleika/style.css" type="text/css" media="screen"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/media.css">
 <link rel="stylesheet" href="obkleika/lightbox.css">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="obkleika/js/nav.js" type="text/javascript"></script>
@@ -19,15 +21,17 @@
 <div id="obkleikaf">
 <div id="obkleika">
 <div id="mainobk">
-<div id="logo"><a class="scrollto" href="/"><img border="0" src="/obkleika/images/logo.png"></a></div>
-<div id="adres">
-	<a class="lala" href="tel:+73517506273"><span> +7 (351) </span> <span class="tel">750-62-73</a></span><br/>
-	<span class="adr">г.Челябинск, ул. Чичерина 24<span>
-</div>
-<div id="soc">
-<a href="http://vk.com/autostyle174" target="_blank"><img border="0" src="/obkleika/images/vk.png"></a><br /><br />
-<a href="http://instagram.com/autostyle74" target="_blank"><img border="0" src="/obkleika/images/inst.png"></a>
-</div>
+    <nav>
+        <div id="logo"><a class="scrollto" href="/"><img border="0" src="/obkleika/images/logo.png"></a></div>
+        <div id="adres">
+            <a class="lala" href="tel:+73517506273"><span> +7 (351) </span> <span class="tel">750-62-73</a></span><br/>
+            <span class="adr">г.Челябинск, ул. Чичерина 24<span>
+        </div>
+        <div id="soc">
+        <a href="http://vk.com/autostyle174" target="_blank"><img border="0" src="/obkleika/images/vk.png"></a>
+        <a href="http://instagram.com/autostyle74" target="_blank"><img border="0" src="/obkleika/images/inst.png"></a>
+        </div>
+    </nav>
 <div class="slogan">Оклейка виниловыми пленками в Челябинске</div>
 </div>
 	<div id="lob">
@@ -63,15 +67,44 @@
 <div id="yuslygf">
 <div id="yuslyg">
 <div class="myh2">Почему более 100 клиентов <br> обратились к нам?</div><br><br><br>
-<div id="tryw1">Опыт работы мастеров<br/>более 5 лет</div>
-<div id="tryw2">Брендовые<br/>материалы</div> 
-<div id="tryw3">Гарантийные<br/>обязательства</div> 
-<div id="tryw4">Наличный<br/>и безналичный расчет</div> 
-<div id="tryw5">Сертифицированный<br/>автоцентр</div> 
-<div id="tryw6">Бережная работа<br/>с автомобилем</div> 
-<div id="tryw7">Соблюдение сроков</div> 
-<div id="tryw8">Двойной<br/>контроль качества</div> 
-<div id="tryw7">Работаем ежедневно<br/>с 9.00 до 20.00</div> 
+    <div class="whyMe">
+        <div id="yus1">
+            <img src="images/circ1.png" alt="">
+            <p>Опыт работы мастеров<br/>более 5 лет</p>
+        </div>
+        <div id="yus2">
+            <img src="images/circ5.png" alt="">
+            <p>Брендовые<br/>материалы</p>
+        </div>
+        <div id="yus3">
+            <img src="images/circ2.png" alt="">
+            <p>Гарантийные<br/>обязательства</p>
+        </div>
+        <div id="yus4">
+            <img src="images/circ6.png" alt="">
+            <p>Наличный<br/>и безналичный расчет</p>
+        </div>
+        <div id="yus5">
+            <img src="images/circ3.png" alt="">
+            <p>Сертифицированный<br/>автоцентр</p>
+        </div>
+        <div id="yus6">
+            <img src="images/circ7.png" alt="">
+            <p>Бережная работа<br/>с автомобилем</p>
+        </div>
+        <div id="yus7">
+            <img src="images/circ4.png" alt="">
+            <p>облюдение сроков</p>
+        </div>
+        <div id="yus8">
+            <img src="images/circ8.png" alt="">
+            <p>Двойной<br/>контроль качества</p>
+        </div>
+        <div id="yus7">
+            <img src="images/circ4.png" alt="">
+            <p>Работаем ежедневно<br/>с 9.00 до 20.00</p>
+        </div>
+    </div>
 </div>
 </div>
 <div class="zakaz4">
@@ -104,6 +137,7 @@
 <div class="myh2">Наши работы</div>
 <br>
 <div align="center">
+    <div class="us_wprks">
 <a data-lightbox="1" rel="group" title="Оклейка виниловой пленкой" href="obkleika/photo/obkleika001.jpg"><img src="obkleika/photo/obkleika001-001.jpg" /></a>
 <a data-lightbox="1" rel="group" title="Оклейка виниловой пленкой" href="obkleika/photo/obkleika002.jpg"><img src="obkleika/photo/obkleika002-002.jpg" /></a>
 <a data-lightbox="1" rel="group" title="Оклейка виниловой пленкой" href="obkleika/photo/obkleika003.jpg"><img src="obkleika/photo/obkleika003-003.jpg" /></a>
@@ -114,6 +148,7 @@
 <a data-lightbox="1" rel="group" title="Оклейка виниловой пленкой" href="obkleika/photo/obkleika007.jpg"><img src="obkleika/photo/obkleika007-007.jpg" /></a>
 <a data-lightbox="1" rel="group" title="Оклейка виниловой пленкой" href="obkleika/photo/obkleika008.jpg"><img src="obkleika/photo/obkleika008-008.jpg" /></a>
 <br>
+        <div class="mob_more_wrapp_wort">
 <a data-lightbox="1" rel="group" title="Оклейка виниловой пленкой" href="obkleika/photo/obkleika009.jpg"><img src="obkleika/photo/obkleika009-009.jpg" /></a>
 <a data-lightbox="1" rel="group" title="Оклейка виниловой пленкой" href="obkleika/photo/obkleika010.jpg"><img src="obkleika/photo/obkleika010-010.jpg" /></a>
 <a data-lightbox="1" rel="group" title="Оклейка виниловой пленкой" href="obkleika/photo/obkleika011.jpg"><img src="obkleika/photo/obkleika011-011.jpg" /></a>
@@ -140,7 +175,9 @@
 <a data-lightbox="1" rel="group" title="Оклейка виниловой пленкой" href="obkleika/photo/obkleika027.jpg"><img src="obkleika/photo/obkleika027-027.jpg" /></a>
 <a data-lightbox="1" rel="group" title="Оклейка виниловой пленкойй" href="obkleika/photo/obkleika028.jpg"><img src="obkleika/photo/obkleika028-028.jpg" /></a>
 
-
+        </div>
+    </div>
+    <h2 class="mob_h2_work mob_how_mow"><a href="#">Показать больше</a></h2>
 
 
 </div>		
@@ -167,7 +204,8 @@
 <img alt="" src="images/clients/kli28013.png">
 <img alt="" src="images/clients/kli28014.png">
 <img alt="" src="images/clients/kli28015.png"><br>
-
+    <div class="mob_more_wrapp">
+        <div class="mob_more">
 <img alt="" src="obkleika/images/clients/klient05.png">
 <img alt="" src="obkleika/images/clients/klient04.png">
 <img alt="" src="obkleika/images/clients/klient03.png"><br>
@@ -183,7 +221,10 @@
 <img alt="" src="obkleika/images/clients/klient07.png">
 <img alt="" src="obkleika/images/clients/klient12.png">
 <img alt="" src="obkleika/images/clients/klient02.png"><br>
-			<div class="dears">
+        </div>
+    </div>
+    <h2 class="mob_h2 mob_how_mow"><a href="#">Показать больше</a></h2>
+			<div class="frends">
 				</div>
 <br>
 <div class="clients1-bg">
@@ -225,7 +266,7 @@
 </div>
 </div><br>
 
-
+    <div class="mob_more_wrapp_comment">
 <div class="item clear_self">
 <img src="obkleika/images/dires3.png" alt="">
 <div class="georgia">Ольга, Skoda Octavia. Я очень привередливый человек, но в AutoStyle мне все понравилось, встретили, рассказали, показали! Бронепленку наклеили просто замечательно, езжу уже 2й год и ни каких нареканий! <a href="http://vk.com/id46060648" target="_blank">http://vk.com/id46060648</a>
@@ -267,65 +308,78 @@
 <div class="georgia">Константин, Ford Focus 2. Делал глубокую полировку, очень доволен результатом. Внимательное отношение к клиенту и качественно выполненная работа. Советую!
 </div>
 </div>
-</div><br><br><br><br>
+</div>
+</div>
+    <h2 class="mob_h2_comment mob_how_mow"><a href="#">Показать больше</a></h2>
 <div class="clients1-bg">	
 <div class="myh2">Наше местоположение:</div>
 <span>г.Челябинск, ул. Чичерина 24 <br>(Городской автомоечный комплекс)</span>
 </div>
-<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=qXKspKQ2Ozf4RTfiNrUQzy7LPFKEKKEc&width=960&height=550"></script>
+    <div class="mapp">
+        <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=qXKspKQ2Ozf4RTfiNrUQzy7LPFKEKKEc"></script>
+    </div>
 <br><br>
 
-<img alt="" src="obkleika/images/mi1.png">
-<img alt="" src="obkleika/images/mi2.png">
+<img alt="" class="where_photo"  src="obkleika/images/mi1.png">
+<img alt="" class="where_photo"  src="obkleika/images/mi2.png">
 <br><br>
 
 
 
 
 <!--компания в лицах -->
-<div class="face">
-<div class="myautolig">Компания в лицах</div>
-<table border="0" style="align:center;">
-<tr>
-<td><img src="obkleika/images/lico1.jpg" alt=""></td>
-<td><img src="obkleika/images/lico2.jpg" alt=""></td>
-<td><img src="obkleika/images/lico3.jpg" alt=""></td>
-<td><img src="obkleika/images/lico4.jpg" alt=""></td>
-<td><img src="obkleika/images/lico5.jpg" alt=""></td>
-<td><img src="obkleika/images/lico6.jpg" alt=""></td>
-</tr>
-<tr>
-<td width="102px" style="text-align:center">
-Илья<br/>
-Тонирование<br/>
-Винил</td>
-<td width="102px" style="text-align:center">
-Антон<br/>
-Тонирование<br/>
-Полировка
-</td>
-<td width="102px" style="text-align:center">
-Денис<br/>
-Ремонт<br/>
-Стекла</td>
-<td width="102px" style="text-align:center">
-Александр<br/>
-Управляющий<br/>
-Компании
-</td>
-<td width="102px" style="text-align:center">
-Альберт<br/>
-Автоэлектрик<br/>
-Шумоизоляция</td>
-<td width="102px" style="text-align:center">
-Антон<br/>
-Бронирование<br/>
-Тонирование
-</td>
-</tr>
-</table>
-<div style="clear: both"></div>
-</div></div>
+    <div class="face">
+        <div class="myautolig">Компания в лицах</div>
+        <span>
+        <img src="images/face1.jpg" alt="">
+        <p>
+            Илья<br/>
+            Тонирование<br/>
+            Винил</td>
+        </p>
+    </span>
+        <span>
+        <img src="images/face2.jpg" alt="">
+        <p>
+           Антон<br/>
+            Тонирование<br/>
+            Полировка
+        </p>
+    </span>
+        <span>
+        <img src="images/face3.jpg" alt="">
+        <p>
+          Денис<br/>
+        Ремонт<br/>
+        Стекла</td>
+        </p>
+    </span>
+        <span>
+        <img src="images/face4.jpg" alt="">
+        <p>
+       Александр<br/>
+        Управляющий<br/>
+        Компании
+        </p>
+    </span>
+        <span>
+        <img src="images/face5.jpg" alt="">
+        <p>
+       Альберт<br/>
+        Автоэлектрик<br/>
+        Шумоизоляция</td>
+        </p>
+    </span>
+        <span>
+        <img src="images/face6.jpg" alt="">
+        <p>
+      Антон<br/>
+        Бронирование<br/>
+        Тонирование
+        </p>
+    </span>
+        <div style="clear: both"></div>
+    </div></div>
 <br/><br/>
 <!-- -->
 <div class="myautolig">AutoStyle в программе "Автолига"</div>
@@ -409,7 +463,7 @@
 <h1>Автовинил в Челябинске</h1>
 <link rel="stylesheet" href="css/spoiler.css" type="text/css" media="screen"/>
 <div class='bottomDescription'>
-<p style="text-align: justify;">Автовинил - это разновидность виниловой пленки, которая используется для оклейки автомобилей. Услуга эта - достаточно новая, однако многие автолюбители уже успели оценить все ее преимущества:<img src="/images/avtovinil.png" width="300" height="210" alt="Автовинил Челябинск" title="Автовинил Челябинск" style="float: right; margin: 5px 7px;" /></p>
+<p style="text-align: justify;">Автовинил - это разновидность виниловой пленки, которая используется для оклейки автомобилей. Услуга эта - достаточно новая, однако многие автолюбители уже успели оценить все ее преимущества:<img class="footer_img" src="/images/avtovinil.png" width="300" height="210" alt="Автовинил Челябинск" title="Автовинил Челябинск" style="float: right; margin: 5px 7px;" /></p>
 <ul>
 <li style="text-align: justify;">Пленка просто моется, на ней не остается разводов;</li>
 <li style="text-align: justify;">Защищает заводскую покраску автомобиля на протяжении 3-4 лет;</li>
@@ -426,7 +480,7 @@
 <p style="text-align: justify;"><strong>Виниловая пленка в Челябинске</strong> все чаще применяется для того, чтобы полностью оклеить авто винилом. При этом, не обязательно подбирать пленку в тон с заводской покраской автомобиля - вы можете кардинально изменить дизайн авто в считанные часы.</p>
 <div class="myh2" style="text-align:left">Как происходит процесс перетяжки автомобиля винилом?</div>
 <p></p>
-<p style="text-align: justify;"><img src="/images/avtovinil2.png" width="300" height="210" alt="Автовинил" title="Автовинил" style="float: right; margin: 5px 7px;" />Первый этап работ - это тщательная мойка детали, которая будет обклеена. Ни в коем случае нельзя допускать, чтобы под пленкой оказалась песчинка или пузырек воздуха, иначе внешнему виду автомобиля будет нанесен серьезный ущерб. Вымытую деталь не менее тщательно высушивают. Деталь готова к обклеиванию.</p>
+<p style="text-align: justify;"><img class="footer_img" src="/images/avtovinil2.png" width="300" height="210" alt="Автовинил" title="Автовинил" style="float: right; margin: 5px 7px;" />Первый этап работ - это тщательная мойка детали, которая будет обклеена. Ни в коем случае нельзя допускать, чтобы под пленкой оказалась песчинка или пузырек воздуха, иначе внешнему виду автомобиля будет нанесен серьезный ущерб. Вымытую деталь не менее тщательно высушивают. Деталь готова к обклеиванию.</p>
 <p style="text-align: justify;">Перед поклейкой винила на авто, пленка прогревается струей горячего воздуха. За счет этого, она лучше прилегает к поверхности и прочнее приклеивается. Через несколько часов, когда винил остынет, деталь машины будет готова к использованию.</p>
 <h3>Стоимость работ по поклейке автовинила</h3>
 <p></p>
@@ -442,6 +496,57 @@
 <script src="obkleika/js/jquery-1.11.0.min.js"></script>
 	<script src="obkleika/js/lightbox.js"></script>
 	<script>
+        $(document).ready(function() {
+
+            $( window ).resize(function() {
+                var w = $(window).width();
+                if(w > 720 && $(".mob_more_wrapp").is(":hidden") ){
+                    $(".mob_more_wrapp").removeAttr('style');
+                }
+                if(w > 720 && $(".mob_more_wrapp_comment").is(":hidden") ){
+                    $(".mob_more_wrapp_comment").removeAttr('style');
+                }
+                if(w > 720 && $(".mob_more_wrapp_wort").is(":hidden") ){
+                    $(".mob_more_wrapp_wort").removeAttr('style');
+                }
+
+            });
+
+            /*clint*/
+
+            $(".mob_h2 a").bind("click",function (e){
+                console.log('here!!!');
+                e.preventDefault();
+                var text = $(".mob_h2 a").text();
+
+                text = (text === "Скрыть") ?  "Показать больше" : "Скрыть";
+
+                $(".mob_h2 a").text(text);
+                $(".mob_more_wrapp").slideToggle();
+            });
+
+            /*commet*/
+
+            $(".mob_h2_comment  a").bind("click",function (e){
+                e.preventDefault();
+                var textCom = $(".mob_h2_comment a").text();
+                textCom = (textCom === "Скрыть") ?  "Показать больше" : "Скрыть";
+                $(".mob_h2_comment a").text(textCom);
+                $(".mob_more_wrapp_comment").slideToggle();
+
+            });
+
+            /*WORK*/
+
+            $(".mob_h2_work  a").bind("click",function (e){
+                e.preventDefault();
+                var textCom = $(".mob_h2_work a").text();
+                textCom = (textCom === "Скрыть") ?  "Показать больше" : "Скрыть";
+                $(".mob_h2_work a").text(textCom);
+                $(".mob_more_wrapp_wort").slideToggle();
+
+            });
+        });
 	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-2196019-1']);
 	_gaq.push(['_trackPageview']);

@@ -3,12 +3,14 @@
 <head>
 <meta charset="utf-8"/>
 <title>Бронирование автомобиля защитной пленкой в Челябинске | AutoStyle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Бронирование авто. Чтобы забронировать авто пленкой в Челябинске, обращайтесь в автоцентр косметического обслуживания, расположенный на ул. Чичерина 24. Информацию о стоимости бронирования вы можете уточнить по телефону +7 (351) 750-62-73"/>
 <meta name="keywords" content="бронепленка антигравийная пленка пленка для оклейки авто бронирование пленка от сколов"/>
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 <link rel="stylesheet" href="bron/style.css" type="text/css" media="screen"/>
 <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/media.css">
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="bron/js/preload.js"</script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
@@ -28,6 +30,7 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <body>
 <div id="tcenyf">
 <div id="tceny">
+    <nav>
 <div id="logo"><a class="scrollto" href="/"><img border="0" src="/bron/images/logo.png"></a></div>
 <div id="adres">
 	<a class="lala" href="tel:+73517506273">+7 (351) <span class="tel">750-62-73</a></span><br/>
@@ -35,11 +38,12 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 		<span class="adr">Ежедневно с 9.00 до 20.00<span>
 </div>
 <div id="soc">
-	<a href="http://vk.com/autostyle174" target="_blank"><img border="0" src="/bron/images/vk.png"></a><br /><br />
-	<a href="http://instagram.com/autostyle74" target="_blank"><img border="0" src="/bron/images/inst.png"></a>
+	<a href="http://vk.com/autostyle174" target="_blank"><img border="0" src="/bron/images/vk.png"></a>
+	<a href="http://instagram.com/autostyle74" target="_blank"><img border="0" src="/bron/images/inst.png"></a><br>
 </div>
+    </nav>
 
-<div class="my1h1" style="text-align:center"> Бронирование кузова автомобиля <br> защитной антигравийной пленкой <br> в Челябинске</font></div>
+
 	<div id="ltc">
 		<div class="ltc1"></div>
 		<div class="ltc2"></div>
@@ -57,13 +61,8 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 		<div class="rtc5"></div>
 	</div>
 </div>
+    <div class="my1h1" style="text-align:center"> Бронирование кузова автомобиля <br> защитной антигравийной пленкой <br> в Челябинске</font></div>
 </div>
-
-
-
-
-
-
 
 
 
@@ -101,15 +100,44 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <div id="yuslygf">
 <div id="yuslyg">
 <div class="myh2">Почему более 1000 клиентов <br> оклеели свой автомобиль у нас?</div><br><br><br>
-<div id="bronyus1">Опыт работы мастеров<br/>более 5 лет</div>
-<div id="bronyus2">Брендовые<br/>материалы</div> 
-<div id="bronyus3">Гарантийные<br/>обязательства</div> 
-<div id="bronyus4">Наличный<br/>и безналичный расчет</div> 
-<div id="bronyus5">Сертифицированный<br/>автоцентр</div> 
-<div id="bronyus6">Бережная работа<br/>с автомобилем</div> 
-<div id="bronyus7">Соблюдение сроков</div> 
-<div id="bronyus8">Двойной<br/>контроль качества</div> 
-<div id="bronyus7">Работаем ежедневно<br/>с 9.00 до 20.00</div> 
+    <div class="whyMe">
+        <div id="yus1">
+            <img src="images/circ1.png" alt="">
+            <p>Опыт работы мастеров<br/>более 5 лет</p>
+        </div>
+        <div id="yus2">
+            <img src="images/circ5.png" alt="">
+            <p>Брендовые<br/>материалы</p>
+        </div>
+        <div id="yus3">
+            <img src="images/circ2.png" alt="">
+            <p>Гарантийные<br/>обязательства</p>
+        </div>
+        <div id="yus4">
+            <img src="images/circ6.png" alt="">
+            <p>Наличный<br/>и безналичный расчет</p>
+        </div>
+        <div id="yus5">
+            <img src="images/circ3.png" alt="">
+            <p>Сертифицированный<br/>автоцентр</p>
+        </div>
+        <div id="yus6">
+            <img src="images/circ7.png" alt="">
+            <p>Бережная работа<br/>с автомобилем</p>
+        </div>
+        <div id="yus7">
+            <img src="images/circ4.png" alt="">
+            <p>облюдение сроков</p>
+        </div>
+        <div id="yus8">
+            <img src="images/circ8.png" alt="">
+            <p>Двойной<br/>контроль качества</p>
+        </div>
+        <div id="yus7">
+            <img src="images/circ4.png" alt="">
+            <p>Работаем ежедневно<br/>с 9.00 до 20.00</p>
+        </div>
+    </div>
 </div>
 </div>
 
@@ -175,11 +203,11 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 	<div id="footer2">
 		<div class="wrapper2">
 			<div class="footer2">
-				</div>
-				</div>
-				</div>
+        </div>
+        </div>
+        </div>
 
-
+    </div>
 
 				
 <div class="bronfonfooter2">
@@ -195,7 +223,8 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 				</div>
 		</div>
 		</div>
-
+    </div>
+</div>
 		
 
 		
@@ -214,11 +243,12 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 	<div id="footer4">
 		<div class="wrapper4">
 			<div class="footer4">
-				</div>
-				</div>
-				</div>		
-		
-		
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
 		
 
 			
@@ -240,7 +270,8 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 				</div>
 				</div>			
 			
-			
+    </div>
+</div>
 			
 			
 			
@@ -258,13 +289,14 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 	<div id="footer6">
 		<div class="wrapper6">
 			<div class="footer6">
-				</div>
-				</div>
-				</div>								
+            </div>
+        </div>
+    </div>
 				
 				
 
-
+</div>
+</div>
 
 
 
@@ -280,7 +312,7 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <div class="myh2">Наши работы</div>
 <br>
 <div align="center">
-
+    <div class="us_wprks">
 
 <a class="two" rel="group" title="Бронирование кузова" href="bron/photo/image-20-04-16-17-13-1.jpg"><img src="bron/photo/image-20-04-16-17-13-1-001.jpg" /></a>
 <a class="two" rel="group" title="Бронирование кузова" href="bron/photo/image-20-04-16-17-13-1 (1).jpg"><img src="bron/photo/image-20-04-16-17-13-1 (1)-001.jpg" /></a>
@@ -292,7 +324,7 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <a class="two" rel="group" title="Бронирование кузова" href="bron/photo/DSC00665.jpg"><img src="bron/photo/DSC00665-001.jpg" /></a>
 <a class="two" rel="group" title="Бронирование кузова" href="bron/photo/DSC00663.jpg"><img src="bron/photo/DSC00663-001.jpg" /></a>
 <a class="two" rel="group" title="Бронирование кузова" href="bron/photo/DSC02176.jpg"><img src="bron/photo/DSC02176-001.jpg" /></a>
-
+        <div class="mob_more_wrapp_wort">
 <br>
 <a class="two" rel="group" title="Бронирование кузова" href="bron/photo/DSC02292.jpg"><img src="bron/photo/DSC02292-001.jpg" /></a>
 <a class="two" rel="group" title="Бронирование кузова" href="bron/photo/DSC02759.jpg"><img src="bron/photo/DSC02759-001.jpg" /></a>
@@ -350,6 +382,9 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <a class="two" rel="group" title="Бронирование кузова" href="bron/photo/bron02014.jpg"><img src="bron/photo/bron02014-014.jpg" /></a>
 <a class="two" rel="group" title="Бронирование кузова" href="bron/photo/bron02015.jpg"><img src="bron/photo/bron02015-015.jpg" /></a>
 <a class="two" rel="group" title="Бронирование кузова" href="bron/photo/bron02016.jpg"><img src="bron/photo/bron02016-016.jpg" /></a>
+        </div>
+    </div>
+    <h2 class="mob_h2_work mob_how_mow"><a href="#">Показать больше</a></h2>
 </div>		
 </div> 
 
@@ -390,7 +425,8 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <img alt="" src="images/clients/kli28023.png"><br>
 
 
-
+    <div class="mob_more_wrapp">
+        <div class="mob_more">
 
 <img alt="" src="images/clients/kli28025.png">
 <img alt="" src="images/clients/kli28024.png">
@@ -424,8 +460,10 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <img alt="" src="images/clients/kli28007.png">
 <img alt="" src="images/clients/kli28012.png">
 <img alt="" src="images/clients/kli28002.png"><br>
-
-			<div class="bronfrends">
+        </div>
+    </div>
+    <h2 class="mob_h2 mob_how_mow"><a href="#">Показать больше</a></h2>
+			<div class="frends">
 				</div>
 <br>
 
@@ -466,7 +504,7 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <div class="georgia">Михаил, Бронировал Audi A5 и тонировал BMW X6. Для меня самое главное - это время! Все выполнили в оговоренные сроки и хочу отметить с их стороны великолепное обслуживание и лояльные цены без потери качества! Советую всем друзьям и знакомым!  <a href="http://vk.com/mishamed" target="_blank">http://vk.com/mishamed</a>
 </div>
 </div><br>
-
+    <div class="mob_more_wrapp_comment">
 <div class="item clear_self">
 <img src="bron/images/bron.no_avatar3.png" alt="">
 <div class="georgia">Ольга, Skoda Octavia. Я очень привередливый человек, но в AutoStyle мне все понравилось, встретили, рассказали, показали! Бронепленку наклеили просто замечательно, езжу уже 2й год и ни каких нареканий! <a href="http://vk.com/id46060648" target="_blank">http://vk.com/id46060648</a>
@@ -510,66 +548,78 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <div class="georgia">Александр, ВАЗ 2110. 20.10.2014 заехал установить сигнализацию с авто запуском, и был очень доволен работой. На сколько быстро и качественно выполнена работа. При этом говорили, что все займет около 3 часов, по факту через 2 часа я уже уехал. Спасибо огромное за качественную работу!!! Сейчас доволен и всегда в теплой тачке. 				
 <a href="http://vk.com/s.zinatulin" target="_blank">http://vk.com/s.zinatulin</a>
 </div>
-</div>	
-
+</div>
+    </div>
+    <h2 class="mob_h2_comment mob_how_mow"><a href="#">Показать больше</a></h2>
 <div class="clients1-bg">	
 <div class="myh2">Наше местоположение:</div>
 <span>г.Челябинск, ул. Чичерина 24 <br>(Городской автомоечный комплекс)</span>
 </div>
-<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=qXKspKQ2Ozf4RTfiNrUQzy7LPFKEKKEc&width=960&height=550"></script>
+    <div class="mapp">
+        <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=qXKspKQ2Ozf4RTfiNrUQzy7LPFKEKKEc"></script>
+    </div>
 <br>
 
-<img alt="" src="bron/images/bron.AutoStyle001.png">
-<img alt="" src="bron/images/bron.AutoStyle002.png">
+<img alt="" class="where_photo" src="bron/images/bron.AutoStyle001.png">
+<img alt="" class="where_photo" src="bron/images/bron.AutoStyle002.png">
 <br><br>
 
 
 
 
 <!--компания в лицах -->
-<div class="face">
-<div class="myautolig">Компания в лицах</div>
-<table border="0" style="align:center;">
-<tr>
-<td><img src="bron/images/bron.face1.jpg" alt=""></td>
-<td><img src="bron/images/bron.face2.jpg" alt=""></td>
-<td><img src="bron/images/bron.face3.jpg" alt=""></td>
-<td><img src="bron/images/bron.face4.jpg" alt=""></td>
-<td><img src="bron/images/bron.face5.jpg" alt=""></td>
-<td><img src="bron/images/bron.face6.jpg" alt=""></td>
-</tr>
-<tr>
-<td width="102px" style="text-align:center; font-family: Trebuchet MS;font-size: 15px;">
-Илья<br/>
-Тонирование<br/>
-Винил</td>
-<td width="102px" style="text-align:center; font-family: Trebuchet MS;font-size: 15px;">
-Антон<br/>
-Тонирование<br/>
-Полировка
-</td>
-<td width="102px" style="text-align:center; font-family: Trebuchet MS;font-size: 15px;">
-Денис<br/>
-Ремонт<br/>
-Стекла</td>
-<td width="102px" style="text-align:center; font-family: Trebuchet MS;font-size: 15px;">
-Александр<br/>
-Управляющий<br/>
-Компании
-</td>
-<td width="102px" style="text-align:center; font-family: Trebuchet MS;font-size: 15px;">
-Альберт<br/>
-Автоэлектрик<br/>
-Шумоизоляция</td>
-<td width="102px" style="text-align:center; font-family: Trebuchet MS;font-size: 15px;">
-Антон<br/>
-Бронирование<br/>
-Тонирование
-</td>
-</tr>
-</table>
-<div style="clear: both"></div>
-</div></div>
+    <div class="face">
+        <div class="myautolig">Компания в лицах</div>
+        <span>
+        <img src="images/face1.jpg" alt="">
+        <p>
+            Илья<br/>
+            Тонирование<br/>
+            Винил</td>
+        </p>
+    </span>
+        <span>
+        <img src="images/face2.jpg" alt="">
+        <p>
+           Антон<br/>
+            Тонирование<br/>
+            Полировка
+        </p>
+    </span>
+        <span>
+        <img src="images/face3.jpg" alt="">
+        <p>
+          Денис<br/>
+        Ремонт<br/>
+        Стекла</td>
+        </p>
+    </span>
+        <span>
+        <img src="images/face4.jpg" alt="">
+        <p>
+       Александр<br/>
+        Управляющий<br/>
+        Компании
+        </p>
+    </span>
+        <span>
+        <img src="images/face5.jpg" alt="">
+        <p>
+       Альберт<br/>
+        Автоэлектрик<br/>
+        Шумоизоляция</td>
+        </p>
+    </span>
+        <span>
+        <img src="images/face6.jpg" alt="">
+        <p>
+      Антон<br/>
+        Бронирование<br/>
+        Тонирование
+        </p>
+    </span>
+        <div style="clear: both"></div>
+    </div></div>
 <br/><br/>
 <!-- -->
 
@@ -638,6 +688,9 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 </div>
 </div>
 </div>
+</div>
+</td>
+</div>
 <!-- Конец услуг -->
 <footer>   
 </footer>
@@ -664,7 +717,7 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <p justify="">Защитную пленку на автомобиль можно использовать не только для бронирования автостекол. С ее помощью успешно обеспечивают защиту автомобиля от сколов на всех его поверхностях. Профессионально выполненное бронирование пленкой автомобиля защищает его от потускнения и выгорания краски, появления на лакокрасочном покрытии сколов и царапин. К тому же, антигравийная пленка придает автомобилю дополнительный блеск.</p>
 <h2>Бронирование автомобиля в Челябинске</h2>
 <p></p>
-<p style="text-align: justify;"><b><img src="/images/bronirovanie.png" width="300" height="200" alt="Бронирование автомобиля Челябинск" title="Бронирование автомобиля Челябинск" style="float: right; margin: 5px 7px;" />Бронирование автомобиля пленкой обеспечивает:</b></p>
+<p style="text-align: justify;"><b><img class="footer_img" src="/images/bronirovanie.png" width="300" height="200" alt="Бронирование автомобиля Челябинск" title="Бронирование автомобиля Челябинск" style="float: right; margin: 5px 7px;" />Бронирование автомобиля пленкой обеспечивает:</b></p>
 <ul>
 <li style="text-align: justify;">защиту кузова от сколов и царапин без увеличения его веса и снижения маневренности машины;</li>
 <li style="text-align: justify;">защиту от воздействия ультрафиолетового излучения;</li>
@@ -685,6 +738,57 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <footer>   
 <div class="fleft">
 <script>
+    $(document).ready(function() {
+
+        $( window ).resize(function() {
+            var w = $(window).width();
+            if(w > 720 && $(".mob_more_wrapp").is(":hidden") ){
+                $(".mob_more_wrapp").removeAttr('style');
+            }
+            if(w > 720 && $(".mob_more_wrapp_comment").is(":hidden") ){
+                $(".mob_more_wrapp_comment").removeAttr('style');
+            }
+            if(w > 720 && $(".mob_more_wrapp_wort").is(":hidden") ){
+                $(".mob_more_wrapp_wort").removeAttr('style');
+            }
+
+        });
+
+        /*clint*/
+
+        $(".mob_h2 a").bind("click",function (e){
+            console.log('here!!!');
+            e.preventDefault();
+            var text = $(".mob_h2 a").text();
+
+            text = (text === "Скрыть") ?  "Показать больше" : "Скрыть";
+
+            $(".mob_h2 a").text(text);
+            $(".mob_more_wrapp").slideToggle();
+        });
+
+        /*commet*/
+
+        $(".mob_h2_comment  a").bind("click",function (e){
+            e.preventDefault();
+            var textCom = $(".mob_h2_comment a").text();
+            textCom = (textCom === "Скрыть") ?  "Показать больше" : "Скрыть";
+            $(".mob_h2_comment a").text(textCom);
+            $(".mob_more_wrapp_comment").slideToggle();
+
+        });
+
+        /*WORK*/
+
+        $(".mob_h2_work  a").bind("click",function (e){
+            e.preventDefault();
+            var textCom = $(".mob_h2_work a").text();
+            textCom = (textCom === "Скрыть") ?  "Показать больше" : "Скрыть";
+            $(".mob_h2_work a").text(textCom);
+            $(".mob_more_wrapp_wort").slideToggle();
+
+        });
+    });
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)

@@ -3,15 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="4d2f8ef8-80b7-4188-a04c-1894dc337374" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brend.php" beforeDir="false" afterPath="$PROJECT_DIR$/brend.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brend/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/brend/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signal.php" beforeDir="false" afterPath="$PROJECT_DIR$/signal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signal/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/signal/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/steklo.php" beforeDir="false" afterPath="$PROJECT_DIR$/steklo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/steklo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/steklo/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tonirovka.php" beforeDir="false" afterPath="$PROJECT_DIR$/tonirovka.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bron.php" beforeDir="false" afterPath="$PROJECT_DIR$/bron.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bron/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bron/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chip.php" beforeDir="false" afterPath="$PROJECT_DIR$/chip.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chip/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/chip/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chip/volvo/xc90.html" beforeDir="false" afterPath="$PROJECT_DIR$/chip/volvo/xc90.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obkleika.php" beforeDir="false" afterPath="$PROJECT_DIR$/obkleika.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obkleika/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/obkleika/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokritie.php" beforeDir="false" afterPath="$PROJECT_DIR$/pokritie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokritie/js/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokritie/js/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokritie/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pokritie/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polir/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/polir/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polirovka.php" beforeDir="false" afterPath="$PROJECT_DIR$/polirovka.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shymka.php" beforeDir="false" afterPath="$PROJECT_DIR$/shymka.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shymka/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/shymka/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vmyatina/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vmyatina/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,57 +31,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bron/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-935">
-              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+            <state relative-caret-position="272">
+              <caret line="124" column="48" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
+              <folding>
+                <element signature="e#18968#19666#0" />
+                <element signature="e#19667#20807#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bron.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bron.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="72" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#10;n#div#2;n#div#1;n#div#2;n#div#2;n#div#3;n#div#0;n#div#3;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#28614#30375#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shymka.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shymka.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="72" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="72" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#div#2;n#div#1;n#div#3;n#div#11;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#td#0;n#div#1;n#div#3;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#td#0;n#div#1;n#div#3;n#div#11;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#21316#22925#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chip.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chip.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="52" column="13" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vmyatina/style.css">
+        <entry file="file://$PROJECT_DIR$/shymka/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="216" column="2" selection-start-line="216" selection-start-column="2" selection-end-line="219" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="steklo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/steklo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1453">
-              <caret line="340" column="24" selection-start-line="340" selection-start-column="18" selection-end-line="340" selection-end-column="24" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#6;n#div#1;n#div#3;n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#27305#28914#0#HTML" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="brend.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brend.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="438" column="53" selection-start-line="438" selection-start-column="44" selection-end-line="438" selection-end-column="54" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#14518#15624#0#HTML" />
-                <element signature="e#23203#24812#0#HTML" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/brend/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="312" column="38" selection-start-line="312" selection-start-column="38" selection-end-line="312" selection-end-column="38" />
+            <state relative-caret-position="366">
+              <caret line="444" column="12" selection-start-line="444" selection-start-column="12" selection-end-line="444" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -85,36 +98,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Наши клие</find>
-      <find>steklofon</find>
+      <find>obkleikaf</find>
+      <find>obkleika</find>
       <find>soc</find>
-      <find>.frends</find>
-      <find>Наши</find>
-      <find>#uslugiopis</find>
-      <find>О нашей</find>
-      <find>maxuzn</find>
-      <find>uslugiopis</find>
-      <find>span.usl</find>
-      <find>#mainsig</find>
-      <find>h2</find>
-      <find>myh2</find>
-      <find>наши</find>
-      <find>Наши кли</find>
-      <find>mob_more_wrapp_wort</find>
-      <find>mob_how_mow</find>
-      <find>mob_h2_work</find>
-      <find>brendfrends</find>
-      <find>Наше</find>
-      <find>why</find>
-      <find>#yuslygf</find>
-      <find>.zakaz3</find>
+      <find>slogan</find>
+      <find>rgba(37, 37, 37, 0.8)</find>
+      <find>bronfonfooter2</find>
+      <find>us</find>
       <find>Почему</find>
-      <find>car</find>
-      <find>#mainsig .slogan</find>
-      <find>178</find>
-      <find>landing-img-alarm</find>
+      <find>bronfonfooter</find>
+      <find>/images/bronirovanie.png</find>
+      <find>Наши р</find>
+      <find>span.zakaz</find>
+      <find>fac</find>
+      <find>Наше м</find>
+      <find>Поче</find>
+      <find>почему</find>
+      <find>us_w</find>
+      <find>Наши</find>
+      <find>span.usl</find>
+      <find>.myh2</find>
+      <find>yus1</find>
+      <find>О НАШЕЙ КОМПАНИИ</find>
+      <find>tcenyf</find>
+      <find>tceny</find>
+      <find>my1h1</find>
+      <find>gifts14</find>
       <find>Наши к</find>
-      <find>/images/brendirovanie.png</find>
+      <find>/images/shumoizolyaziya.png</find>
+      <find>main</find>
+      <find>comments_list</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -125,7 +138,6 @@
       <list>
         <option value="$PROJECT_DIR$/js/nav.js" />
         <option value="$PROJECT_DIR$/vmyatina.php" />
-        <option value="$PROJECT_DIR$/vmyatina/style.css" />
         <option value="$PROJECT_DIR$/steklo/style.css" />
         <option value="$PROJECT_DIR$/signal/style.css" />
         <option value="$PROJECT_DIR$/tonirovka/style.css" />
@@ -136,6 +148,19 @@
         <option value="$PROJECT_DIR$/steklo.php" />
         <option value="$PROJECT_DIR$/brend.php" />
         <option value="$PROJECT_DIR$/brend/style.css" />
+        <option value="$PROJECT_DIR$/pokritie/style.css" />
+        <option value="$PROJECT_DIR$/pokritie.php" />
+        <option value="$PROJECT_DIR$/pokritie/js/nav.js" />
+        <option value="$PROJECT_DIR$/polir/style.css" />
+        <option value="$PROJECT_DIR$/polirovka.php" />
+        <option value="$PROJECT_DIR$/obkleika.php" />
+        <option value="$PROJECT_DIR$/obkleika/style.css" />
+        <option value="$PROJECT_DIR$/bron.php" />
+        <option value="$PROJECT_DIR$/vmyatina/style.css" />
+        <option value="$PROJECT_DIR$/shymka/style.css" />
+        <option value="$PROJECT_DIR$/shymka.php" />
+        <option value="$PROJECT_DIR$/chip.php" />
+        <option value="$PROJECT_DIR$/bron/style.css" />
       </list>
     </option>
   </component>
@@ -148,7 +173,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="169" />
     <option name="width" value="1400" />
     <option name="height" value="1040" />
@@ -168,7 +193,12 @@
             <path>
               <item name="avto-zakaz.ru" type="b2602c69:ProjectViewProjectNode" />
               <item name="avto-zakaz.ru" type="462c0819:PsiDirectoryNode" />
-              <item name="brend" type="462c0819:PsiDirectoryNode" />
+              <item name="bron" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="avto-zakaz.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="avto-zakaz.ru" type="462c0819:PsiDirectoryNode" />
+              <item name="shymka" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,55 +245,69 @@
       <workItem from="1529352869142" duration="2638000" />
       <workItem from="1529384547844" duration="32754000" />
       <workItem from="1529419427045" duration="22192000" />
-      <workItem from="1529467985545" duration="10832000" />
+      <workItem from="1529467985545" duration="19143000" />
+      <workItem from="1529491145364" duration="80000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90944000" />
+    <option name="totallyTimeSpent" value="118143000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17697228" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17697228" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17630059" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17537314" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17630059" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
@@ -275,20 +319,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7956">
-          <caret line="468" selection-start-line="468" selection-end-line="523" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/steklo/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12682">
-          <caret line="746" column="24" selection-start-line="746" selection-start-column="24" selection-end-line="746" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tonirovka/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12852">
@@ -432,13 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="642" column="22" selection-start-line="642" selection-start-column="22" selection-end-line="642" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tonirovka/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -470,48 +493,190 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-935">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vmyatina/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="216" column="2" selection-start-line="216" selection-start-column="2" selection-end-line="219" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/steklo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1453">
           <caret line="340" column="24" selection-start-line="340" selection-start-column="18" selection-end-line="340" selection-end-column="24" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#div#1;n#div#3;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#27305#28914#0#HTML" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brend.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="438" column="53" selection-start-line="438" selection-start-column="44" selection-end-line="438" selection-end-column="54" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#14518#15624#0#HTML" />
-            <element signature="e#23203#24812#0#HTML" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="597" lean-forward="true" selection-start-line="597" selection-end-line="597" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/brend/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="312" column="38" selection-start-line="312" selection-start-column="38" selection-end-line="312" selection-end-column="38" />
+        <state relative-caret-position="383">
+          <caret line="214" column="17" selection-start-line="214" selection-start-column="5" selection-end-line="214" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="282" lean-forward="true" selection-start-line="282" selection-end-line="283" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polirovka.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pokritie/js/nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pokritie/js/alarm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="26" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polir/js/nav.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pokritie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="293" selection-start-line="293" selection-end-line="294" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pokritie/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="125" selection-start-line="125" selection-end-line="345" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polirovka.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="666" column="3" selection-start-line="666" selection-start-column="3" selection-end-line="716" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#21159#22170#0#HTML" />
+            <element signature="e#29323#31084#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polir/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="198" selection-start-line="198" selection-end-line="434" selection-end-column="1" />
+          <folding>
+            <element signature="e#11940#15264#0" />
+            <element signature="e#15347#15876#0" />
+            <element signature="e#15877#17018#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obkleika.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="311" selection-start-line="311" selection-end-line="312" selection-end-column="79" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#3;n#div#10;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#24086#25695#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obkleika/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="321" selection-start-line="321" selection-end-line="555" selection-end-column="1" />
+          <folding>
+            <element signature="e#13291#16697#0" />
+            <element signature="e#16698#17325#0" />
+            <element signature="e#17327#18466#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shymka/zakaz.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="244" column="16" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vmyatina/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="152" column="8" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shymka/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="444" column="12" selection-start-line="444" selection-start-column="12" selection-end-line="444" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="72" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#10;n#div#2;n#div#1;n#div#2;n#div#2;n#div#3;n#div#0;n#div#3;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#28614#30375#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shymka.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="72" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="72" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#2;n#div#1;n#div#3;n#div#11;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#td#0;n#div#1;n#div#3;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#td#0;n#div#1;n#div#3;n#div#11;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#21316#22925#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chip.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bron/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="124" column="48" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
+          <folding>
+            <element signature="e#18968#19666#0" />
+            <element signature="e#19667#20807#0" />
+          </folding>
         </state>
       </provider>
     </entry>

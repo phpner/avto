@@ -150,6 +150,10 @@ h2{color: #000000;font-size: 60px;font-family: "PT Sans";padding: 0px;margin: 0p
 h2.opis{color: #000000;font-size: 45px;font-family: "PT Sans";padding: 18px;margin: 0px;}
 
 span.usl2{color:#fff;font-size:29px;font-family: "PT Sans";text-align: center;max-width:220px;position: relative;display: block;}
+span.usl{
+    width: 100%!important;
+    color: #fff!important;
+}
 #maxuzn{width:1200px;position: relative;margin: 0 auto;}
 #zn1{position: relative;margin: 0 auto;width:70px; height:79px;background: url('../images/uszn.png')no-repeat;}
 

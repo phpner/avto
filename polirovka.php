@@ -3,11 +3,13 @@
 <head>
 <meta charset="utf-8"/>
 <title>Полировка авто в Челябинске, полировка кузова | AutoStyle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Если вам необходима полировка автомобиля в Челябинске, то обратитесь в автоцентр AutoStyle. Уточнить цены и задать вопросы Вы можете по телефону +7 (351) 750-62-73"/>
 <meta name="keywords" content="полировка полная глубокая легкая удалить царапины на крыле на двери"/>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
 <link rel="stylesheet" href="polir/style.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="css/media.css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="polir/js/preload.js"</script>
@@ -29,16 +31,18 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <body>
 <div id="polir">
 <div id="mainsig">
-<div id="logo"><a class="scrollto" href="/"><img border="0" src="/polir/images/logo.png"></a></div>
-<div id="adres">
-	<a class="lala" href="tel:+73517506273"><span style="color:#FFFFFF;"> +7 (351) </span> <span class="tel"style="color:#FFFFFF;">750-62-73</a></span><br/>
-	<span class="adr"style="color:#FFFFFF;">г.Челябинск, ул. Чичерина 24<span>
-		<span class="adr">Ежедневно с 9.00 до 20.00<span>
-</div>
-<div id="soc">
-<a href="http://vk.com/autostyle174" target="_blank"><img border="0" src="/polir/images/vk.png"></a><br /><br />
-<a href="http://instagram.com/autostyle74" target="_blank"><img border="0" src="/polir/images/inst.png"></a>
-</div>
+    <nav>
+    <div id="logo"><a class="scrollto" href="/"><img border="0" src="/polir/images/logo.png"></a></div>
+    <div id="adres">
+        <a class="lala" href="tel:+73517506273"><span style="color:#FFFFFF;"> +7 (351) </span> <span class="tel"style="color:#FFFFFF;">750-62-73</a></span><br/>
+        <span class="adr"style="color:#FFFFFF;">г.Челябинск, ул. Чичерина 24<span>
+            <span class="adr">Ежедневно с 9.00 до 20.00<span>
+    </div>
+    <div id="soc">
+    <a href="http://vk.com/autostyle174" target="_blank"><img border="0" src="/polir/images/vk.png"></a>
+    <a href="http://instagram.com/autostyle74" target="_blank"><img border="0" src="/polir/images/inst.png"></a>
+    </div>
+    </nav>
 <div class="slogan">Полировка кузова в Челябинске</div>
 </div>
 <div id="polcar">
@@ -50,7 +54,7 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 </div>
 <div class="zakaz2">
 <div id="zakaz">
-<span class="zakaz" style="color:#000000;"> На глубокую полировку кузова <br/>
+<span class="zakaz"> На глубокую полировку кузова <br/>
 в Июне скидка -10%</span>
 <span class="form">
 <form action="polir/zakaz.php" method="post" class="orderform" id="orderform1">
@@ -80,15 +84,44 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <div id="yuslygf">
 <div id="yuslyg">
 <div class="myh2">Почему более 1000 клиентов <br> отполировали свой автомобиль у нас?</div><br><br><br>
-<div id="ceers1">Опыт работы мастеров<br/>более 5 лет</div>
-<div id="ceers2">Брендовые<br/>материалы</div> 
-<div id="ceers3">Гарантийные<br/>обязательства</div> 
-<div id="ceers4">Наличный<br/>и безналичный расчет</div> 
-<div id="ceers5">Сертифицированный<br/>автоцентр</div> 
-<div id="ceers6">Бережная работа<br/>с автомобилем</div> 
-<div id="ceers7">Соблюдение сроков</div> 
-<div id="ceers8">Двойной<br/>контроль качества</div> 
-<div id="ceers7">Работаем ежедневно<br/>с 9.00 до 20.00</div> 
+    <div class="whyMe">
+        <div id="yus1">
+            <img src="images/circ1.png" alt="">
+            <p>Опыт работы мастеров<br/>более 5 лет</p>
+        </div>
+        <div id="yus2">
+            <img src="images/circ5.png" alt="">
+            <p>Брендовые<br/>материалы</p>
+        </div>
+        <div id="yus3">
+            <img src="images/circ2.png" alt="">
+            <p>Гарантийные<br/>обязательства</p>
+        </div>
+        <div id="yus4">
+            <img src="images/circ6.png" alt="">
+            <p>Наличный<br/>и безналичный расчет</p>
+        </div>
+        <div id="yus5">
+            <img src="images/circ3.png" alt="">
+            <p>Сертифицированный<br/>автоцентр</p>
+        </div>
+        <div id="yus6">
+            <img src="images/circ7.png" alt="">
+            <p>Бережная работа<br/>с автомобилем</p>
+        </div>
+        <div id="yus7">
+            <img src="images/circ4.png" alt="">
+            <p>облюдение сроков</p>
+        </div>
+        <div id="yus8">
+            <img src="images/circ8.png" alt="">
+            <p>Двойной<br/>контроль качества</p>
+        </div>
+        <div id="yus7">
+            <img src="images/circ4.png" alt="">
+            <p>Работаем ежедневно<br/>с 9.00 до 20.00</p>
+        </div>
+    </div>
 </div>
 </div>
 
@@ -138,50 +171,48 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <div class="myh2">Наши работы</div>
 <br>
 <div align="center">
-
-<a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-6.jpg"><img src="polir/photo/image-05-06-16-17-47-6-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-5.jpg"><img src="polir/photo/image-05-06-16-17-47-5-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-2.jpg"><img src="polir/photo/image-05-06-16-17-47-2-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-3.jpg"><img src="polir/photo/image-05-06-16-17-47-3-001.jpg" /></a>
-<br>
-<a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-10.jpg"><img src="polir/photo/image-05-06-16-17-47-10-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-8.jpg"><img src="polir/photo/image-05-06-16-17-47-8-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-9.jpg"><img src="polir/photo/image-05-06-16-17-47-9-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-11.jpg"><img src="polir/photo/image-05-06-16-17-47-11-001.jpg" /></a>
-<br>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/image-05-06-16-17-47.jpg"><img src="polir/photo/image-05-06-16-17-47-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-1.jpg"><img src="polir/photo/image-05-06-16-17-47-1-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-4.jpg"><img src="polir/photo/image-05-06-16-17-47-4-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/image-05-06-16-17-47-7.jpg"><img src="polir/photo/image-05-06-16-17-47-7-001.jpg" /></a>
-<br>
-
-
-
+<div class="us_wprks">
+    <a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-6.jpg"><img src="polir/photo/image-05-06-16-17-47-6-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-5.jpg"><img src="polir/photo/image-05-06-16-17-47-5-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-2.jpg"><img src="polir/photo/image-05-06-16-17-47-2-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-3.jpg"><img src="polir/photo/image-05-06-16-17-47-3-001.jpg" /></a>
+    <br>
+    <a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-10.jpg"><img src="polir/photo/image-05-06-16-17-47-10-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-8.jpg"><img src="polir/photo/image-05-06-16-17-47-8-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-9.jpg"><img src="polir/photo/image-05-06-16-17-47-9-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-11.jpg"><img src="polir/photo/image-05-06-16-17-47-11-001.jpg" /></a>
+    <br>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/image-05-06-16-17-47.jpg"><img src="polir/photo/image-05-06-16-17-47-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-1.jpg"><img src="polir/photo/image-05-06-16-17-47-1-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова"  href="polir/photo/image-05-06-16-17-47-4.jpg"><img src="polir/photo/image-05-06-16-17-47-4-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/image-05-06-16-17-47-7.jpg"><img src="polir/photo/image-05-06-16-17-47-7-001.jpg" /></a>
+    <br>
+<div class="mob_more_wrapp_wort">
 
 
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC01220.jpg"><img src="polir/photo/DSC01220-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC02036.jpg"><img src="polir/photo/DSC02036-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC02037.jpg"><img src="polir/photo/DSC02037-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC02199.jpg"><img src="polir/photo/DSC02199-001.jpg" /></a>
-
-<br>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC02158.jpg"><img src="polir/photo/DSC02158-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC02170.jpg"><img src="polir/photo/DSC02170-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC02397.jpg"><img src="polir/photo/DSC02397-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC02546.jpg"><img src="polir/photo/DSC02546-001.jpg" /></a>
-<br>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC03435.jpg"><img src="polir/photo/DSC03435-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC02984.jpg"><img src="polir/photo/DSC02984-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC03442.jpg"><img src="polir/photo/DSC03442-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC03472.jpg"><img src="polir/photo/DSC03472-001.jpg" /></a>
-<br>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC03561.jpg"><img src="polir/photo/DSC03561-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC03562.jpg"><img src="polir/photo/DSC03562-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC03698.jpg"><img src="polir/photo/DSC03698-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC03702.jpg"><img src="polir/photo/DSC03702-001.jpg" /></a>
-<br>
 
 
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC01220.jpg"><img src="polir/photo/DSC01220-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC02036.jpg"><img src="polir/photo/DSC02036-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC02037.jpg"><img src="polir/photo/DSC02037-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC02199.jpg"><img src="polir/photo/DSC02199-001.jpg" /></a>
+
+    <br>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC02158.jpg"><img src="polir/photo/DSC02158-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC02170.jpg"><img src="polir/photo/DSC02170-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC02397.jpg"><img src="polir/photo/DSC02397-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC02546.jpg"><img src="polir/photo/DSC02546-001.jpg" /></a>
+    <br>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC03435.jpg"><img src="polir/photo/DSC03435-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC02984.jpg"><img src="polir/photo/DSC02984-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC03442.jpg"><img src="polir/photo/DSC03442-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC03472.jpg"><img src="polir/photo/DSC03472-001.jpg" /></a>
+    <br>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC03561.jpg"><img src="polir/photo/DSC03561-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC03562.jpg"><img src="polir/photo/DSC03562-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC03698.jpg"><img src="polir/photo/DSC03698-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/DSC03702.jpg"><img src="polir/photo/DSC03702-001.jpg" /></a>
+    <br>
 
 
 
@@ -190,47 +221,51 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 
 
 
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir025.jpg"><img src="polir/photo/polir025-025.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir026.jpg"><img src="polir/photo/polir026-026.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir027.jpg"><img src="polir/photo/polir027-027.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir028.jpg"><img src="polir/photo/polir028-028.jpg" /></a>
-<br>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir003.jpg"><img src="polir/photo/polir003-003.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir004.jpg"><img src="polir/photo/polir004-004.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir001.jpg"><img src="polir/photo/polir001-001.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir002.jpg"><img src="polir/photo/polir002-002.jpg" /></a>
-<br>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir013.jpg"><img src="polir/photo/polir013-013.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir014.jpg"><img src="polir/photo/polir014-014.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir005.jpg"><img src="polir/photo/polir005-005.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir006.jpg"><img src="polir/photo/polir006-006.jpg" /></a>
-<br>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir019.jpg"><img src="polir/photo/polir019-019.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir020.jpg"><img src="polir/photo/polir020-020.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir009.jpg"><img src="polir/photo/polir009-009.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir010.jpg"><img src="polir/photo/polir010-010.jpg" /></a>
-<br>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir015.jpg"><img src="polir/photo/polir015-015.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir016.jpg"><img src="polir/photo/polir016-016.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir007.jpg"><img src="polir/photo/polir007-007.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir008.jpg"><img src="polir/photo/polir008-008.jpg" /></a>
-<br>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir017.jpg"><img src="polir/photo/polir017-017.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir018.jpg"><img src="polir/photo/polir018-018.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir011.jpg"><img src="polir/photo/polir011-011.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir012.jpg"><img src="polir/photo/polir012-012.jpg" /></a>
-<br>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir021.jpg"><img src="polir/photo/polir021-021.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir022.jpg"><img src="polir/photo/polir022-022.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir023.jpg"><img src="polir/photo/polir023-023.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir024.jpg"><img src="polir/photo/polir024-024.jpg" /></a>
-<br>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir029.jpg"><img src="polir/photo/polir029-029.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir030.jpg"><img src="polir/photo/polir030-030.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir031.jpg"><img src="polir/photo/polir031-031.jpg" /></a>
-<a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir032.jpg"><img src="polir/photo/polir032-032.jpg" /></a>
 
 
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir025.jpg"><img src="polir/photo/polir025-025.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir026.jpg"><img src="polir/photo/polir026-026.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir027.jpg"><img src="polir/photo/polir027-027.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir028.jpg"><img src="polir/photo/polir028-028.jpg" /></a>
+    <br>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir003.jpg"><img src="polir/photo/polir003-003.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir004.jpg"><img src="polir/photo/polir004-004.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir001.jpg"><img src="polir/photo/polir001-001.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir002.jpg"><img src="polir/photo/polir002-002.jpg" /></a>
+    <br>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir013.jpg"><img src="polir/photo/polir013-013.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir014.jpg"><img src="polir/photo/polir014-014.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir005.jpg"><img src="polir/photo/polir005-005.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir006.jpg"><img src="polir/photo/polir006-006.jpg" /></a>
+    <br>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir019.jpg"><img src="polir/photo/polir019-019.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir020.jpg"><img src="polir/photo/polir020-020.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir009.jpg"><img src="polir/photo/polir009-009.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir010.jpg"><img src="polir/photo/polir010-010.jpg" /></a>
+    <br>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir015.jpg"><img src="polir/photo/polir015-015.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir016.jpg"><img src="polir/photo/polir016-016.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir007.jpg"><img src="polir/photo/polir007-007.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir008.jpg"><img src="polir/photo/polir008-008.jpg" /></a>
+    <br>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir017.jpg"><img src="polir/photo/polir017-017.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir018.jpg"><img src="polir/photo/polir018-018.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir011.jpg"><img src="polir/photo/polir011-011.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir012.jpg"><img src="polir/photo/polir012-012.jpg" /></a>
+    <br>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir021.jpg"><img src="polir/photo/polir021-021.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir022.jpg"><img src="polir/photo/polir022-022.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir023.jpg"><img src="polir/photo/polir023-023.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir024.jpg"><img src="polir/photo/polir024-024.jpg" /></a>
+    <br>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir029.jpg"><img src="polir/photo/polir029-029.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir030.jpg"><img src="polir/photo/polir030-030.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir031.jpg"><img src="polir/photo/polir031-031.jpg" /></a>
+    <a class="two" rel="group" title="Полировка кузова" href="polir/photo/polir032.jpg"><img src="polir/photo/polir032-032.jpg" /></a>
+
+</div>
+</div>
+    <h2 class="mob_h2_work mob_how_mow"><a href="#">Показать больше</a></h2>
 
 
 </div>		
@@ -273,7 +308,8 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <img alt="" src="images/clients/kli28023.png"><br>
 
 
-
+    <div class="mob_more_wrapp">
+        <div class="mob_more">
 
 <img alt="" src="images/clients/kli28025.png">
 <img alt="" src="images/clients/kli28024.png">
@@ -307,8 +343,10 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <img alt="" src="images/clients/kli28007.png">
 <img alt="" src="images/clients/kli28012.png">
 <img alt="" src="images/clients/kli28002.png"><br>
-
-			<div class="drugi">
+        </div>
+    </div>
+    <h2 class="mob_h2 mob_how_mow"><a href="#">Показать больше</a></h2>
+			<div class="frends">
 				</div>
 <br>
 
@@ -341,7 +379,7 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <div class="item clear_self">
 <img src="polir/images/nam21.png" alt="">
 <div class="georgia">Игорь, BMW 3GT. Привет всем, 16.07.2017 полировал и тонировал автомобиль bmw3GT, сделали все качественно, быстро и не дорого, всем рекомендую!!!
-<a https://vk.com/id29137861" target="_blank">https://vk.com/id29137861</a>
+<a href="https://vk.com/id29137861" target="_blank">https://vk.com/id29137861"></a>
 </div>
 </div><br>
 
@@ -358,7 +396,7 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 </div>
 </div><br>
 
-
+    <div class="mob_more_wrapp_comment">
 
 <div class="item clear_self">
 <img src="polir/images/nam16.png" alt="">
@@ -439,65 +477,78 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <div class="georgia">Евгений, Lada Priora. Приехал к парням 26.08.2015 отполировать бампер (мелкое дтп), все сделали быстро и качественно!!! Спасибо!)<a href="https://instagram.com/avilovevgeniy/" target="_blank">https://instagram.com/avilovevgeniy/</a>
 </div>
 </div>
-</div><br><br><br><br>
+</div>
+</div>
+    <h2 class="mob_h2_comment mob_how_mow"><a href="#">Показать больше</a></h2>
 <div class="clients1-bg">	
 <div class="myh2">Наше местоположение:</div>
 <span>г.Челябинск, ул. Чичерина 24 <br>(Городской автомоечный комплекс)</span>
 </div>
-<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=qXKspKQ2Ozf4RTfiNrUQzy7LPFKEKKEc&width=960&height=550"></script>
+    <div class="mapp">
+        <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=qXKspKQ2Ozf4RTfiNrUQzy7LPFKEKKEc"></script>
+    </div>
 <br><br>
 
-<img alt="" src="polir/images/Street001.png">
-<img alt="" src="polir/images/Street002.png">
+<img alt="" class="where_photo" src="polir/images/Street001.png">
+<img alt="" class="where_photo" src="polir/images/Street002.png">
 <br><br>
 
 
 
 
 <!--компания в лицах -->
-<div class="face">
-<div class="myautolig">Компания в лицах</div>
-<table border="0" style="align:center;">
-<tr>
-<td><img src="polir/images/lick1.jpg" alt=""></td>
-<td><img src="polir/images/lick2.jpg" alt=""></td>
-<td><img src="polir/images/lick3.jpg" alt=""></td>
-<td><img src="polir/images/lick4.jpg" alt=""></td>
-<td><img src="polir/images/lick5.jpg" alt=""></td>
-<td><img src="polir/images/lick6.jpg" alt=""></td>
-</tr>
-<tr>
-<td width="102px" style="text-align:center">
-Илья<br/>
-Тонирование<br/>
-Винил</td>
-<td width="102px" style="text-align:center">
-Антон<br/>
-Тонирование<br/>
-Полировка
-</td>
-<td width="102px" style="text-align:center">
-Денис<br/>
-Ремонт<br/>
-Стекла</td>
-<td width="102px" style="text-align:center">
-Александр<br/>
-Управляющий<br/>
-Компании
-</td>
-<td width="102px" style="text-align:center">
-Альберт<br/>
-Автоэлектрик<br/>
-Шумоизоляция</td>
-<td width="102px" style="text-align:center">
-Антон<br/>
-Бронирование<br/>
-Тонирование
-</td>
-</tr>
-</table>
-<div style="clear: both"></div>
-</div></div>
+    <div class="face">
+        <div class="myautolig">Компания в лицах</div>
+        <span>
+        <img src="images/face1.jpg" alt="">
+        <p>
+            Илья<br/>
+            Тонирование<br/>
+            Винил</td>
+        </p>
+    </span>
+        <span>
+        <img src="images/face2.jpg" alt="">
+        <p>
+           Антон<br/>
+            Тонирование<br/>
+            Полировка
+        </p>
+    </span>
+        <span>
+        <img src="images/face3.jpg" alt="">
+        <p>
+          Денис<br/>
+        Ремонт<br/>
+        Стекла</td>
+        </p>
+    </span>
+        <span>
+        <img src="images/face4.jpg" alt="">
+        <p>
+       Александр<br/>
+        Управляющий<br/>
+        Компании
+        </p>
+    </span>
+        <span>
+        <img src="images/face5.jpg" alt="">
+        <p>
+       Альберт<br/>
+        Автоэлектрик<br/>
+        Шумоизоляция</td>
+        </p>
+    </span>
+        <span>
+        <img src="images/face6.jpg" alt="">
+        <p>
+      Антон<br/>
+        Бронирование<br/>
+        Тонирование
+        </p>
+    </span>
+        <div style="clear: both"></div>
+    </div></div>
 <br/><br/>
 <!-- -->
 <div class="myautolig">AutoStyle в программе "Автолига"</div>
@@ -585,7 +636,7 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <p id='spoiler-show' style="text-align: justify;"><span>Читать полностью</span></p>
 <div id='spoiler-content'>
 <h2>Полировка кузова</h2>
-<p justify="">Полировка кузова автомобиля от царапин выполняется за 3-12 часов. Время полировки кузова, цена на которую у нас является оптимальной и определяется видом полировки. Самой трудоемкой и дорогостоящей считается глубокая полировка кузова (абразивная). Она заключается в снятии верхнего слоя лака и нанесении вместо него слоя защитного покрытия. Подробную информацию о стоимости работ и сроках их проведения вы можете получить, позвонив по нашему телефону.<img src="/images/polirovka.JPG" width="300" height="201" alt="Полировка кузова" title="Полировка кузова" style="float: right; margin: 5px 7px;" /></p>
+<p justify="">Полировка кузова автомобиля от царапин выполняется за 3-12 часов. Время полировки кузова, цена на которую у нас является оптимальной и определяется видом полировки. Самой трудоемкой и дорогостоящей считается глубокая полировка кузова (абразивная). Она заключается в снятии верхнего слоя лака и нанесении вместо него слоя защитного покрытия. Подробную информацию о стоимости работ и сроках их проведения вы можете получить, позвонив по нашему телефону.<img class="footer_img" src="/images/polirovka.JPG" width="300" height="201" alt="Полировка кузова" title="Полировка кузова" style="float: right; margin: 5px 7px;" /></p>
 <p justify=""><b>Услуга полировки машины включает: </b></p>
 <ul>
 <li style="text-align: justify;">нанесение защитного покрытия;</li>
@@ -613,6 +664,57 @@ $("a.content").fancybox({"frameWidth":600,"frameHeight":300});
 <div class="fleft">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
+    $(document).ready(function() {
+
+        $( window ).resize(function() {
+            var w = $(window).width();
+            if(w > 720 && $(".mob_more_wrapp").is(":hidden") ){
+                $(".mob_more_wrapp").removeAttr('style');
+            }
+            if(w > 720 && $(".mob_more_wrapp_comment").is(":hidden") ){
+                $(".mob_more_wrapp_comment").removeAttr('style');
+            }
+            if(w > 720 && $(".mob_more_wrapp_wort").is(":hidden") ){
+                $(".mob_more_wrapp_wort").removeAttr('style');
+            }
+
+        });
+
+        /*clint*/
+
+        $(".mob_h2 a").bind("click",function (e){
+            console.log('here!!!');
+            e.preventDefault();
+            var text = $(".mob_h2 a").text();
+
+            text = (text === "Скрыть") ?  "Показать больше" : "Скрыть";
+
+            $(".mob_h2 a").text(text);
+            $(".mob_more_wrapp").slideToggle();
+        });
+
+        /*commet*/
+
+        $(".mob_h2_comment  a").bind("click",function (e){
+            e.preventDefault();
+            var textCom = $(".mob_h2_comment a").text();
+            textCom = (textCom === "Скрыть") ?  "Показать больше" : "Скрыть";
+            $(".mob_h2_comment a").text(textCom);
+            $(".mob_more_wrapp_comment").slideToggle();
+
+        });
+
+        /*WORK*/
+
+        $(".mob_h2_work  a").bind("click",function (e){
+            e.preventDefault();
+            var textCom = $(".mob_h2_work a").text();
+            textCom = (textCom === "Скрыть") ?  "Показать больше" : "Скрыть";
+            $(".mob_h2_work a").text(textCom);
+            $(".mob_more_wrapp_wort").slideToggle();
+
+        });
+    });
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {

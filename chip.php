@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <title>Автосервис косметического обслуживания в Челябинске | AutoStyle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Автосервис «AutoStyle» не первый год успешно работает на рынке косметических услуг для авто. Большие рабочие площади, опытный персонал и низкие цены. Подробности по телефону +7 (351) 750-62-73"/>
 <meta name="keywords" content="автоцентр автосервис челябинск"/>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
