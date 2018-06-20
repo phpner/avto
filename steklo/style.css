@@ -715,6 +715,7 @@ span.usl{
 @media screen and (max-width: 768px){
     .myh2{
         font-size: 2.1rem;
+        text-align: center;
     }
     #zakaz{
         margin-top: -60px;
@@ -742,7 +743,8 @@ span.usl{
     height: 38vh;
   }
   h2{
-    font-size: 2rem;
+    font-size: 1.6rem;
+      text-align: center;
   }
   #greats13{
     height: 45vh;

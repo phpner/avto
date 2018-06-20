@@ -484,6 +484,9 @@ span.usl2{color:#fff;font-size:29px;font-family: "PT Sans";text-align: center;ma
     display: block;
 }
 @media screen and (max-width: 768px){
+    h2{
+        text-align: center;
+    }
     .mob_h2, .mob_h2_comment,.mob_h2_work{
         display: block;
     }

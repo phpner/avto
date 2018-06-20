@@ -6,6 +6,7 @@
 <meta name="description" content="Мы свыше 10 лет производим тонирование авто в Челябинске. При обращении к нам клиенты могут выбрать из каталога тонировочные пленки для автомашин по своему вкусу. Подробности по телефону +7 (351) 750-62-73">
 <meta name="keywords" content="тонировка тонировка по госту тонирование затонировать">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/media.css">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 <link rel="stylesheet" href="tonirovka/style.css" type="text/css" media="screen"/>

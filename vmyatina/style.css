@@ -570,6 +570,7 @@ span.usl2{color:#fff;font-size:29px;font-family: "PT Sans";text-align: center;ma
     }
     .myh2{
         font-size: 2.1rem;
+        text-align: center;
     }
     #zakaz{
         margin-top: -60px;
@@ -597,7 +598,8 @@ span.usl2{color:#fff;font-size:29px;font-family: "PT Sans";text-align: center;ma
         height: 38vh;
     }
     h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
+        text-align: center;
     }
     #greats13{
         height: 45vh;

@@ -9,6 +9,7 @@
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="signal/style.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="signal/lightbox.css">
 <script type="text/javascript" src="signal/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="signal/js/jquery-ui-1.10.4.custom.min.js"></script>

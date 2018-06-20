@@ -5,9 +5,11 @@
 <title>Реклама на транспорте, брендирование автомобилей | AutoStyle</title>
 <meta name="description" content="Если вам нужна реклама на транспорте в Челябинске, то наша компания идеальный вариант. Сотрудники помогут осуществить брендирование автомобиля пленкой, предложив несколько вариантов оформления. Подробности по телефону +7 (351) 750-62-73"/>
 <meta name="keywords" content="брендирование оклейка автомобиля рекламой"/>
-<link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-<link rel="stylesheet" href="brend/style.css" type="text/css" media="screen"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="brend/style.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="css/media.css">
 <link rel="stylesheet" href="brend/lightbox.css">
 <script type="text/javascript" src="brend/js/jquery-1.9.1.min.js"</script>
 <script type="text/javascript" src="brend/js/jquery-ui-1.10.4.custom.min.js"</script>
@@ -21,15 +23,17 @@
 <div class="js-alarm_car landing-img-alarm lights" style="opacity: 1;"></div>
 <div class="landing-img-alarm"></div>
 <div id="mainsig">
-<div id="logo"><a class="scrollto" href="/"><img border="0" src="/brend/images/logo.png"></a></div>
-<div id="adres">
-	<a class="lala" href="tel:+73517506273"><span style="color:#FFFFFF;"> +7 (351) </span> <span class="tel"style="color:#FFFFFF;">750-62-73</a></span><br/>
-	<span class="adr"style="color:#FFFFFF;">г.Челябинск, ул. Чичерина 24<span>
-</div>
-<div id="soc">
-<a href="http://vk.com/autostyle174" target="_blank"><img border="0" src="/brend/images/vk.png"></a><br /><br />
-<a href="http://instagram.com/autostyle74" target="_blank"><img border="0" src="/brend/images/inst.png"></a>
-</div>
+    <nav>
+        <div id="logo"><a class="scrollto" href="/"><img border="0" src="/brend/images/logo.png"></a></div>
+        <div id="adres">
+            <a class="lala" href="tel:+73517506273"><span style="color:#FFFFFF;"> +7 (351) </span> <span class="tel"style="color:#FFFFFF;">750-62-73</a></span><br/>
+            <span class="adr"style="color:#FFFFFF;">г.Челябинск, ул. Чичерина 24<span>
+        </div>
+        <div id="soc">
+        <a href="http://vk.com/autostyle174" target="_blank"><img border="0" src="/brend/images/vk.png"></a>
+        <a href="http://instagram.com/autostyle74" target="_blank"><img border="0" src="/brend/images/inst.png"></a>
+        </div>
+    </nav>
 <div class="slogan">Брендирование авто в Челябинске</div>
 </div>
 <div class="zakaz3">
@@ -54,15 +58,44 @@
 <div id="yuslygf">
 <div id="yuslyg">
 <div class="myh2">Почему более 100 клиентов <br> обратились к нам?</div><br><br><br>
-<div id="brendyus1">Опыт работы мастеров<br/>более 5 лет</div>
-<div id="brendyus2">Брендовые<br/>материалы</div> 
-<div id="brendyus3">Гарантийные<br/>обязательства</div> 
-<div id="brendyus4">Наличный<br/>и безналичный расчет</div> 
-<div id="brendyus5">Сертифицированный<br/>автоцентр</div> 
-<div id="brendyus6">Бережная работа<br/>с автомобилем</div> 
-<div id="brendyus7">Соблюдение сроков</div> 
-<div id="brendyus8">Двойной<br/>контроль качества</div> 
-<div id="brendyus7">Работаем ежедневно<br/>с 9.00 до 20.00</div> 
+    <div class="whyMe">
+        <div id="yus1">
+            <img src="images/circ1.png" alt="">
+            <p>Опыт работы мастеров<br/>более 5 лет</p>
+        </div>
+        <div id="yus2">
+            <img src="images/circ5.png" alt="">
+            <p>Брендовые<br/>материалы</p>
+        </div>
+        <div id="yus3">
+            <img src="images/circ2.png" alt="">
+            <p>Гарантийные<br/>обязательства</p>
+        </div>
+        <div id="yus4">
+            <img src="images/circ6.png" alt="">
+            <p>Наличный<br/>и безналичный расчет</p>
+        </div>
+        <div id="yus5">
+            <img src="images/circ3.png" alt="">
+            <p>Сертифицированный<br/>автоцентр</p>
+        </div>
+        <div id="yus6">
+            <img src="images/circ7.png" alt="">
+            <p>Бережная работа<br/>с автомобилем</p>
+        </div>
+        <div id="yus7">
+            <img src="images/circ4.png" alt="">
+            <p>облюдение сроков</p>
+        </div>
+        <div id="yus8">
+            <img src="images/circ8.png" alt="">
+            <p>Двойной<br/>контроль качества</p>
+        </div>
+        <div id="yus7">
+            <img src="images/circ4.png" alt="">
+            <p>Работаем ежедневно<br/>с 9.00 до 20.00</p>
+        </div>
+    </div>
 </div>
 </div>
 <div class="zakaz4">
@@ -95,6 +128,7 @@
 <div class="myh2">Наши работы</div>
 <br>
 <div align="center">
+    <div class="us_wprks">
 <a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend001.jpg"><img src="brend/photo/brend001-001.jpg" /></a>
 <a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend002.jpg"><img src="brend/photo/brend002-002.jpg" /></a>
 <a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend003.jpg"><img src="brend/photo/brend003-003.jpg" /></a>
@@ -105,22 +139,25 @@
 <a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend007.jpg"><img src="brend/photo/brend007-007.jpg" /></a>
 <a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend008.jpg"><img src="brend/photo/brend008-008.jpg" /></a>
 <br>
-<a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend009.jpg"><img src="brend/photo/brend009-009.jpg" /></a>
-<a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend010.jpg"><img src="brend/photo/brend010-010.jpg" /></a>
-<a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend011.jpg"><img src="brend/photo/brend011-011.jpg" /></a>
-<a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend012.jpg"><img src="brend/photo/brend012-012.jpg" /></a>
-<br>
-<a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend013.jpg"><img src="brend/photo/brend013-013.jpg" /></a>
-<a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend014.jpg"><img src="brend/photo/brend014-014.jpg" /></a>
-<a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend015.jpg"><img src="brend/photo/brend015-015.jpg" /></a>
-<a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend016.jpg"><img src="brend/photo/brend016-016.jpg" /></a>
-<br>
-<a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend017.jpg"><img src="brend/photo/brend017-017.jpg" /></a>
-<a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend018.jpg"><img src="brend/photo/brend018-018.jpg" /></a>
-<a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend019.jpg"><img src="brend/photo/brend019-019.jpg" /></a>
-<a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend020.jpg"><img src="brend/photo/brend020-020.jpg" /></a>
-
-</div>		
+<div class="mob_more_wrapp_wort">
+    <a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend009.jpg"><img src="brend/photo/brend009-009.jpg" /></a>
+    <a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend010.jpg"><img src="brend/photo/brend010-010.jpg" /></a>
+    <a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend011.jpg"><img src="brend/photo/brend011-011.jpg" /></a>
+    <a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend012.jpg"><img src="brend/photo/brend012-012.jpg" /></a>
+    <br>
+    <a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend013.jpg"><img src="brend/photo/brend013-013.jpg" /></a>
+    <a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend014.jpg"><img src="brend/photo/brend014-014.jpg" /></a>
+    <a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend015.jpg"><img src="brend/photo/brend015-015.jpg" /></a>
+    <a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend016.jpg"><img src="brend/photo/brend016-016.jpg" /></a>
+    <br>
+    <a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend017.jpg"><img src="brend/photo/brend017-017.jpg" /></a>
+    <a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend018.jpg"><img src="brend/photo/brend018-018.jpg" /></a>
+    <a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend019.jpg"><img src="brend/photo/brend019-019.jpg" /></a>
+    <a data-lightbox="1" rel="group" title="Брендирование автомобилей" href="brend/photo/brend020.jpg"><img src="brend/photo/brend020-020.jpg" /></a>
+</div>
+    </div>
+    <h2 class="mob_h2_work mob_how_mow"><a href="#">Показать больше</a></h2>
+</div>
 </div> 	
 <br>				
 <div id="brendgifts14">
@@ -154,32 +191,36 @@
 <img alt="" src="images/clients/kli28016.png">
 <img alt="" src="images/clients/kli28017.png">
 <img alt="" src="images/clients/kli28022.png"><br>
+<div class="mob_more_wrapp">
+    <div class="mob_more">
+    <img alt="" src="images/clients/kli28021.png">
+    <img alt="" src="images/clients/kli28020.png">
+    <img alt="" src="images/clients/kli28015.png"><br>
 
-<img alt="" src="images/clients/kli28021.png">
-<img alt="" src="images/clients/kli28020.png">
-<img alt="" src="images/clients/kli28015.png"><br>
-
-<img alt="" src="images/clients/kli28013.png">
-<img alt="" src="images/clients/kli28014.png">
-<img alt="" src="images/clients/kli28003.png"><br>
+    <img alt="" src="images/clients/kli28013.png">
+    <img alt="" src="images/clients/kli28014.png">
+    <img alt="" src="images/clients/kli28003.png"><br>
 
 
-<img alt="" src="images/clients/kli28005.png">
-<img alt="" src="images/clients/kli28004.png">
-<img alt="" src="images/clients/kli28006.png"><br>
+    <img alt="" src="images/clients/kli28005.png">
+    <img alt="" src="images/clients/kli28004.png">
+    <img alt="" src="images/clients/kli28006.png"><br>
 
-<img alt="" src="images/clients/kli28010.png">
-<img alt="" src="images/clients/kli28001.png">
-<img alt="" src="images/clients/kli28002.png"><br>
+    <img alt="" src="images/clients/kli28010.png">
+    <img alt="" src="images/clients/kli28001.png">
+    <img alt="" src="images/clients/kli28002.png"><br>
 
-<img alt="" src="images/clients/kli28011.png">
-<img alt="" src="images/clients/2.png">
-<img alt="" src="images/clients/3.png"><br>
+    <img alt="" src="images/clients/kli28011.png">
+    <img alt="" src="images/clients/2.png">
+    <img alt="" src="images/clients/3.png"><br>
 
-<img alt="" src="images/clients/kli28007.png">
-<img alt="" src="images/clients/kli28012.png">
-<img alt="" src="images/clients/kli28002.png"><br>
-			<div class="brendfrends">
+    <img alt="" src="images/clients/kli28007.png">
+    <img alt="" src="images/clients/kli28012.png">
+    <img alt="" src="images/clients/kli28002.png"><br>
+    </div>
+</div>
+<h2 class="mob_h2 mob_how_mow"><a href="#">Показать больше</a></h2>
+			<div class="frends">
 				</div>
 <br>
 <div class="clients1-bg">
@@ -202,101 +243,115 @@
 <div class="georgia">Ольга, Skoda Octavia. Я очень привередливый человек, но в AutoStyle мне все понравилось, встретили, рассказали, показали! Бронепленку наклеили просто замечательно, езжу уже 2й год и ни каких нареканий! <a href="http://vk.com/id46060648" target="_blank">http://vk.com/id46060648</a>
 </div>
 </div><br>
-<div class="item clear_self">
-<img src="brend/images/brend.no_avatar4.png" alt="">
-<div class="georgia">Станислав, Volkswagen Passat. Сделал тонировку в AutoStyle 22.03.14, работают профессионалы, качеством очень доволен, а самое главное - адекватными ценами! Молодцы, так держать! <a href="http://vk.com/sonnov" target="_blank">http://vk.com/sonnov</a>
+<div class="mob_more_wrapp_comment">
+    <div class="item clear_self">
+    <img src="brend/images/brend.no_avatar4.png" alt="">
+    <div class="georgia">Станислав, Volkswagen Passat. Сделал тонировку в AutoStyle 22.03.14, работают профессионалы, качеством очень доволен, а самое главное - адекватными ценами! Молодцы, так держать! <a href="http://vk.com/sonnov" target="_blank">http://vk.com/sonnov</a>
+    </div>
+    </div><br>
+    <div class="item clear_self">
+    <img src="brend/images/brend.no_avatar5.png" alt="">
+    <div class="georgia">Руслан, Subaru Forester. Бронировал свой автомобиль 6 месяцев назад, на крае зеркала пленка отошла, приехал, переклеели. Настоящая гарантия! Всем рекомендую! <a href="http://vk.com/unik79" target="_blank">http://vk.com/unik79</a>
+    </div>
+    </div><br>
+    <div class="item clear_self">
+    <img src="brend/images/brend.no_avatar7.png" alt="">
+    <div class="georgia">Константин, Chevrolet Lacetti. Тонировал 22.11.2014. Ребята, спасибо огромное вам, очень доволен, быстро и качественно сделали. Теперь стильное Авто. <a href="http://vk.com/k.tarasov327" target="_blank">http://vk.com/k.tarasov327</a>
+    </div>
+    </div><br>
+    <div class="item clear_self">
+    <img src="brend/images/brend.no_avatar8.png" alt="">
+    <div class="georgia">Юрий, Лада Приора. Огромное спасибо Auto Style устанавливали сигнализацию на мой автомобиль, мне очень понравилось обслуживание, очень бережное отношение к авто! Теперь всегда спокоен за свой автомобиль! <a href="http://vk.com/id223687714" target="_blank">http://vk.com/id223687714</a>
+    </div>
+    </div><br>
+    <div class="item clear_self">
+    <img src="brend/images/brend.no_avatar6.png" alt="">
+    <div class="georgia">Илья, Лада Приора. Полировал свой автомобиль, сделали четко)) безумно доволен))) <a href="http://vk.com/id21066982" target="_blank">http://vk.com/id21066982</a>
+    </div>
+    </div><br><br>
+    <div class="item clear_self">
+    <img src="brend/images/brend.no_avatar9.png" alt="">
+    <div class="georgia">Александр, ВАЗ 2110. 20.10.2014 заехал установить сигнализацию с авто запуском, и был очень доволен работой. На сколько быстро и качественно выполнена работа. При этом говорили, что все займет около 3 часов, по факту через 2 часа я уже уехал. Спасибо огромное за качественную работу!!! Сейчас доволен и всегда в теплой тачке.
+    <a href="http://vk.com/s.zinatulin" target="_blank">http://vk.com/s.zinatulin</a>
+    </div>
+    </div>
+    <div class="item clear_self">
+    <img src="brend/images/brend.no_avatar.png" alt="">
+    <div class="georgia">Константин, Ford Focus 2. Делал глубокую полировку, очень доволен результатом. Внимательное отношение к клиенту и качественно выполненная работа. Советую!
+    </div>
+    </div>
 </div>
-</div><br>
-<div class="item clear_self">
-<img src="brend/images/brend.no_avatar5.png" alt="">
-<div class="georgia">Руслан, Subaru Forester. Бронировал свой автомобиль 6 месяцев назад, на крае зеркала пленка отошла, приехал, переклеели. Настоящая гарантия! Всем рекомендую! <a href="http://vk.com/unik79" target="_blank">http://vk.com/unik79</a>
+    <h2 class="mob_h2_comment mob_how_mow"><a href="#">Показать больше</a></h2>
 </div>
-</div><br>
-<div class="item clear_self">
-<img src="brend/images/brend.no_avatar7.png" alt="">
-<div class="georgia">Константин, Chevrolet Lacetti. Тонировал 22.11.2014. Ребята, спасибо огромное вам, очень доволен, быстро и качественно сделали. Теперь стильное Авто. <a href="http://vk.com/k.tarasov327" target="_blank">http://vk.com/k.tarasov327</a>
-</div>
-</div><br>
-<div class="item clear_self">
-<img src="brend/images/brend.no_avatar8.png" alt="">
-<div class="georgia">Юрий, Лада Приора. Огромное спасибо Auto Style устанавливали сигнализацию на мой автомобиль, мне очень понравилось обслуживание, очень бережное отношение к авто! Теперь всегда спокоен за свой автомобиль! <a href="http://vk.com/id223687714" target="_blank">http://vk.com/id223687714</a>
-</div>
-</div><br>
-<div class="item clear_self">
-<img src="brend/images/brend.no_avatar6.png" alt="">
-<div class="georgia">Илья, Лада Приора. Полировал свой автомобиль, сделали четко)) безумно доволен))) <a href="http://vk.com/id21066982" target="_blank">http://vk.com/id21066982</a>
-</div>
-</div><br><br>
-<div class="item clear_self">
-<img src="brend/images/brend.no_avatar9.png" alt="">
-<div class="georgia">Александр, ВАЗ 2110. 20.10.2014 заехал установить сигнализацию с авто запуском, и был очень доволен работой. На сколько быстро и качественно выполнена работа. При этом говорили, что все займет около 3 часов, по факту через 2 часа я уже уехал. Спасибо огромное за качественную работу!!! Сейчас доволен и всегда в теплой тачке. 				
-<a href="http://vk.com/s.zinatulin" target="_blank">http://vk.com/s.zinatulin</a>
-</div>
-</div>	
-<div class="item clear_self">
-<img src="brend/images/brend.no_avatar.png" alt="">
-<div class="georgia">Константин, Ford Focus 2. Делал глубокую полировку, очень доволен результатом. Внимательное отношение к клиенту и качественно выполненная работа. Советую!
-</div>
-</div>
-</div><br><br><br><br>
-<div class="clients1-bg">	
-<div class="myh2">Наше местоположение:</div>
-<span>г.Челябинск, ул. Чичерина 24 <br>(Городской автомоечный комплекс)</span>
-</div>
-<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=qXKspKQ2Ozf4RTfiNrUQzy7LPFKEKKEc&width=960&height=550"></script>
-<br><br>
+    <div class="clients1-bg">
+        <div class="myh2">Наше местоположение:</div>
+        <span>г.Челябинск, ул. Чичерина 24 <br>(Городской автомоечный комплекс)</span>
+    </div>
+    <div class="mapp">
+        <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=qXKspKQ2Ozf4RTfiNrUQzy7LPFKEKKEc"></script>
+    </div>
+    <br><br>
 
-<img alt="" src="brend/images/brend.AutoStyle001.png">
-<img alt="" src="brend/images/brend.AutoStyle002.png">
-<br><br>
+    <img alt="" class="where_photo" src="steklo/images/Ulca01.png">
+    <img alt="" class="where_photo" src="steklo/images/Ulca02.png">
+    <br><br>
 
 
 
 
-<!--компания в лицах -->
-<div class="face">
-<div class="myautolig">Компания в лицах</div>
-<table border="0" style="align:center;">
-<tr>
-<td><img src="brend/images/brend.face1.jpg" alt=""></td>
-<td><img src="brend/images/brend.face2.jpg" alt=""></td>
-<td><img src="brend/images/brend.face3.jpg" alt=""></td>
-<td><img src="brend/images/brend.face4.jpg" alt=""></td>
-<td><img src="brend/images/brend.face5.jpg" alt=""></td>
-<td><img src="brend/images/brend.face6.jpg" alt=""></td>
-</tr>
-<tr>
-<td width="102px" style="text-align:center">
-Илья<br/>
-Тонирование<br/>
-Винил</td>
-<td width="102px" style="text-align:center">
-Антон<br/>
-Тонирование<br/>
-Полировка
-</td>
-<td width="102px" style="text-align:center">
-Денис<br/>
-Ремонт<br/>
-Стекла</td>
-<td width="102px" style="text-align:center">
-Александр<br/>
-Управляющий<br/>
-Компании
-</td>
-<td width="102px" style="text-align:center">
-Альберт<br/>
-Автоэлектрик<br/>
-Шумоизоляция</td>
-<td width="102px" style="text-align:center">
-Антон<br/>
-Бронирование<br/>
-Тонирование
-</td>
-</tr>
-</table>
-<div style="clear: both"></div>
-</div></div>
+    <!--компания в лицах -->
+    <div class="face">
+        <div class="myautolig">Компания в лицах</div>
+        <span>
+        <img src="images/face1.jpg" alt="">
+        <p>
+            Илья<br/>
+            Тонирование<br/>
+            Винил</td>
+        </p>
+    </span>
+        <span>
+        <img src="images/face2.jpg" alt="">
+        <p>
+           Антон<br/>
+            Тонирование<br/>
+            Полировка
+        </p>
+    </span>
+        <span>
+        <img src="images/face3.jpg" alt="">
+        <p>
+          Денис<br/>
+        Ремонт<br/>
+        Стекла</td>
+        </p>
+    </span>
+        <span>
+        <img src="images/face4.jpg" alt="">
+        <p>
+       Александр<br/>
+        Управляющий<br/>
+        Компании
+        </p>
+    </span>
+        <span>
+        <img src="images/face5.jpg" alt="">
+        <p>
+       Альберт<br/>
+        Автоэлектрик<br/>
+        Шумоизоляция</td>
+        </p>
+    </span>
+        <span>
+        <img src="images/face6.jpg" alt="">
+        <p>
+      Антон<br/>
+        Бронирование<br/>
+        Тонирование
+        </p>
+    </span>
+        <div style="clear: both"></div>
+    </div></div>
 <br/><br/>
 <!-- -->
 <div class="myautolig">AutoStyle в программе "Автолига"</div>
@@ -381,14 +436,14 @@
 <h1>Реклама на транспорте</h1>
 <link rel="stylesheet" href="css/spoiler.css" type="text/css" media="screen"/>
 <div class='bottomDescription'>
-<p style="text-align: justify;"><img src="/images/brendirovanie1.png" width="300" height="110" alt="Реклама на транспорте" title="Реклама на транспорте" style="float: right; margin: 5px 7px;" />На домах, транспорте мы каждый день видим множество рекламы. Чаще всего рекламные плакаты располагают в местах, через которые проходит максимальное количество людей. Еще одним вариантом расположить рекламу так, чтобы ее заметили, является брендирование автомобиля либо другого транспортного средства. Оригинальная реклама на транспорте сохраняется в памяти прохожих, то есть ожидаемый эффект от нее будет гарантированно достигнут.</p>
+<p style="text-align: justify;"><img class="footer_img" src="/images/brendirovanie1.png" width="300" height="110" alt="Реклама на транспорте" title="Реклама на транспорте" style="float: right; margin: 5px 7px;" />На домах, транспорте мы каждый день видим множество рекламы. Чаще всего рекламные плакаты располагают в местах, через которые проходит максимальное количество людей. Еще одним вариантом расположить рекламу так, чтобы ее заметили, является брендирование автомобиля либо другого транспортного средства. Оригинальная реклама на транспорте сохраняется в памяти прохожих, то есть ожидаемый эффект от нее будет гарантированно достигнут.</p>
 
 <div id='spoiler-content'>
 <p style="text-align: justify;"><strong>Реклама на бортах грузового транспорта</strong> либо другого транспортного средства мобильна, ведь автомобиль ежедневно проезжает десятки, если не сотни, километров. Поэтому, разработав грамотный маршрут передвижения автомобиля, можно донести свой позыв до целевой аудитории. Сделав маршрут запутанным и длинным, можно создать ощущение вездесущности рекламы и обширной рекламной компании, привлекая на деле небольшое количество техники.</p>
 <p style="text-align: justify;">Таким образом, бизнесмену выгодно <strong>брендирование автомобиля, цена</strong> которого значительно ниже стоимости проведения рекламной компании в средствах массовой информации. Такая реклама не только недорога, но при этом качественна.</p>
 <h2>Реклама на транспорте в Челябинске</h2>
 <p></p>
-<p style="text-align: justify;"><img src="/images/brendirovanie.png" width="300" height="300" alt="Реклама на транспорте Челябинск" title="Реклама на транспорте Челябинск" style="float: right; margin: 5px 7px;" />Если вам нужна реклама на транспорте в Челябинске, то наша компания - идеальный вариант. Сотрудники помогут осуществить брендирование автомобиля пленкой, предложив несколько вариантов оформления. При этом исключительно нашей заботой является разработка макета, производство отдельных элементов и прочие технологические вопросы. К работам по производству изображения мы приступим, только полностью утвердив проект с вами, достигнув согласия по всем вопросам.</p>
+<p style="text-align: justify;"><img class="footer_img" src="/images/brendirovanie.png" width="300" height="300" alt="Реклама на транспорте Челябинск" title="Реклама на транспорте Челябинск" style="float: right; margin: 5px 7px;" />Если вам нужна реклама на транспорте в Челябинске, то наша компания - идеальный вариант. Сотрудники помогут осуществить брендирование автомобиля пленкой, предложив несколько вариантов оформления. При этом исключительно нашей заботой является разработка макета, производство отдельных элементов и прочие технологические вопросы. К работам по производству изображения мы приступим, только полностью утвердив проект с вами, достигнув согласия по всем вопросам.</p>
 <p style="text-align: justify;">При этом брендирование авто будет осуществлено по адекватной стоимости, так как мы используем только современные материалы и технологии, которые позволят провести работы с минимальными затратами времени и других ресурсов. При этом работы будут проведены на самом высоком уровне.</p>
 <p style="text-align: justify;">Ознакомиться с примерами работ можно в портфолио нашей компании, которое находится на сайте. Здесь можно увидеть фото уже выполненных проектов. Следует учитывать, что на сайте представлена лишь малая часть выполненных работ. Спешите заказать рекламу в нашей компании по невысокой стоимости.</p>
 <p style="text-align: justify;"><b> Наша компания имеет ряд существенных преимуществ:</b></p>
@@ -413,6 +468,57 @@
 <script src="brend/js/jquery-1.11.0.min.js"></script>
 	<script src="brend/js/lightbox.js"></script>
 	<script>
+        $(document).ready(function() {
+
+            $( window ).resize(function() {
+                var w = $(window).width();
+                if(w > 720 && $(".mob_more_wrapp").is(":hidden") ){
+                    $(".mob_more_wrapp").removeAttr('style');
+                }
+                if(w > 720 && $(".mob_more_wrapp_comment").is(":hidden") ){
+                    $(".mob_more_wrapp_comment").removeAttr('style');
+                }
+                if(w > 720 && $(".mob_more_wrapp_wort").is(":hidden") ){
+                    $(".mob_more_wrapp_wort").removeAttr('style');
+                }
+
+            });
+
+            /*clint*/
+
+            $(".mob_h2 a").bind("click",function (e){
+                console.log('here!!!');
+                e.preventDefault();
+                var text = $(".mob_h2 a").text();
+
+                text = (text === "Скрыть") ?  "Показать больше" : "Скрыть";
+
+                $(".mob_h2 a").text(text);
+                $(".mob_more_wrapp").slideToggle();
+            });
+
+            /*commet*/
+
+            $(".mob_h2_comment  a").bind("click",function (e){
+                e.preventDefault();
+                var textCom = $(".mob_h2_comment a").text();
+                textCom = (textCom === "Скрыть") ?  "Показать больше" : "Скрыть";
+                $(".mob_h2_comment a").text(textCom);
+                $(".mob_more_wrapp_comment").slideToggle();
+
+            });
+
+            /*WORK*/
+
+            $(".mob_h2_work  a").bind("click",function (e){
+                e.preventDefault();
+                var textCom = $(".mob_h2_work a").text();
+                textCom = (textCom === "Скрыть") ?  "Показать больше" : "Скрыть";
+                $(".mob_h2_work a").text(textCom);
+                $(".mob_more_wrapp_wort").slideToggle();
+
+            });
+        });
 	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-2196019-1']);
 	_gaq.push(['_trackPageview']);

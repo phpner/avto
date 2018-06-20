@@ -41,7 +41,7 @@ span.adr{font-size: 20px;}
 #gorblock a{text-decoration: none;color:#ffffff;font-family: Trebuchet MS;font-size: 14px;}
 #gorblock a:hover{text-decoration: underline;}
 #logo a{text-decoration: none;}
-#yuslygf{position: relative;background: url('../brend/images/gifts12.jpg') top center no-repeat;width: 100%;min-width:1200px;margin: 0 auto;}
+#yuslygf{position: relative;background: url('../images/gifts12.jpg') top center no-repeat;width: 100%;min-width:1200px;margin: 0 auto;}
 #yuslyg{position: relative;width: 1200px;height:850px;padding-top: 50px;margin: 0 auto;}
 #brendyus1,#brendyus2,#brendyus3,#brendyus4,#brendyus5,#brendyus6,#brendyus7,#brendyus8{position: relative;display: inline-block;width: 360px;height: 83px;color: #000000;font-family: Trebuchet MS;font-size: 25px;background-position: center left;padding-left: 111px;padding-top: 15px;margin-left: 115px;margin-bottom: 26px;text-align: left;}
 #brendyus2,#brendyus4,#brendyus6,#brendyus8{margin-left: 80px;}
@@ -75,7 +75,9 @@ h1{color: #000000;font-size: 30px;font-family: "PT Sans";padding: 0px;margin: 0p
 .georgia a{color: #00000d;text-decoration: underline;background: url('../brend/images/vk.png') no-repeat;height: 33px;display: block;padding-left: 39px;padding-top: 5px;}
 .zakaz1{display: block;width:100%;min-width:1200px;min-height: 215px;position: relative;margin: 0 auto;background: url('../brend/images/brend.gifts15.jpg')top center no-repeat;border-top: 1px solid #c1c1c1;border-bottom: 1px solid #c1c1c1;}
 .zakaz2{display: block;width:100%;min-width:1200px;min-height: 168px;position: relative;margin: 0 auto;background: url('../brend/images/brend.gifts17.jpg')top center no-repeat;border-bottom: 1px solid #c1c1c1;}
-.zakaz3{display: block;width:100%;min-width:1200px;min-height: 215px;position: relative;margin: 0 auto;background: url('../brend/images/brend.gifts19.jpg')top center no-repeat;border-bottom: 1px solid #c1c1c1;}
+.zakaz3{
+    background-size: cover;
+    display: block;width:100%;min-width:1200px;min-height: 215px;position: relative;margin: 0 auto;background: url('../brend/images/brend.gifts19.jpg')top center no-repeat;border-bottom: 1px solid #c1c1c1;}
 .zakaz4{display: block;width:100%;min-width:1200px;min-height: 180px;position: relative;margin: 0 auto;background: url('../brend/images/brend.gifts19.jpg')top center no-repeat;border-top: 1px solid #c1c1c1;border-bottom: 1px solid #c1c1c1;}
 .zakaz5{display: block;width:100%;min-width:1200px;min-height: 255px;position: relative;margin: 0 auto;background: url('../brend/images/brend.gifts20.jpg')top center no-repeat;border-top: 1px solid #c1c1c1;border-bottom: 1px solid #c1c1c1;}
 #zakaz{display: block;width:1200px;position: relative;margin: 0 auto;}
@@ -153,4 +155,199 @@ textarea#messageFF {
     padding-left: 5px;
     font-family: Candara;
     font-size: 17px;
+}
+
+@media screen and (max-width: 1100px){
+    #mainsig{
+        width: 100%;
+        min-width: 100%;
+        margin-top: initial;
+        position: absolute;
+        top: 0;
+    }
+    #mainsig nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #mainsig #logo, #mainsig #adres, #mainsig #soc {
+        float: none;
+        display: inline-block;
+        left: 0;
+        text-align: center;
+    }
+    #mainsig .slogan {
+        top: 170px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background: rgba(37, 37, 37, 0.8);
+        padding: 20px 0;
+        border-radius: 20px;
+    }
+    .form input[type='file']{
+        background: #e0e652;
+        margin: auto;
+        display: block;
+        padding: 10px;
+        border-radius: 20px;
+        color: #454545!important;
+    }
+    .mainfon{
+        position: absolute;
+        top: 0;
+        z-index: 20;
+    }
+    .js-alarm_car ,.landing-img-alarm{
+        width: 100% !important;
+        min-width: 100%!important;
+        height: 556px;
+        background-position:52% 25%!important;
+        background-color: #1d2022!important;
+    }
+    .landing-img-alarm{
+        background: url("../brend/images/mob-br2.png");
+        background-repeat: no-repeat!important;
+    }
+    .landing-img-alarm.lights{
+        background: url("../brend/images/mob-br1.png");
+        background-repeat: no-repeat!important;
+    }
+    #brendgifts14{
+        width: 100% !important;
+        min-width: 100vw;
+        height: auto;
+    }
+    #brendgifts14 img{
+        width: 45%;
+    }
+    .zakaz,span.zakaz{
+    width: 100%;
+    min-width: 100vw;
+    min-height: 130px;
+    font-size: 2rem!important;
+    }
+    .zakaz4 .akciya {
+        width: 100%;
+        font-size: 2rem;
+    }
+    #zakaz{
+        width: 100% !important;
+        min-width: 100vw;
+    }
+    .zakaz5 {
+        min-height: 141px;
+        background-size: cover;
+        width: 100% !important;
+        min-width: 100vw;
+    }
+    .zakaz5 #zakaz .form{
+        margin: auto;
+        left: 0;
+    }
+    #brendgifts14 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .myh2 {
+        flex-basis: 100%;
+        font-size: 2rem;
+        margin: 20px 0;
+    }
+    #brendgifts11{
+        height: 54vh;
+        min-height: 350px;
+        background-size: cover;
+        width: 100%;
+        min-width: 100vw;
+    }
+    #brendgifts11 .myh2 {
+        margin-top: -22px;
+        font-size: 2.4rem;
+    }
+
+    #brendgifts11 .myh2 {
+        font-size: 2rem;
+        margin-top: -22px;
+    }
+    #brendgifts13 {
+        height: 56vh;
+        background-size: cover;
+        min-height: 400px;
+        width: 100% !important;
+        min-width: 100vw;
+    }
+}
+@media screen and (max-width: 768px){
+    .js-alarm_car ,.landing-img-alarm{
+        background-position: 60% 100%!important;
+    }
+    .landing-img-alarm{
+        background: url("../brend/images/mob-768-br2.png");
+    }
+    .landing-img-alarm.lights{
+        background: url("../brend/images/mob-768--br1.png");
+    }
+    #mainsig nav {
+        display: flex;
+        flex-direction: column;
+    }
+    #mainsig #soc{
+        width: initial;
+    }
+    #mainsig .slogan{
+        top: 230px;
+    }
+    #brendgifts13 {
+        height: 45vh;
+    }
+    #mainsig #logo, #mainsig #adres, #mainsig #soc {
+        margin: auto;
+    }
+}
+@media screen and (max-width: 460px){
+    .footer_img{
+        display: block!important;
+        margin: auto !important;
+        float: none!important;
+        margin-bottom: 20px!important;
+    }
+    .js-alarm_car, .landing-img-alarm{
+        height: 477px;
+    }
+    .landing-img-alarm{
+        background: url("../brend/images/mob-320-br2.png");
+    }
+    .landing-img-alarm.lights{
+        background: url("../brend/images/mob-320--br1.png");
+    }
+    #mainsig .slogan{
+        font-size: 1.5rem;
+    }
+    #mainsig .slogan{
+        width: 100%;
+    }
+    #brendgifts11 {
+        height: 29vh;
+        background-size: 100% 100%;
+        min-height: initial;
+    }
+    #brendgifts11 .myh2 {
+        font-size: 1rem;
+        margin-top: -19px;
+    }
+    .zakaz4 .akciya {
+        font-size: 1rem;
+    }
+    .zakaz4{
+        min-height: 73px;
+    }
+    span.zakaz{
+        font-size: 1rem!important;
+    }
+
+    #brendgifts13 {
+        height: 37vh;
+        min-height: 300px;
+    }
 }
